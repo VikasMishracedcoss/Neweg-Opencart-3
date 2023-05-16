@@ -1,0 +1,28 @@
+<?php return array (
+  'SubcategoryID' => 2095,
+  'SubcategoryName' => 'HIGenerators',
+  'PropertyName' => 'HIPortableGeneratorsGasTankSize',
+  'IsAdvancedSearch' => 1,
+  'IsGroupBy' => 0,
+  'IsRequired' => 0,
+  'PropertyValueList' => 
+  array (
+    0 => '0.5',
+    1 => '0.7',
+    2 => '0.8',
+    3 => '1',
+    4 => '1.2',
+    5 => '17',
+    6 => '2.9',
+    7 => '28',
+    8 => '3.5',
+    9 => '4',
+    10 => '4.5',
+    11 => '5.8',
+    12 => '7',
+    13 => '7.2',
+    14 => '7.5',
+    15 => '8',
+    16 => '9',
+  ),
+) ?>

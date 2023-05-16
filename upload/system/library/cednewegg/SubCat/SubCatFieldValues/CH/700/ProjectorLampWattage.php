@@ -1,0 +1,25 @@
+<?php return array (
+  'SubcategoryID' => 700,
+  'SubcategoryName' => 'ProjectorLamps',
+  'PropertyName' => 'ProjectorLampWattage',
+  'IsAdvancedSearch' => 1,
+  'IsGroupBy' => 0,
+  'IsRequired' => 0,
+  'PropertyValueList' => 
+  array (
+    0 => '120 Watt',
+    1 => '130 Watt',
+    2 => '132 Watt',
+    3 => '160 Watt',
+    4 => '180 Watt',
+    5 => '189 Watt',
+    6 => '190 Watt',
+    7 => '200 Watt',
+    8 => '220 Watt',
+    9 => '230 Watt',
+    10 => '250 Watt',
+    11 => '275 Watt',
+    12 => '280 Watt',
+    13 => '300 Watt',
+  ),
+) ?>

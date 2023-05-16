@@ -1,0 +1,25 @@
+<?php return array (
+  'SubcategoryID' => 1517,
+  'SubcategoryName' => 'WomensIntimateApparel',
+  'PropertyName' => 'WomensIntimateAppBras',
+  'IsAdvancedSearch' => 1,
+  'IsGroupBy' => 0,
+  'IsRequired' => 0,
+  'PropertyValueList' => 
+  array (
+    0 => 'Backless & Adhesive',
+    1 => 'Bralette',
+    2 => 'Convertible',
+    3 => 'Demi-Cup',
+    4 => 'Front-Close',
+    5 => 'Full Coverage',
+    6 => 'Halter',
+    7 => 'Minimizer',
+    8 => 'Padded',
+    9 => 'Push-Up',
+    10 => 'Seamless',
+    11 => 'T-Back & Racer Back',
+    12 => 'T-Shirt',
+    13 => 'Wirefree',
+  ),
+) ?>

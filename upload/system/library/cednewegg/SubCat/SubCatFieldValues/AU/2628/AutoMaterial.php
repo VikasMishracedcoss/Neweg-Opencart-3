@@ -1,0 +1,12 @@
+<?php return array (
+  'SubcategoryID' => 2628,
+  'SubcategoryName' => 'ATAutomotiveLighting',
+  'PropertyName' => 'AutoMaterial',
+  'IsAdvancedSearch' => 0,
+  'IsGroupBy' => 0,
+  'IsRequired' => 0,
+  'PropertyValueList' => 
+  array (
+    0 => 'Plastic Lens',
+  ),
+) ?>

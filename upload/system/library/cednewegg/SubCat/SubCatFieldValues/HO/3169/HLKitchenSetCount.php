@@ -1,0 +1,25 @@
+<?php return array (
+  'SubcategoryID' => 3169,
+  'SubcategoryName' => 'HLDinnerwareSets',
+  'PropertyName' => 'HLKitchenSetCount',
+  'IsAdvancedSearch' => 1,
+  'IsGroupBy' => 0,
+  'IsRequired' => 1,
+  'PropertyValueList' => 
+  array (
+    0 => '1',
+    1 => '10',
+    2 => '12',
+    3 => '16',
+    4 => '2',
+    5 => '20',
+    6 => '25',
+    7 => '3',
+    8 => '4',
+    9 => '48',
+    10 => '5',
+    11 => '6',
+    12 => '7',
+    13 => '8',
+  ),
+) ?>

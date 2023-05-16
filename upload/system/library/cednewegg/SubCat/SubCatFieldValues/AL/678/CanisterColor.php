@@ -1,0 +1,26 @@
+<?php return array (
+  'SubcategoryID' => 678,
+  'SubcategoryName' => 'VacuumSealersCanisters',
+  'PropertyName' => 'CanisterColor',
+  'IsAdvancedSearch' => 0,
+  'IsGroupBy' => 1,
+  'IsRequired' => 0,
+  'PropertyValueList' => 
+  array (
+    0 => 'Black',
+    1 => 'Blue',
+    2 => 'Brown',
+    3 => 'Carbon Black',
+    4 => 'Champagne Gold',
+    5 => 'Clear Stainless',
+    6 => 'Green',
+    7 => 'Lime Green',
+    8 => 'Mint Blue',
+    9 => 'Pink',
+    10 => 'Purple',
+    11 => 'Raspberry Pink',
+    12 => 'Red',
+    13 => 'Silver',
+    14 => 'White',
+  ),
+) ?>

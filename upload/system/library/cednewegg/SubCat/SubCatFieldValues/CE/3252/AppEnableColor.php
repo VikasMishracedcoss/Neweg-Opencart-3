@@ -1,0 +1,28 @@
+<?php return array (
+  'SubcategoryID' => 3252,
+  'SubcategoryName' => 'AppEnabledProducts',
+  'PropertyName' => 'AppEnableColor',
+  'IsAdvancedSearch' => 1,
+  'IsGroupBy' => 1,
+  'IsRequired' => 0,
+  'PropertyValueList' => 
+  array (
+    0 => 'Black',
+    1 => 'Blue',
+    2 => 'Brown',
+    3 => 'Green',
+    4 => 'Jungle',
+    5 => 'Orange',
+    6 => 'Pink',
+    7 => 'Polished Brass',
+    8 => 'Purple',
+    9 => 'Red',
+    10 => 'Sand',
+    11 => 'Satin Nickel',
+    12 => 'Silver',
+    13 => 'Snow',
+    14 => 'Venetian Bronze',
+    15 => 'White',
+    16 => 'Yellow',
+  ),
+) ?>

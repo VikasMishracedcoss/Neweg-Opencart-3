@@ -1,0 +1,26 @@
+<?php return array (
+  'SubcategoryID' => 2998,
+  'SubcategoryName' => 'HLOttomansandStools',
+  'PropertyName' => 'HIOttomansandStoolstype',
+  'IsAdvancedSearch' => 1,
+  'IsGroupBy' => 0,
+  'IsRequired' => 1,
+  'PropertyValueList' => 
+  array (
+    0 => 'accent stools',
+    1 => 'bench',
+    2 => 'cocktail ottomans',
+    3 => 'cube ottoman',
+    4 => 'fabric ottomans',
+    5 => 'foot stools',
+    6 => 'leather ottomans',
+    7 => 'puff ottoman',
+    8 => 'round ottomans',
+    9 => 'sleeper ottoman',
+    10 => 'slipcovered',
+    11 => 'step stool',
+    12 => 'storage cube ottoman',
+    13 => 'storage ottomans',
+    14 => 'vanity stools',
+  ),
+) ?>

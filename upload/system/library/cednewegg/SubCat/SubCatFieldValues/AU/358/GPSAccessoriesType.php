@@ -1,0 +1,28 @@
+<?php return array (
+  'SubcategoryID' => 358,
+  'SubcategoryName' => 'GPSNavigationAccessories',
+  'PropertyName' => 'GPSAccessoriesType',
+  'IsAdvancedSearch' => 1,
+  'IsGroupBy' => 0,
+  'IsRequired' => 0,
+  'PropertyValueList' => 
+  array (
+    0 => 'Accessories Kit',
+    1 => 'Antenna',
+    2 => 'GPS Batteries',
+    3 => 'GPS Cases & Protectors',
+    4 => 'GPS Chargers & Cables',
+    5 => 'GPS Receiver',
+    6 => 'GPS Tracking',
+    7 => 'GPS Vehicle Mounts',
+    8 => 'Hands Free',
+    9 => 'Heart Rate Monitor',
+    10 => 'Map & Software',
+    11 => 'Marine Radar & Sounder',
+    12 => 'Memory Card',
+    13 => 'Other',
+    14 => 'Power Module',
+    15 => 'Traffic Receivers, Tuners, & Interfaces',
+    16 => 'Wireless',
+  ),
+) ?>

@@ -1,0 +1,25 @@
+<?php return array (
+  'SubcategoryID' => 1714,
+  'SubcategoryName' => 'PrinterInkCartridges',
+  'PropertyName' => 'InkCartridgesInkDropSize',
+  'IsAdvancedSearch' => 0,
+  'IsGroupBy' => 0,
+  'IsRequired' => 0,
+  'PropertyValueList' => 
+  array (
+    0 => '11.77 pl',
+    1 => '12 pl',
+    2 => '14 pl',
+    3 => '140 pl',
+    4 => '15 pl',
+    5 => '17 pl',
+    6 => '33 pl',
+    7 => '4 pl',
+    8 => '5 pl',
+    9 => '5.5 pl',
+    10 => '6 pl',
+    11 => '7 pl',
+    12 => '8.25 pl',
+    13 => '9 pl',
+  ),
+) ?>

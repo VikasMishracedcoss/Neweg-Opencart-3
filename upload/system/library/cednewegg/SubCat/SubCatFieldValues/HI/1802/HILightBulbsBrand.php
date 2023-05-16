@@ -1,0 +1,28 @@
+<?php return array (
+  'SubcategoryID' => 1802,
+  'SubcategoryName' => 'HILightBulbs',
+  'PropertyName' => 'HILightBulbsBrand',
+  'IsAdvancedSearch' => 0,
+  'IsGroupBy' => 0,
+  'IsRequired' => 0,
+  'PropertyValueList' => 
+  array (
+    0 => 'Aluratek',
+    1 => 'Earthtronics/Honeywell',
+    2 => 'Elgato',
+    3 => 'Feit Electric',
+    4 => 'GE',
+    5 => 'GPI',
+    6 => 'GreatLite',
+    7 => 'Havells',
+    8 => 'Heathco',
+    9 => 'INSTEON',
+    10 => 'Miracle LED',
+    11 => 'Northern International',
+    12 => 'Rosewill',
+    13 => 'SLI Lighting',
+    14 => 'Sylvania',
+    15 => 'Verbatim',
+    16 => 'Westinghouse',
+  ),
+) ?>

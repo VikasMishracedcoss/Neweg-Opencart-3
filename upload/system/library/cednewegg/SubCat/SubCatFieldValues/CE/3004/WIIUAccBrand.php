@@ -1,0 +1,27 @@
+<?php return array (
+  'SubcategoryID' => 3004,
+  'SubcategoryName' => 'NintendoWiiUAccessories',
+  'PropertyName' => 'WIIUAccBrand',
+  'IsAdvancedSearch' => 0,
+  'IsGroupBy' => 0,
+  'IsRequired' => 0,
+  'PropertyValueList' => 
+  array (
+    0 => 'CTA Digital',
+    1 => 'dreamGear',
+    2 => 'EMIO',
+    3 => 'HORI',
+    4 => 'Hyperkin',
+    5 => 'INSTEN',
+    6 => 'Interworks',
+    7 => 'Mad Catz',
+    8 => 'Nintendo',
+    9 => 'Nyko',
+    10 => 'PDP',
+    11 => 'PowerA',
+    12 => 'Tomee',
+    13 => 'TRITTON',
+    14 => 'TTX Tech',
+    15 => 'Turtle Beach',
+  ),
+) ?>

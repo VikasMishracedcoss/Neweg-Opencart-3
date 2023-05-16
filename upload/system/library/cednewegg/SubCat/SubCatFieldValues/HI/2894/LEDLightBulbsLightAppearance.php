@@ -1,0 +1,27 @@
+<?php return array (
+  'SubcategoryID' => 2894,
+  'SubcategoryName' => 'HILEDLightBulbs',
+  'PropertyName' => 'LEDLightBulbsLightAppearance',
+  'IsAdvancedSearch' => 1,
+  'IsGroupBy' => 1,
+  'IsRequired' => 0,
+  'PropertyValueList' => 
+  array (
+    0 => 'Blue',
+    1 => 'Bright White',
+    2 => 'Clear',
+    3 => 'Cool White',
+    4 => 'Daylight',
+    5 => 'Frosted',
+    6 => 'Green',
+    7 => 'Muti-color',
+    8 => 'N/A',
+    9 => 'Pure White',
+    10 => 'Red',
+    11 => 'Soft White',
+    12 => 'Stark White',
+    13 => 'Warm White',
+    14 => 'White',
+    15 => 'Yellow',
+  ),
+) ?>

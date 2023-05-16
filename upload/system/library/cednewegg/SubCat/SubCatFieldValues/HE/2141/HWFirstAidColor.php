@@ -1,0 +1,27 @@
+<?php return array (
+  'SubcategoryID' => 2141,
+  'SubcategoryName' => 'HWFirstAid',
+  'PropertyName' => 'HWFirstAidColor',
+  'IsAdvancedSearch' => 0,
+  'IsGroupBy' => 1,
+  'IsRequired' => 0,
+  'PropertyValueList' => 
+  array (
+    0 => 'Black',
+    1 => 'Blue',
+    2 => 'Blue/White',
+    3 => 'Clear',
+    4 => 'Green/Blue/Yellow',
+    5 => 'Khaki',
+    6 => 'Khaki Mix',
+    7 => 'Navy',
+    8 => 'Olive',
+    9 => 'Orange',
+    10 => 'Pink',
+    11 => 'Red',
+    12 => 'Red/Black',
+    13 => 'Royal',
+    14 => 'Scarlet',
+    15 => 'White',
+  ),
+) ?>

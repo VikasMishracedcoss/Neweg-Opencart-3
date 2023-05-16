@@ -1,0 +1,27 @@
+<?php return array (
+  'SubcategoryID' => 569,
+  'SubcategoryName' => 'Humidifiers',
+  'PropertyName' => 'HCandFilterColor',
+  'IsAdvancedSearch' => 0,
+  'IsGroupBy' => 1,
+  'IsRequired' => 0,
+  'PropertyValueList' => 
+  array (
+    0 => 'Aquamarine',
+    1 => 'Black',
+    2 => 'Black/White',
+    3 => 'Blue',
+    4 => 'Brown',
+    5 => 'Gray',
+    6 => 'Green',
+    7 => 'Orange',
+    8 => 'Pink',
+    9 => 'Purple',
+    10 => 'Red',
+    11 => 'Silver',
+    12 => 'Titanium',
+    13 => 'Violet',
+    14 => 'White',
+    15 => 'Yellow',
+  ),
+) ?>

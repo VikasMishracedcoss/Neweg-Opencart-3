@@ -1,0 +1,26 @@
+<?php return array (
+  'SubcategoryID' => 2170,
+  'SubcategoryName' => 'HLCookware',
+  'PropertyName' => 'HLCookwareItemCount',
+  'IsAdvancedSearch' => 0,
+  'IsGroupBy' => 0,
+  'IsRequired' => 0,
+  'PropertyValueList' => 
+  array (
+    0 => '1',
+    1 => '10',
+    2 => '11',
+    3 => '12',
+    4 => '13',
+    5 => '14',
+    6 => '18',
+    7 => '2',
+    8 => '3',
+    9 => '31',
+    10 => '32',
+    11 => '4',
+    12 => '7',
+    13 => '8',
+    14 => '9',
+  ),
+) ?>

@@ -1,0 +1,27 @@
+<?php return array (
+  'SubcategoryID' => 3229,
+  'SubcategoryName' => 'SGMMAPunchingBagsTargets',
+  'PropertyName' => 'MMAPunchingType',
+  'IsAdvancedSearch' => 1,
+  'IsGroupBy' => 0,
+  'IsRequired' => 1,
+  'PropertyValueList' => 
+  array (
+    0 => 'Body Opponent Bag',
+    1 => 'Breaking Boards',
+    2 => 'Double End Bags',
+    3 => 'Focus Targets',
+    4 => 'Heavy Bags & Stands',
+    5 => 'Mounts & Swivels',
+    6 => 'Punch & Kick Shields',
+    7 => 'Punching Mitts',
+    8 => 'Specialty Bags',
+    9 => 'Speed Bags & Platforms',
+    10 => 'Standing Bags',
+    11 => 'Striking Bags',
+    12 => 'Thai Bags',
+    13 => 'Thai Pads',
+    14 => 'Training Bags',
+    15 => 'Youth Punching Bags',
+  ),
+) ?>

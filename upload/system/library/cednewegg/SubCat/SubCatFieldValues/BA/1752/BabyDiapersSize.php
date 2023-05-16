@@ -1,0 +1,27 @@
+<?php return array (
+  'SubcategoryID' => 1752,
+  'SubcategoryName' => 'Diapers',
+  'PropertyName' => 'BabyDiapersSize',
+  'IsAdvancedSearch' => 1,
+  'IsGroupBy' => 1,
+  'IsRequired' => 0,
+  'PropertyValueList' => 
+  array (
+    0 => '2T/3T',
+    1 => '3T/4T',
+    2 => '4T/5T',
+    3 => 'Large',
+    4 => 'Medium',
+    5 => 'Newborn',
+    6 => 'One Size',
+    7 => 'Preemie',
+    8 => 'Size 1',
+    9 => 'Size 2',
+    10 => 'Size 3',
+    11 => 'Size 4',
+    12 => 'Size 5',
+    13 => 'Size 6',
+    14 => 'Size 7',
+    15 => 'Small',
+  ),
+) ?>

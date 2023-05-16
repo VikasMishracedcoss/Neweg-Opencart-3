@@ -1,0 +1,27 @@
+<?php return array (
+  'SubcategoryID' => 651,
+  'SubcategoryName' => 'Grills',
+  'PropertyName' => 'GrillColor',
+  'IsAdvancedSearch' => 0,
+  'IsGroupBy' => 1,
+  'IsRequired' => 0,
+  'PropertyValueList' => 
+  array (
+    0 => '2 Tone',
+    1 => 'Black',
+    2 => 'Blue',
+    3 => 'Brown',
+    4 => 'Chrome',
+    5 => 'Copper',
+    6 => 'Gold',
+    7 => 'Gray',
+    8 => 'Green',
+    9 => 'Orange',
+    10 => 'Pink',
+    11 => 'Platinum',
+    12 => 'Red',
+    13 => 'Silver',
+    14 => 'Stainless Steel',
+    15 => 'White',
+  ),
+) ?>

@@ -1,0 +1,25 @@
+<?php return array (
+  'SubcategoryID' => 2145,
+  'SubcategoryName' => 'HWHomeHealthCare',
+  'PropertyName' => 'HWHomeHealthType',
+  'IsAdvancedSearch' => 1,
+  'IsGroupBy' => 0,
+  'IsRequired' => 0,
+  'PropertyValueList' => 
+  array (
+    0 => 'Air Purifier',
+    1 => 'Bathroom Safety',
+    2 => 'Bed & Bedding Accessories',
+    3 => 'Blood Pressure Monitors',
+    4 => 'Educational',
+    5 => 'Home Care Equipment',
+    6 => 'Medical ID Bracelets',
+    7 => 'Mobility Aids',
+    8 => 'Pill Cases & Splitters',
+    9 => 'Respiratory Equipment',
+    10 => 'Stethoscopes',
+    11 => 'Thermometers',
+    12 => 'Wheelchair Access Ramps',
+    13 => 'Wheelchair Lifts',
+  ),
+) ?>

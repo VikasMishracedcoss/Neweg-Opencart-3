@@ -1,0 +1,25 @@
+<?php return array (
+  'SubcategoryID' => 20,
+  'SubcategoryName' => 'MonitorsLCDFlatPanel',
+  'PropertyName' => 'MonitorConvenienceVESACompatibilityMountable',
+  'IsAdvancedSearch' => 1,
+  'IsGroupBy' => 0,
+  'IsRequired' => 0,
+  'PropertyValueList' => 
+  array (
+    0 => '100 x 100mm',
+    1 => '200 x 100mm',
+    2 => '200 x 200mm',
+    3 => '200 x 400mm',
+    4 => '300 x 300mm',
+    5 => '400 x 400mm',
+    6 => '400mm x 200mm',
+    7 => '50 x 50mm',
+    8 => '600 x 200mm',
+    9 => '600 x 400mm',
+    10 => '75 x 75mm',
+    11 => '800 x 400mm',
+    12 => 'No',
+    13 => 'Yes',
+  ),
+) ?>

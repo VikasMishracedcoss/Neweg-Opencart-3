@@ -1,0 +1,27 @@
+<?php return array (
+  'SubcategoryID' => 2166,
+  'SubcategoryName' => 'HLBath',
+  'PropertyName' => 'HLBathSizeDimensions',
+  'IsAdvancedSearch' => 0,
+  'IsGroupBy' => 1,
+  'IsRequired' => 0,
+  'PropertyValueList' => 
+  array (
+    0 => '11 inches',
+    1 => '16 in X 30 in',
+    2 => '16 x 20 inches',
+    3 => '20 in x 40 in',
+    4 => '20 x 45 Inches',
+    5 => '20 x 46 inches',
+    6 => '21" by 21"',
+    7 => '23 x 35 inches',
+    8 => '27.5 x 48 in',
+    9 => '30 in x 54 in',
+    10 => '30 x 55 inches',
+    11 => '30 x 59 inches',
+    12 => '30 x 60 inches',
+    13 => '8.5"L x 9.5"H x 5.5"D',
+    14 => 'ONE',
+    15 => 'One Size',
+  ),
+) ?>

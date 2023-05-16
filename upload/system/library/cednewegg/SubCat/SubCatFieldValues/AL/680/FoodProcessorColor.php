@@ -1,0 +1,26 @@
+<?php return array (
+  'SubcategoryID' => 680,
+  'SubcategoryName' => 'FoodProcessors',
+  'PropertyName' => 'FoodProcessorColor',
+  'IsAdvancedSearch' => 1,
+  'IsGroupBy' => 0,
+  'IsRequired' => 0,
+  'PropertyValueList' => 
+  array (
+    0 => 'Alumina',
+    1 => 'Black',
+    2 => 'Blue',
+    3 => 'Chrome',
+    4 => 'Gray',
+    5 => 'Green',
+    6 => 'Navy',
+    7 => 'Orange',
+    8 => 'Parsley',
+    9 => 'Pink',
+    10 => 'Red',
+    11 => 'Silver',
+    12 => 'Stainless steel',
+    13 => 'Teal',
+    14 => 'White',
+  ),
+) ?>

@@ -1,0 +1,27 @@
+<?php return array (
+  'SubcategoryID' => 46,
+  'SubcategoryName' => 'StorageDevicesTapeZIP',
+  'PropertyName' => 'TDBrand',
+  'IsAdvancedSearch' => 0,
+  'IsGroupBy' => 0,
+  'IsRequired' => 0,
+  'PropertyValueList' => 
+  array (
+    0 => 'APC',
+    1 => 'CERTANCE',
+    2 => 'Drobo',
+    3 => 'EXABYTE',
+    4 => 'Fujifilm',
+    5 => 'HP',
+    6 => 'IBM',
+    7 => 'imation',
+    8 => 'iomega',
+    9 => 'Lenovo',
+    10 => 'Overland Storage',
+    11 => 'Quantum',
+    12 => 'SONY',
+    13 => 'Spectra Logic',
+    14 => 'Tandberg',
+    15 => 'Verbatim',
+  ),
+) ?>

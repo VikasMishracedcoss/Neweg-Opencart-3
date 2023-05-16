@@ -1,0 +1,25 @@
+<?php return array (
+  'SubcategoryID' => 30,
+  'SubcategoryName' => 'NetworkSwitches',
+  'PropertyName' => 'SwitchStandards',
+  'IsAdvancedSearch' => 0,
+  'IsGroupBy' => 0,
+  'IsRequired' => 0,
+  'PropertyValueList' => 
+  array (
+    0 => 'IEEE 802.3, u, ab, x, az',
+    1 => 'IEEE 802.3/3u, IEEE 802.3af',
+    2 => 'IEEE 802.3/3u, IEEE 802.3af/at',
+    3 => 'IEEE 802.3/3u/3ab, IEEE 802.3af',
+    4 => 'IEEE 802.3/3u/3ab, IEEE 802.3af/at',
+    5 => 'IEEE 802.3/3u/3ab, IEEE 802.3at',
+    6 => 'IEEE 802.3af, IEEE 802.3at',
+    7 => 'IEEE802.3, IEEE802.3u',
+    8 => 'IEEE802.3, IEEE802.3u, IEEE 802.3x',
+    9 => 'IEEE802.3, IEEE802.3u, IEEE802.3ab',
+    10 => 'IEEE802.3, IEEE802.3u, IEEE802.3ab, IEEE802.3x',
+    11 => 'IEEE802.3, IEEE802.3u, IEEE802.3ab, IEEE802.3z',
+    12 => 'IEEE802.3, IEEE802.3u, IEEE802.3af',
+    13 => 'IEEE802.3ak',
+  ),
+) ?>

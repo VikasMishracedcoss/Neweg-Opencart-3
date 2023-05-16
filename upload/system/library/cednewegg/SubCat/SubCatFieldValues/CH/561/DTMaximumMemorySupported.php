@@ -1,0 +1,26 @@
+<?php return array (
+  'SubcategoryID' => 561,
+  'SubcategoryName' => 'MacDesktops',
+  'PropertyName' => 'DTMaximumMemorySupported',
+  'IsAdvancedSearch' => 0,
+  'IsGroupBy' => 0,
+  'IsRequired' => 0,
+  'PropertyValueList' => 
+  array (
+    0 => '1 GB',
+    1 => '12 GB',
+    2 => '128 GB',
+    3 => '16 GB',
+    4 => '192 GB',
+    5 => '2 GB',
+    6 => '24 GB',
+    7 => '256 GB',
+    8 => '3 GB',
+    9 => '32 GB',
+    10 => '4 GB',
+    11 => '48 GB',
+    12 => '6 GB',
+    13 => '64 GB',
+    14 => '8 GB',
+  ),
+) ?>

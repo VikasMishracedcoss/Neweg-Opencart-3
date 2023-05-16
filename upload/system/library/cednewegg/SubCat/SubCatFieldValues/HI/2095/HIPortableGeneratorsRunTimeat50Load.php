@@ -1,0 +1,28 @@
+<?php return array (
+  'SubcategoryID' => 2095,
+  'SubcategoryName' => 'HIGenerators',
+  'PropertyName' => 'HIPortableGeneratorsRunTimeat50Load',
+  'IsAdvancedSearch' => 0,
+  'IsGroupBy' => 0,
+  'IsRequired' => 0,
+  'PropertyValueList' => 
+  array (
+    0 => '10',
+    1 => '10.5',
+    2 => '12',
+    3 => '12.5',
+    4 => '13',
+    5 => '3.5',
+    6 => '3.6',
+    7 => '4.7',
+    8 => '4.9',
+    9 => '5',
+    10 => '7',
+    11 => '7.5',
+    12 => '8.1',
+    13 => '8.8',
+    14 => '9',
+    15 => '9.1',
+    16 => '9.7',
+  ),
+) ?>

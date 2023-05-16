@@ -1,0 +1,27 @@
+<?php return array (
+  'SubcategoryID' => 309,
+  'SubcategoryName' => 'BareboneSystemsMiniBooksize',
+  'PropertyName' => 'BBMBHardDriveInstalled',
+  'IsAdvancedSearch' => 0,
+  'IsGroupBy' => 0,
+  'IsRequired' => 0,
+  'PropertyValueList' => 
+  array (
+    0 => '120GB SSD',
+    1 => '128GB SSD',
+    2 => '16GB eMMC',
+    3 => '1TB',
+    4 => '250GB',
+    5 => '2T',
+    6 => '320GB',
+    7 => '32GB eMMC',
+    8 => '4GB eMMC',
+    9 => '500GB',
+    10 => '64GB eMMC',
+    11 => '64GB mSATA',
+    12 => '64GB SSD',
+    13 => '80GB SSD',
+    14 => '8GB eMMC',
+    15 => 'No Hard Drive',
+  ),
+) ?>

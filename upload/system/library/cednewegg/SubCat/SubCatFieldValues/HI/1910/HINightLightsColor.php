@@ -1,0 +1,25 @@
+<?php return array (
+  'SubcategoryID' => 1910,
+  'SubcategoryName' => 'HINightLights',
+  'PropertyName' => 'HINightLightsColor',
+  'IsAdvancedSearch' => 0,
+  'IsGroupBy' => 1,
+  'IsRequired' => 0,
+  'PropertyValueList' => 
+  array (
+    0 => 'Black',
+    1 => 'Black and White',
+    2 => 'Blue',
+    3 => 'Coffee',
+    4 => 'Gold',
+    5 => 'Gray',
+    6 => 'Green',
+    7 => 'Orange',
+    8 => 'Pink',
+    9 => 'Purple',
+    10 => 'Red',
+    11 => 'Silver',
+    12 => 'White',
+    13 => 'Yellow',
+  ),
+) ?>

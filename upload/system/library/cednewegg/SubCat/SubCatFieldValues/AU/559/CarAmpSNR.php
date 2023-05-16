@@ -1,0 +1,25 @@
+<?php return array (
+  'SubcategoryID' => 559,
+  'SubcategoryName' => 'CarAmplifiers',
+  'PropertyName' => 'CarAmpSNR',
+  'IsAdvancedSearch' => 0,
+  'IsGroupBy' => 0,
+  'IsRequired' => 0,
+  'PropertyValueList' => 
+  array (
+    0 => '>105 dB',
+    1 => '>80 dB',
+    2 => '>95 dB',
+    3 => '100 dB',
+    4 => '102 dB',
+    5 => '103 dB',
+    6 => '105 dB',
+    7 => '76 dB',
+    8 => '80 dB',
+    9 => '90 dB',
+    10 => '93 dB',
+    11 => '95 dB',
+    12 => '97 dB',
+    13 => '98 dB',
+  ),
+) ?>

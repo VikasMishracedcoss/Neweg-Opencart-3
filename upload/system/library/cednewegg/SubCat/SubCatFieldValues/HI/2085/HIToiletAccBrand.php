@@ -1,0 +1,26 @@
+<?php return array (
+  'SubcategoryID' => 2085,
+  'SubcategoryName' => 'HIToiletAccessories',
+  'PropertyName' => 'HIToiletAccBrand',
+  'IsAdvancedSearch' => 0,
+  'IsGroupBy' => 0,
+  'IsRequired' => 0,
+  'PropertyValueList' => 
+  array (
+    0 => 'American Standard',
+    1 => 'Bemis',
+    2 => 'Big John',
+    3 => 'BioBidet',
+    4 => 'BioLet',
+    5 => 'Bobrick',
+    6 => 'Brondell',
+    7 => 'Delta Faucet Company',
+    8 => 'KOHLER',
+    9 => 'La Toscana',
+    10 => 'Lotus',
+    11 => 'lumiscope',
+    12 => 'MOEN',
+    13 => 'St. Thomas Creations',
+    14 => 'T&S Brass',
+  ),
+) ?>

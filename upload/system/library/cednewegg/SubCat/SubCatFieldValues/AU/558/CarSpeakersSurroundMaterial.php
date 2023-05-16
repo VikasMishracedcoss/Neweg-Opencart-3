@@ -1,0 +1,28 @@
+<?php return array (
+  'SubcategoryID' => 558,
+  'SubcategoryName' => 'CarSpeakers',
+  'PropertyName' => 'CarSpeakersSurroundMaterial',
+  'IsAdvancedSearch' => 0,
+  'IsGroupBy' => 0,
+  'IsRequired' => 0,
+  'PropertyValueList' => 
+  array (
+    0 => 'ABS',
+    1 => 'ABS Plastic',
+    2 => 'Aluminum',
+    3 => 'Butyl rubber',
+    4 => 'Cloth',
+    5 => 'Foam',
+    6 => 'Injection Molded Polypropylene (IMPP)',
+    7 => 'Metal',
+    8 => 'Plastic',
+    9 => 'Polymer',
+    10 => 'Polypropylene',
+    11 => 'Polyurethane',
+    12 => 'Rubber',
+    13 => 'Santoprene',
+    14 => 'Santoprene rubber',
+    15 => 'Stainless Steel',
+    16 => 'Steel',
+  ),
+) ?>

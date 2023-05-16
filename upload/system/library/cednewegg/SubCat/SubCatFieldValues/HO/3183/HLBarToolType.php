@@ -1,0 +1,27 @@
+<?php return array (
+  'SubcategoryID' => 3183,
+  'SubcategoryName' => 'HLBarToolsAccessories',
+  'PropertyName' => 'HLBarToolType',
+  'IsAdvancedSearch' => 1,
+  'IsGroupBy' => 0,
+  'IsRequired' => 1,
+  'PropertyValueList' => 
+  array (
+    0 => 'Bar Strainers',
+    1 => 'Bar Tool Sets',
+    2 => 'Beer Making Kits',
+    3 => 'Bottle Openers',
+    4 => 'Bottle Pourers & Aerators',
+    5 => 'Ice Buckets',
+    6 => 'Ice Cubes',
+    7 => 'Ice Scoops & Tongs',
+    8 => 'Seltzer Water Dispenser',
+    9 => 'Shakers',
+    10 => 'Stirrers',
+    11 => 'Wine & Decanter Stoppers',
+    12 => 'Wine Bags, Totes, & Carriers',
+    13 => 'Wine Cubes',
+    14 => 'Wine Glass Charms',
+    15 => 'Wine Openers & Corkscrews',
+  ),
+) ?>

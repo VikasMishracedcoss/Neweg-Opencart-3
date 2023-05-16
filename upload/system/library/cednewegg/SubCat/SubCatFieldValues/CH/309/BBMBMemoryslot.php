@@ -1,0 +1,25 @@
+<?php return array (
+  'SubcategoryID' => 309,
+  'SubcategoryName' => 'BareboneSystemsMiniBooksize',
+  'PropertyName' => 'BBMBMemoryslot',
+  'IsAdvancedSearch' => 1,
+  'IsGroupBy' => 0,
+  'IsRequired' => 0,
+  'PropertyValueList' => 
+  array (
+    0 => '1 x 184Pin DIMM',
+    1 => '1 x 200Pin SO-DIMM',
+    2 => '1 x 204Pin SO-DIMM',
+    3 => '1 x 240Pin DIMM',
+    4 => '1 x 260Pin SO-DIMM',
+    5 => '2 x 184Pin DIMM',
+    6 => '2 x 200Pin SO-DIMM',
+    7 => '2 x 204Pin SO-DIMM',
+    8 => '2 x 240Pin DIMM',
+    9 => '2 x 260Pin SO-DIMM',
+    10 => '2 x 288Pin DIMM',
+    11 => '4 x 240Pin DIMM',
+    12 => '4 x 260Pin SO-DIMM',
+    13 => '4 x 288Pin DIMM',
+  ),
+) ?>

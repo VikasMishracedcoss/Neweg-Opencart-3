@@ -1,0 +1,27 @@
+<?php return array (
+  'SubcategoryID' => 284,
+  'SubcategoryName' => 'AccessoriesPrintersScannersFaxes',
+  'PropertyName' => 'PRTAccColor',
+  'IsAdvancedSearch' => 0,
+  'IsGroupBy' => 1,
+  'IsRequired' => 0,
+  'PropertyValueList' => 
+  array (
+    0 => '2 Colors',
+    1 => '3 Colors',
+    2 => '4 Colors',
+    3 => '5 Colors',
+    4 => '6 Colors',
+    5 => '8 Colors',
+    6 => 'Black',
+    7 => 'Candy Shop',
+    8 => 'Color',
+    9 => 'Cyan',
+    10 => 'Game Board',
+    11 => 'Magenta',
+    12 => 'Multi',
+    13 => 'Neutral',
+    14 => 'White',
+    15 => 'Yellow',
+  ),
+) ?>

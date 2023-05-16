@@ -1,0 +1,27 @@
+<?php return array (
+  'SubcategoryID' => 58,
+  'SubcategoryName' => 'PowerSupplies',
+  'PropertyName' => 'PSUSATAPowerConnector',
+  'IsAdvancedSearch' => 1,
+  'IsGroupBy' => 0,
+  'IsRequired' => 0,
+  'PropertyValueList' => 
+  array (
+    0 => '1',
+    1 => '10',
+    2 => '11',
+    3 => '12',
+    4 => '13',
+    5 => '14',
+    6 => '16',
+    7 => '2',
+    8 => '3',
+    9 => '4',
+    10 => '5',
+    11 => '6',
+    12 => '7',
+    13 => '8',
+    14 => '9',
+    15 => 'No',
+  ),
+) ?>

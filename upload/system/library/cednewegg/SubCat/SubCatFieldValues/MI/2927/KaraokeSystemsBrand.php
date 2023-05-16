@@ -1,0 +1,26 @@
+<?php return array (
+  'SubcategoryID' => 2927,
+  'SubcategoryName' => 'MIKaraokeSystems',
+  'PropertyName' => 'KaraokeSystemsBrand',
+  'IsAdvancedSearch' => 0,
+  'IsGroupBy' => 0,
+  'IsRequired' => 0,
+  'PropertyValueList' => 
+  array (
+    0 => 'Acesonic',
+    1 => 'AKAI',
+    2 => 'Emerson',
+    3 => 'GPX',
+    4 => 'Hello Kitty',
+    5 => 'iLive',
+    6 => 'iLuv',
+    7 => 'ION',
+    8 => 'Karaoke Usa',
+    9 => 'Memorex',
+    10 => 'Pyle',
+    11 => 'PylePro',
+    12 => 'Sakar',
+    13 => 'The Singing Machine',
+    14 => 'VocoPro',
+  ),
+) ?>

@@ -1,0 +1,26 @@
+<?php return array (
+  'SubcategoryID' => 2165,
+  'SubcategoryName' => 'HLHomeTextilesBedding',
+  'PropertyName' => 'HLBeddingPattern',
+  'IsAdvancedSearch' => 1,
+  'IsGroupBy' => 0,
+  'IsRequired' => 0,
+  'PropertyValueList' => 
+  array (
+    0 => 'Animal Print',
+    1 => 'Checkered',
+    2 => 'Embroidered',
+    3 => 'Floral',
+    4 => 'Geometric',
+    5 => 'Graphic',
+    6 => 'Ikat',
+    7 => 'Kids\'',
+    8 => 'Paisley',
+    9 => 'Patchwork',
+    10 => 'Patterned',
+    11 => 'Plaid',
+    12 => 'Solid',
+    13 => 'Striped',
+    14 => 'Toile',
+  ),
+) ?>

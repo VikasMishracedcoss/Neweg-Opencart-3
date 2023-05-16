@@ -1,0 +1,25 @@
+<?php return array (
+  'SubcategoryID' => 1954,
+  'SubcategoryName' => 'OGPoolToysFloats',
+  'PropertyName' => 'OGPoolToysType',
+  'IsAdvancedSearch' => 1,
+  'IsGroupBy' => 0,
+  'IsRequired' => 0,
+  'PropertyValueList' => 
+  array (
+    0 => 'Baby Floats',
+    1 => 'Balls',
+    2 => 'Beverage Holders',
+    3 => 'Dive Toys',
+    4 => 'Floats & Mattresses',
+    5 => 'Games',
+    6 => 'Kick Boards',
+    7 => 'Learn to Swim Products',
+    8 => 'Lights & Fountains',
+    9 => 'Lounges',
+    10 => 'Noodles',
+    11 => 'Pool Pillows',
+    12 => 'Pool Rafts & Islands',
+    13 => 'Pool Tubes',
+  ),
+) ?>

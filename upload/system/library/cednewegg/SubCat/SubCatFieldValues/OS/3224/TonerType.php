@@ -1,0 +1,25 @@
+<?php return array (
+  'SubcategoryID' => 3224,
+  'SubcategoryName' => 'PrinterFaxTonersAftermarket',
+  'PropertyName' => 'TonerType',
+  'IsAdvancedSearch' => 0,
+  'IsGroupBy' => 0,
+  'IsRequired' => 0,
+  'PropertyValueList' => 
+  array (
+    0 => 'Compatible',
+    1 => 'Compatible Drum',
+    2 => 'Compatible Toner',
+    3 => 'Drum-MONO',
+    4 => 'High-Yield',
+    5 => 'Remanufactured',
+    6 => 'Remanufactured Drum',
+    7 => 'Standard-Yield',
+    8 => 'Toner-BLACK',
+    9 => 'Toner-COLOR',
+    10 => 'Toner-CYAN',
+    11 => 'Toner-MAGENTA',
+    12 => 'Toner-MONO',
+    13 => 'Toner-YELLOW',
+  ),
+) ?>

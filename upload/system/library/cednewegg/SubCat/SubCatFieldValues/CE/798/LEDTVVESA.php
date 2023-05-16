@@ -1,0 +1,26 @@
+<?php return array (
+  'SubcategoryID' => 798,
+  'SubcategoryName' => 'LEDTV',
+  'PropertyName' => 'LEDTVVESA',
+  'IsAdvancedSearch' => 1,
+  'IsGroupBy' => 0,
+  'IsRequired' => 0,
+  'PropertyValueList' => 
+  array (
+    0 => '100mm x 100mm',
+    1 => '100mm x 200mm',
+    2 => '200mm x 100mm',
+    3 => '200mm x 200mm',
+    4 => '200mm x 400mm',
+    5 => '300mm x 200mm',
+    6 => '300mm x 300mm',
+    7 => '300mm x 400mm',
+    8 => '400mm x 200mm',
+    9 => '400mm x 300mm',
+    10 => '400mm x 400mm',
+    11 => '400mm x 600mm',
+    12 => '600mm x 400mm',
+    13 => '600mm x 600mm',
+    14 => '75mm x 75mm',
+  ),
+) ?>

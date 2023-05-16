@@ -1,0 +1,25 @@
+<?php return array (
+  'SubcategoryID' => 451,
+  'SubcategoryName' => 'KVMCables',
+  'PropertyName' => 'KVMCableLength',
+  'IsAdvancedSearch' => 1,
+  'IsGroupBy' => 0,
+  'IsRequired' => 0,
+  'PropertyValueList' => 
+  array (
+    0 => '> 50 ft.',
+    1 => '1 - 5 ft.',
+    2 => '1" - 5"',
+    3 => '11 - 15 ft.',
+    4 => '16 - 20 ft.',
+    5 => '21 - 25 ft.',
+    6 => '26 - 30 ft.',
+    7 => '31 - 35 ft.',
+    8 => '36 - 40 ft.',
+    9 => '41 - 45 ft.',
+    10 => '46 - 50 ft.',
+    11 => '6 ft.',
+    12 => '6" - 10"',
+    13 => '7 - 10 ft.',
+  ),
+) ?>

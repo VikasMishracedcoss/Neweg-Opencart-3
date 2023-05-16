@@ -1,0 +1,26 @@
+<?php return array (
+  'SubcategoryID' => 3099,
+  'SubcategoryName' => 'MTSuspension',
+  'PropertyName' => 'MTSuspensionType',
+  'IsAdvancedSearch' => 1,
+  'IsGroupBy' => 0,
+  'IsRequired' => 0,
+  'PropertyValueList' => 
+  array (
+    0 => 'A-Arms',
+    1 => 'Anti-Roll Bars',
+    2 => 'Fork Seals',
+    3 => 'Fork Springs',
+    4 => 'Forks',
+    5 => 'Holeshot Devices',
+    6 => 'Lift /Lowering Kits',
+    7 => 'Shock Absorbers',
+    8 => 'Shock Bearing Kits',
+    9 => 'Shock Covers',
+    10 => 'Shock Springs',
+    11 => 'Shocks',
+    12 => 'Struts',
+    13 => 'Suspension Linkage',
+    14 => 'Swingarms',
+  ),
+) ?>

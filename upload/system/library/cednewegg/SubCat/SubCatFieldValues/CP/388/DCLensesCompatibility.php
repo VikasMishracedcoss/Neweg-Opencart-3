@@ -1,0 +1,26 @@
+<?php return array (
+  'SubcategoryID' => 388,
+  'SubcategoryName' => 'DigitalCameraLenses',
+  'PropertyName' => 'DCLensesCompatibility',
+  'IsAdvancedSearch' => 0,
+  'IsGroupBy' => 1,
+  'IsRequired' => 0,
+  'PropertyValueList' => 
+  array (
+    0 => '\'Apple iPhone 4 4g 4S/5 5th/iPod Touch 4/Touch 5/i',
+    1 => 'Canon',
+    2 => 'Canon Digital SLR Cameras',
+    3 => 'Canon EOS',
+    4 => 'Four Thirds System',
+    5 => 'Infrared',
+    6 => 'iPhone iPad HTC Samsung Galaxy LG Sony Nokia',
+    7 => 'Micro Four Thirds System',
+    8 => 'N/A',
+    9 => 'Nikon',
+    10 => 'Olympus',
+    11 => 'Pentax',
+    12 => 'Samsung Ga',
+    13 => 'Sony',
+    14 => 'Sony Alpha',
+  ),
+) ?>

@@ -1,0 +1,27 @@
+<?php return array (
+  'SubcategoryID' => 3411,
+  'SubcategoryName' => 'PowerTransmissionBearingsVBelts',
+  'PropertyName' => 'MachineryTransmissionType',
+  'IsAdvancedSearch' => 1,
+  'IsGroupBy' => 0,
+  'IsRequired' => 0,
+  'PropertyValueList' => 
+  array (
+    0 => 'Bearings',
+    1 => 'Brake Motors',
+    2 => 'Brakes & Clutches',
+    3 => 'Bushings',
+    4 => 'Chain & Tools',
+    5 => 'Couplings, Collars & Adapters',
+    6 => 'Gearing',
+    7 => 'Instant Reverse Motors',
+    8 => 'Linear Motion',
+    9 => 'Metric Three Phase Motors',
+    10 => 'Power Transmission Belts',
+    11 => 'Sheaves & Pulleys',
+    12 => 'Speed Reducers',
+    13 => 'Sprockets',
+    14 => 'Tensioners & Tighteners',
+    15 => 'Vibrators',
+  ),
+) ?>

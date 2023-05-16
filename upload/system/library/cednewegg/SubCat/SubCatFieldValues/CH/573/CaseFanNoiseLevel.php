@@ -1,0 +1,25 @@
+<?php return array (
+  'SubcategoryID' => 573,
+  'SubcategoryName' => 'CaseFans',
+  'PropertyName' => 'CaseFanNoiseLevel',
+  'IsAdvancedSearch' => 1,
+  'IsGroupBy' => 0,
+  'IsRequired' => 0,
+  'PropertyValueList' => 
+  array (
+    0 => '>50 dBA',
+    1 => '0.1-0.9Sone',
+    2 => '1-5 dBA',
+    3 => '1.0-1.9Sone',
+    4 => '10-15 dBA',
+    5 => '15-20 dBA',
+    6 => '20-25 dBA',
+    7 => '25-30 dBA',
+    8 => '30-35 dBA',
+    9 => '35-40 dBA',
+    10 => '40-45 dBA',
+    11 => '45-50 dBA',
+    12 => '5-10 dBA',
+    13 => 'Variable',
+  ),
+) ?>

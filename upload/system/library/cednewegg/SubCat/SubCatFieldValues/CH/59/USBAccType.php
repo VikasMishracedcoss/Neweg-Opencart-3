@@ -1,0 +1,27 @@
+<?php return array (
+  'SubcategoryID' => 59,
+  'SubcategoryName' => 'AccessoriesUSB',
+  'PropertyName' => 'USBAccType',
+  'IsAdvancedSearch' => 1,
+  'IsGroupBy' => 0,
+  'IsRequired' => 0,
+  'PropertyValueList' => 
+  array (
+    0 => 'Replicator / Docking Station',
+    1 => 'Retractable USB Cable',
+    2 => 'USB Battery Charger',
+    3 => 'USB CAT.5e Extender Adapter',
+    4 => 'USB Cleaner',
+    5 => 'USB Drive Security',
+    6 => 'USB External Device',
+    7 => 'USB Fan',
+    8 => 'USB Glowing Aquarium',
+    9 => 'USB Light',
+    10 => 'USB Light&Fan',
+    11 => 'USB Massage Ball',
+    12 => 'USB Peripheral Switch',
+    13 => 'USB Radio',
+    14 => 'USB Sharing Device',
+    15 => 'USB to PS2 Adapter',
+  ),
+) ?>

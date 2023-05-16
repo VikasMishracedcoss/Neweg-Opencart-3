@@ -1,0 +1,28 @@
+<?php return array (
+  'SubcategoryID' => 205,
+  'SubcategoryName' => 'ProfessionalCamcorders',
+  'PropertyName' => 'CamcorderLCD',
+  'IsAdvancedSearch' => 1,
+  'IsGroupBy' => 0,
+  'IsRequired' => 0,
+  'PropertyValueList' => 
+  array (
+    0 => '1.1"',
+    1 => '1.4"',
+    2 => '1.5"',
+    3 => '1.7"',
+    4 => '1.8"',
+    5 => '2.0"',
+    6 => '2.2"',
+    7 => '2.3"',
+    8 => '2.4"',
+    9 => '2.5"',
+    10 => '2.7"',
+    11 => '2.8"',
+    12 => '2.95"',
+    13 => '3.0"',
+    14 => '3.2"',
+    15 => '3.5"',
+    16 => '4.0"',
+  ),
+) ?>

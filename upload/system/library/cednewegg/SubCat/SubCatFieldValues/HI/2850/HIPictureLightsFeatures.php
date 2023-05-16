@@ -1,0 +1,28 @@
+<?php return array (
+  'SubcategoryID' => 2850,
+  'SubcategoryName' => 'HIPictureLights',
+  'PropertyName' => 'HIPictureLightsFeatures',
+  'IsAdvancedSearch' => 1,
+  'IsGroupBy' => 0,
+  'IsRequired' => 0,
+  'PropertyValueList' => 
+  array (
+    0 => '3 Way',
+    1 => 'ADA Compliant',
+    2 => 'Battery Operated',
+    3 => 'Dimmable',
+    4 => 'Dusk-to-Dawn',
+    5 => 'Eco-Friendly',
+    6 => 'Energy Saver / Energy Efficient',
+    7 => 'Fluorescent',
+    8 => 'Innovative',
+    9 => 'Interconnected',
+    10 => 'LED',
+    11 => 'Motion Sensor',
+    12 => 'Photo Sensor',
+    13 => 'Remote Control',
+    14 => 'Solar',
+    15 => 'Touch On/Off',
+    16 => 'Wet location',
+  ),
+) ?>

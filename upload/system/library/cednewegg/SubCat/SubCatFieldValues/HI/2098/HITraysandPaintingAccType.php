@@ -1,0 +1,25 @@
+<?php return array (
+  'SubcategoryID' => 2098,
+  'SubcategoryName' => 'HIPaintingAccessories',
+  'PropertyName' => 'HITraysandPaintingAccType',
+  'IsAdvancedSearch' => 1,
+  'IsGroupBy' => 0,
+  'IsRequired' => 0,
+  'PropertyValueList' => 
+  array (
+    0 => 'Construction Film',
+    1 => 'Paint & Wallpaper Tools',
+    2 => 'Paint Brush & Roller Cleaning Tools',
+    3 => 'Paint Mixers & Can Openers',
+    4 => 'Paint Screens & Grids',
+    5 => 'Paint Strainers',
+    6 => 'Paint Trays & Liners',
+    7 => 'Painting Knife',
+    8 => 'Putty Knife',
+    9 => 'Replacement Parts',
+    10 => 'Spackling Paste',
+    11 => 'Spray Booth Accessories',
+    12 => 'Spray Booths',
+    13 => 'Surface Protection',
+  ),
+) ?>

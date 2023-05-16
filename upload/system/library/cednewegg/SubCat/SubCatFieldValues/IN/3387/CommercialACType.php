@@ -1,0 +1,26 @@
+<?php return array (
+  'SubcategoryID' => 3387,
+  'SubcategoryName' => 'CommercialAirConditioning',
+  'PropertyName' => 'CommercialACType',
+  'IsAdvancedSearch' => 1,
+  'IsGroupBy' => 0,
+  'IsRequired' => 0,
+  'PropertyValueList' => 
+  array (
+    0 => 'Air Condenser Units',
+    1 => 'Air Handlers & Furnace',
+    2 => 'Ceiling Air Conditioners',
+    3 => 'Central Air Conditioning',
+    4 => 'Chillers',
+    5 => 'Condensing Unit Enclosures',
+    6 => 'Ductless Split Air Conditioners',
+    7 => 'Indoor/Outdoor Package Units',
+    8 => 'Multizone Split Air Conditioners',
+    9 => 'Packaged Terminal Air Conditioner',
+    10 => 'Portable Air Conditioners',
+    11 => 'Unit Coolers Air Defrost',
+    12 => 'Unit Coolers Electric Defrost',
+    13 => 'Wall Air Conditioner',
+    14 => 'Window Air Conditioner',
+  ),
+) ?>

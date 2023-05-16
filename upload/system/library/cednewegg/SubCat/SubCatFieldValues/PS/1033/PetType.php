@@ -1,0 +1,26 @@
+<?php return array (
+  'SubcategoryID' => 1033,
+  'SubcategoryName' => 'PetApparel',
+  'PropertyName' => 'PetType',
+  'IsAdvancedSearch' => 1,
+  'IsGroupBy' => 0,
+  'IsRequired' => 0,
+  'PropertyValueList' => 
+  array (
+    0 => 'Bathrobe',
+    1 => 'Coats & Jumpers',
+    2 => 'Collars',
+    3 => 'Dresses',
+    4 => 'Jackets',
+    5 => 'Life Jackets',
+    6 => 'Other Accessories',
+    7 => 'Rain Coats',
+    8 => 'Shirts',
+    9 => 'Sportswear',
+    10 => 'Sweaters',
+    11 => 'T-Shirts',
+    12 => 'Trousers',
+    13 => 'Vests',
+    14 => 'Wedding & Formal',
+  ),
+) ?>

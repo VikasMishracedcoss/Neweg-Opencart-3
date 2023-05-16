@@ -1,0 +1,26 @@
+<?php return array (
+  'SubcategoryID' => 2845,
+  'SubcategoryName' => 'HLLampShades',
+  'PropertyName' => 'HILampshadestype',
+  'IsAdvancedSearch' => 1,
+  'IsGroupBy' => 0,
+  'IsRequired' => 1,
+  'PropertyValueList' => 
+  array (
+    0 => 'Bulb covers',
+    1 => 'Chandelier shades',
+    2 => 'Clip-on',
+    3 => 'Diffuser',
+    4 => 'Diffusers',
+    5 => 'Finials',
+    6 => 'Lamp Shade cleaners',
+    7 => 'Outdoor',
+    8 => 'Pleated',
+    9 => 'Shade',
+    10 => 'Shades',
+    11 => 'Slip Uno',
+    12 => 'Spider',
+    13 => 'Swing Arm',
+    14 => 'Uno',
+  ),
+) ?>

@@ -1,0 +1,27 @@
+<?php return array (
+  'SubcategoryID' => 2804,
+  'SubcategoryName' => 'HIElectricFireplaces',
+  'PropertyName' => 'ElectricFireplacesWidth',
+  'IsAdvancedSearch' => 1,
+  'IsGroupBy' => 0,
+  'IsRequired' => 0,
+  'PropertyValueList' => 
+  array (
+    0 => '16"',
+    1 => '18"',
+    2 => '20"',
+    3 => '21"',
+    4 => '23"',
+    5 => '25"',
+    6 => '36"',
+    7 => '40"',
+    8 => '42"',
+    9 => '46"',
+    10 => '47"',
+    11 => '48"',
+    12 => '52"',
+    13 => '54"',
+    14 => '60"',
+    15 => '70"',
+  ),
+) ?>

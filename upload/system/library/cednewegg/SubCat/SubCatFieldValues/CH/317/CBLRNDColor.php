@@ -1,0 +1,28 @@
+<?php return array (
+  'SubcategoryID' => 317,
+  'SubcategoryName' => 'CablesRound',
+  'PropertyName' => 'CBLRNDColor',
+  'IsAdvancedSearch' => 1,
+  'IsGroupBy' => 0,
+  'IsRequired' => 0,
+  'PropertyValueList' => 
+  array (
+    0 => 'Beige',
+    1 => 'Black',
+    2 => 'Blue',
+    3 => 'Clear',
+    4 => 'Copper',
+    5 => 'Golden',
+    6 => 'Gray',
+    7 => 'Green',
+    8 => 'Multi-Color',
+    9 => 'Orange',
+    10 => 'Pink',
+    11 => 'Purple',
+    12 => 'Red',
+    13 => 'Silver',
+    14 => 'Transparent',
+    15 => 'White',
+    16 => 'Yellow',
+  ),
+) ?>

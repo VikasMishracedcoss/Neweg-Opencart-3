@@ -1,0 +1,27 @@
+<?php return array (
+  'SubcategoryID' => 1573,
+  'SubcategoryName' => 'ToysRemoteRadioControlled',
+  'PropertyName' => 'ToysRCType',
+  'IsAdvancedSearch' => 1,
+  'IsGroupBy' => 0,
+  'IsRequired' => 0,
+  'PropertyValueList' => 
+  array (
+    0 => 'Airplanes & Jets',
+    1 => 'Animals & Pets',
+    2 => 'Boats & Ships',
+    3 => 'Cars',
+    4 => 'Helicopters',
+    5 => 'Insects',
+    6 => 'Models & Kits',
+    7 => 'Motorcycles',
+    8 => 'Quadcopters',
+    9 => 'Replacement Parts',
+    10 => 'Robots',
+    11 => 'Rockets & Spaceships',
+    12 => 'Slot Car Racing',
+    13 => 'Tanks',
+    14 => 'Trains',
+    15 => 'Trucks',
+  ),
+) ?>

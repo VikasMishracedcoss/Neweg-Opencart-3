@@ -1,0 +1,28 @@
+<?php return array (
+  'SubcategoryID' => 388,
+  'SubcategoryName' => 'DigitalCameraLenses',
+  'PropertyName' => 'DCLensesFormat',
+  'IsAdvancedSearch' => 0,
+  'IsGroupBy' => 0,
+  'IsRequired' => 0,
+  'PropertyValueList' => 
+  array (
+    0 => '35 mm Full-Frame, Canon (APS-C)',
+    1 => '35 mm Full-Frame, DSLR (APS-C Sensor)',
+    2 => '35mm Film / Full-Frame Digital Sensor, Canon APS-C',
+    3 => '35mm Film / Full-Frame Digital Sensor, DSLR APS-C',
+    4 => '35mm Film / Full-Frame, Canon (APS-C, APS-H)',
+    5 => 'APS-C',
+    6 => 'Canon (APS-C)',
+    7 => 'CX',
+    8 => 'DSLR (APS-C Sensor)',
+    9 => 'Four Thirds',
+    10 => 'Micro Four Thirds',
+    11 => 'Nikon DX',
+    12 => 'Nikon DX, FX in DX Crop Mode',
+    13 => 'Nikon FX/35mm Film',
+    14 => 'Nikon FX/35mm Film, Nikon DX',
+    15 => 'Pentax Digital (APS-C)',
+    16 => 'Pentax Q',
+  ),
+) ?>

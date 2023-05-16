@@ -1,0 +1,25 @@
+<?php return array (
+  'SubcategoryID' => 558,
+  'SubcategoryName' => 'CarSpeakers',
+  'PropertyName' => 'CarSpeakersType',
+  'IsAdvancedSearch' => 1,
+  'IsGroupBy' => 0,
+  'IsRequired' => 0,
+  'PropertyValueList' => 
+  array (
+    0 => '1-way Speaker',
+    1 => '2-way Speaker',
+    2 => '3-way Speaker',
+    3 => '4-way Speaker',
+    4 => '5-way Speaker',
+    5 => '6-way Speaker',
+    6 => '8-way Speaker',
+    7 => 'Accessory',
+    8 => 'Component System',
+    9 => 'Enclosures',
+    10 => 'Speaker',
+    11 => 'Subwoofer',
+    12 => 'Tower Speaker',
+    13 => 'Tweeter',
+  ),
+) ?>

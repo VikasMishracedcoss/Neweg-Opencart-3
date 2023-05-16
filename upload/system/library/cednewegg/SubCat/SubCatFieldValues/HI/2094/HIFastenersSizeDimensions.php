@@ -1,0 +1,26 @@
+<?php return array (
+  'SubcategoryID' => 2094,
+  'SubcategoryName' => 'HIFasteners',
+  'PropertyName' => 'HIFastenersSizeDimensions',
+  'IsAdvancedSearch' => 0,
+  'IsGroupBy' => 1,
+  'IsRequired' => 0,
+  'PropertyValueList' => 
+  array (
+    0 => '1" x 6"',
+    1 => '1" x 9"',
+    2 => '1"W x 9"L',
+    3 => '12"W x 12"L',
+    4 => '2" X 12"',
+    5 => '2" x 18" / 25"',
+    6 => '2" x 25"',
+    7 => '2" x 35"',
+    8 => '2" x 6"',
+    9 => '2" x 6" / 9" / 12"',
+    10 => '2" x 9"',
+    11 => '2"W x 18" - 25"L',
+    12 => '2"W x 25"L',
+    13 => '2"W x 35"L',
+    14 => '6" - 12"',
+  ),
+) ?>

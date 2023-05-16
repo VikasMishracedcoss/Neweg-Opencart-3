@@ -1,0 +1,25 @@
+<?php return array (
+  'SubcategoryID' => 662,
+  'SubcategoryName' => 'CappuccinoEspressoMachines',
+  'PropertyName' => 'EspressoColor',
+  'IsAdvancedSearch' => 1,
+  'IsGroupBy' => 0,
+  'IsRequired' => 0,
+  'PropertyValueList' => 
+  array (
+    0 => 'Black',
+    1 => 'Black / White',
+    2 => 'Blue',
+    3 => 'Chrome',
+    4 => 'Gray',
+    5 => 'Green',
+    6 => 'Orange',
+    7 => 'Pink',
+    8 => 'Red',
+    9 => 'Silver',
+    10 => 'Silver/Black',
+    11 => 'Stainless steel',
+    12 => 'White',
+    13 => 'Yellow',
+  ),
+) ?>

@@ -1,0 +1,27 @@
+<?php return array (
+  'SubcategoryID' => 1978,
+  'SubcategoryName' => 'OGFlagsBanners',
+  'PropertyName' => 'OGFlagsOccasion',
+  'IsAdvancedSearch' => 1,
+  'IsGroupBy' => 0,
+  'IsRequired' => 0,
+  'PropertyValueList' => 
+  array (
+    0 => 'Animals & Insects',
+    1 => 'Anniversary',
+    2 => 'Beaches',
+    3 => 'Birthday',
+    4 => 'Congratulations/Celebration',
+    5 => 'Food & Drinks',
+    6 => 'Holiday',
+    7 => 'Military/Patriotic',
+    8 => 'Nautical',
+    9 => 'New Baby',
+    10 => 'Religious',
+    11 => 'Schools/Colleges',
+    12 => 'Seasonal',
+    13 => 'Sports',
+    14 => 'Trees & Flowers',
+    15 => 'Welcome',
+  ),
+) ?>

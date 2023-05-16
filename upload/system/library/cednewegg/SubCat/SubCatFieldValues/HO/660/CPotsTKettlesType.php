@@ -1,0 +1,28 @@
+<?php return array (
+  'SubcategoryID' => 660,
+  'SubcategoryName' => 'Teakettles',
+  'PropertyName' => 'CPotsTKettlesType',
+  'IsAdvancedSearch' => 1,
+  'IsGroupBy' => 0,
+  'IsRequired' => 0,
+  'PropertyValueList' => 
+  array (
+    0 => 'Accessories',
+    1 => 'Bottle',
+    2 => 'Coffee Pot',
+    3 => 'Coffee Presses',
+    4 => 'Cup',
+    5 => 'Electric Kettle',
+    6 => 'Hot Water Pot',
+    7 => 'Kettle Set',
+    8 => 'Percolators  & Urns',
+    9 => 'Tea',
+    10 => 'Tea Dispensers',
+    11 => 'Tea Kettle',
+    12 => 'Tea Maker',
+    13 => 'Tea Presses',
+    14 => 'Thermal Server',
+    15 => 'Vacuum Mug',
+    16 => 'Water Pitcher',
+  ),
+) ?>

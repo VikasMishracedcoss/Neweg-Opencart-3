@@ -1,0 +1,26 @@
+<?php return array (
+  'SubcategoryID' => 547,
+  'SubcategoryName' => 'PS3Accessories',
+  'PropertyName' => 'PS3ACCColor',
+  'IsAdvancedSearch' => 0,
+  'IsGroupBy' => 1,
+  'IsRequired' => 0,
+  'PropertyValueList' => 
+  array (
+    0 => 'Black',
+    1 => 'Blue',
+    2 => 'Clear',
+    3 => 'Gold',
+    4 => 'Gray',
+    5 => 'Green',
+    6 => 'Metalic Gold',
+    7 => 'Orange',
+    8 => 'Pink',
+    9 => 'Purple',
+    10 => 'Red',
+    11 => 'Silver',
+    12 => 'Urban Camouflage',
+    13 => 'White',
+    14 => 'Yellow',
+  ),
+) ?>

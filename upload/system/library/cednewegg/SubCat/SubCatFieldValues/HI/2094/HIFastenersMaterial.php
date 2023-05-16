@@ -1,0 +1,28 @@
+<?php return array (
+  'SubcategoryID' => 2094,
+  'SubcategoryName' => 'HIFasteners',
+  'PropertyName' => 'HIFastenersMaterial',
+  'IsAdvancedSearch' => 1,
+  'IsGroupBy' => 0,
+  'IsRequired' => 0,
+  'PropertyValueList' => 
+  array (
+    0 => 'Black',
+    1 => 'Black phosphate',
+    2 => 'Brass',
+    3 => 'Bronze',
+    4 => 'Carbon Steel',
+    5 => 'Copper',
+    6 => 'Galvanized',
+    7 => 'Hot Dipped Galvanized',
+    8 => 'Nickel',
+    9 => 'Nylon',
+    10 => 'Plain',
+    11 => 'Plastic',
+    12 => 'Stainless Steel',
+    13 => 'Steel',
+    14 => 'Yellow Zinc',
+    15 => 'Zinc Aluminum Alloy',
+    16 => 'Zinc Plated',
+  ),
+) ?>

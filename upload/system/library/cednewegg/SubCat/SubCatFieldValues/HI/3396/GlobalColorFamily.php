@@ -1,0 +1,25 @@
+<?php return array (
+  'SubcategoryID' => 3396,
+  'SubcategoryName' => 'HIThermostats',
+  'PropertyName' => 'GlobalColorFamily',
+  'IsAdvancedSearch' => 0,
+  'IsGroupBy' => 0,
+  'IsRequired' => 0,
+  'PropertyValueList' => 
+  array (
+    0 => 'Black',
+    1 => 'Blue',
+    2 => 'Brown',
+    3 => 'Gold',
+    4 => 'Gray',
+    5 => 'Green',
+    6 => 'Metallic',
+    7 => 'Multi-Color',
+    8 => 'Orange',
+    9 => 'Pink',
+    10 => 'Purple',
+    11 => 'Red',
+    12 => 'White',
+    13 => 'Yellow',
+  ),
+) ?>

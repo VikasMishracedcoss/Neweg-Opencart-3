@@ -1,0 +1,27 @@
+<?php return array (
+  'SubcategoryID' => 70,
+  'SubcategoryName' => 'HeadphonesandAccessories',
+  'PropertyName' => 'HeadsetType',
+  'IsAdvancedSearch' => 1,
+  'IsGroupBy' => 0,
+  'IsRequired' => 0,
+  'PropertyValueList' => 
+  array (
+    0 => 'Accessories',
+    1 => 'Audio/Video',
+    2 => 'Behind the Neck',
+    3 => 'Earbud',
+    4 => 'General',
+    5 => 'Headphone',
+    6 => 'Headset',
+    7 => 'Headset Ear Cushions',
+    8 => 'In-Ear',
+    9 => 'Monitor Headphone',
+    10 => 'Noise Cancelling',
+    11 => 'On-Ear',
+    12 => 'Over the Ear',
+    13 => 'Sport',
+    14 => 'Stereo / DJ',
+    15 => 'Wireless',
+  ),
+) ?>

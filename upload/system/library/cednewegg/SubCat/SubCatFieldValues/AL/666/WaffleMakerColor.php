@@ -1,0 +1,25 @@
+<?php return array (
+  'SubcategoryID' => 666,
+  'SubcategoryName' => 'WafflesGriddlesPizzelles',
+  'PropertyName' => 'WaffleMakerColor',
+  'IsAdvancedSearch' => 0,
+  'IsGroupBy' => 1,
+  'IsRequired' => 0,
+  'PropertyValueList' => 
+  array (
+    0 => 'Aluminum',
+    1 => 'Aqua',
+    2 => 'Black',
+    3 => 'Blue',
+    4 => 'Chrome',
+    5 => 'Chrome & White',
+    6 => 'Gray',
+    7 => 'Pink',
+    8 => 'Red',
+    9 => 'Silver',
+    10 => 'Stainless Steel',
+    11 => 'White',
+    12 => 'White/Black',
+    13 => 'Yellow',
+  ),
+) ?>

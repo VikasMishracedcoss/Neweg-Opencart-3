@@ -1,0 +1,26 @@
+<?php return array (
+  'SubcategoryID' => 3353,
+  'SubcategoryName' => 'OSCashHandling',
+  'PropertyName' => 'OFSGroupOption',
+  'IsAdvancedSearch' => 0,
+  'IsGroupBy' => 1,
+  'IsRequired' => 0,
+  'PropertyValueList' => 
+  array (
+    0 => 'Bluetooth Android/Windows',
+    1 => 'Bluetooth iOS',
+    2 => 'Bond Box',
+    3 => 'CITIZEN PRINTER INTERFACE',
+    4 => 'EPSON PRINTER INTERFACE',
+    5 => 'Ethernet',
+    6 => 'ITHACA PRINTER INTERFACE',
+    7 => 'No cable',
+    8 => 'No Scanner',
+    9 => 'Painted Front',
+    10 => 'Printer Driven',
+    11 => 'Stainless Front',
+    12 => 'STAR PRINTER INTERFACE',
+    13 => 'w/ Scanner',
+    14 => 'W/Cash Tray',
+  ),
+) ?>

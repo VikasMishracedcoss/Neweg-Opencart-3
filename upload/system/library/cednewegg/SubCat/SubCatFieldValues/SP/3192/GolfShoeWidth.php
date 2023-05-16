@@ -1,0 +1,27 @@
+<?php return array (
+  'SubcategoryID' => 3192,
+  'SubcategoryName' => 'GolfShoes',
+  'PropertyName' => 'GolfShoeWidth',
+  'IsAdvancedSearch' => 1,
+  'IsGroupBy' => 0,
+  'IsRequired' => 0,
+  'PropertyValueList' => 
+  array (
+    0 => '2E',
+    1 => 'Extra Extra Wide (6E)',
+    2 => 'Extra Narrow (A+)',
+    3 => 'Extra Narrow (AAA+)',
+    4 => 'Extra Wide',
+    5 => 'Extra Wide (4E)',
+    6 => 'Extra Wide (E+)',
+    7 => 'Medium',
+    8 => 'Medium (B, M)',
+    9 => 'Medium (D, M)',
+    10 => 'Narrow',
+    11 => 'Narrow (AA, N)',
+    12 => 'Narrow (C, B)',
+    13 => 'Wide',
+    14 => 'Wide (2E)',
+    15 => 'Wide (C, D)',
+  ),
+) ?>

@@ -1,0 +1,127 @@
+{{ header }}{{ column_left }}
+<div id="content">
+    <div class="page-header">
+        <div class="container-fluid">
+            <div class="pull-right">
+                <button id="save_button" type="submit" form="form-product" data-toggle="tooltip"
+                        title="{{ button_save }}" class="btn btn-primary"><i class="fa fa-save"></i></button>
+                <a href="{{ cancel }}" data-toggle="tooltip" title="{{ button_cancel }}"
+                   class="btn btn-default"><i class="fa fa-reply"></i></a></div>
+            <h1>{{ heading_title }}</h1>
+            <ul class="breadcrumb">
+                {% for breadcrumb in breadcrumbs %}
+                    <li><a href="{{ breadcrumb['href'] }}">{{ breadcrumb['text'] }}</a></li>
+                {% endfor %}
+            </ul>
+        </div>
+    </div>
+    <div class="container-fluid">
+        {% if (error_warning) %}
+            <div class="alert alert-danger"><i class="fa fa-exclamation-circle"></i> {{ error_warning }}
+                <button type="button" class="close" data-dismiss="alert">&times;</button>
+            </div>
+        {% endif %}
+        <div class="panel panel-default">
+            <div class="panel-heading">
+                <h3 class="panel-title"><i class="fa fa-pencil"></i> {{ text_form }}</h3>
+            </div>
+            <div class="panel-body">
+                <form action="{{ jet_edit_action }}" method="post" enctype="multipart/form-data"
+                      id="form-product" class="form-horizontal">
+                    <div class="tab-content">
+                        <div class="" id="tab-product-attributes">
+                            {% if (attributes is not empty) %}
+                                {% for key,attribute in attributes %}
+                                    {% if (attribute_values[key]['value'] is defined) %}
+                                        {% set value = attribute_values[key]['value'] %}
+                                    {% else %}
+                                        {% set value = '' %}
+                                    {% endif %}
+
+                                    <div class="form-group">
+                                        <label class="col-sm-2 control-label"
+                                               for="input-title">{{ attribute['label'] }}</label>
+                                        <div class="col-sm-10">
+                                            {% if (attribute['option_values'] is defined and attribute['option_values'] is not empty) %}
+                                                <select name="attribute_values[{{ key }}][value]" class="form-control">
+                                                    <option></option>
+                                                    {% for opt_key,opt_value in attribute['option_values'] %}
+                                                        {% if (opt_key == value) %}
+                                                            <option value="{{ opt_key }}" selected="selected">{{ opt_value }}</option>
+                                                        {% else %}
+                                                            <option value="{{ opt_key }}">{{ opt_value }}</option>
+                                                        {% endif %}
+                                                    {% endfor %}
+                                                </select>
+
+                                            {% else %}
+                                                <input type="text" value="{{ value }}" class="form-control" name="attribute_values[{{ key }}][value]" placeholder="Enter {{ attribute['label'] }}" >
+
+                                            {% endif %}
+                                        </div>
+                                    </div>
+                                {% endfor %}
+                            {% endif %}
+                        </div>
+                        <input type="hidden" id="profile_id" value="{{ profile_id }}" name="profile_id" >
+                        <input type="hidden" id="product_id" value="{{ product_id }}" name="product_id" >
+                        <input type="hidden" id="id" value="{{ product_id }}" name="id" >
+                    </div>
+                </form>
+            </div>
+        </div>
+
+
+    </div>
+    </form>
+</div>
+<div id="overlay">
+    <div id="text"> LOADING.....</div>
+</div>
+
+<style type="text/css">
+    #overlay {
+        position: fixed;
+        display: none;
+        width: 100%;
+        height: 100%;
+        top: 0;
+        left: 0;
+        right: 0;
+        bottom: 0;
+        background-color: rgba(0,0,0,0.5);
+        z-index: 2;
+        cursor: pointer;
+    }
+    #text{
+        position: absolute;
+        top: 50%;
+        left: 50%;
+        font-size: 50px;
+        color: white;
+        transform: translate(-50%,-50%);
+        -ms-transform: translate(-50%,-50%);
+    }
+    .required {
+        color: red;
+        font-weight: bold;
+    }
+
+    .option_input{
+        margin: 5px 14px 0 0;
+        width: 40%;
+        border: 1px solid #cccccc;
+        background-color: #ffffff;
+        border-radius: 3px;
+        color: #555555;
+        height: 35px;
+        margin-bottom: 15px;
+        line-height: 1.42857143;
+        padding: 8px 13px;
+        font-size: 12px;
+    }
+</style>
+<script>
+
+</script>
+{{ footer }}

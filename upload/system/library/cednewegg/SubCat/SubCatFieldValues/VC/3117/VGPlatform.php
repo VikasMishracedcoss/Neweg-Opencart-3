@@ -1,0 +1,26 @@
+<?php return array (
+  'SubcategoryID' => 3117,
+  'SubcategoryName' => 'PS4VideoGames',
+  'PropertyName' => 'VGPlatform',
+  'IsAdvancedSearch' => 0,
+  'IsGroupBy' => 0,
+  'IsRequired' => 0,
+  'PropertyValueList' => 
+  array (
+    0 => 'Game Cube',
+    1 => 'GameBoy Advance',
+    2 => 'Nintendo 3DS',
+    3 => 'Nintendo DS',
+    4 => 'Nintendo Wii',
+    5 => 'Nintendo Wii U',
+    6 => 'PC',
+    7 => 'PlayStation 2 (PS2)',
+    8 => 'PlayStation 3 (PS3)',
+    9 => 'PlayStation 4 (PS4)',
+    10 => 'PlayStation Portable (PSP)',
+    11 => 'PlayStation Vita (PS Vita)',
+    12 => 'XBOX',
+    13 => 'Xbox 360',
+    14 => 'Xbox One',
+  ),
+) ?>

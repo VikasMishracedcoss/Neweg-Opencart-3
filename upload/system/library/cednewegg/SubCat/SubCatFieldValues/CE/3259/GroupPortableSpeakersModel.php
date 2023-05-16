@@ -1,0 +1,26 @@
+<?php return array (
+  'SubcategoryID' => 3259,
+  'SubcategoryName' => 'PortableSpeakers',
+  'PropertyName' => 'GroupPortableSpeakersModel',
+  'IsAdvancedSearch' => 0,
+  'IsGroupBy' => 1,
+  'IsRequired' => 0,
+  'PropertyValueList' => 
+  array (
+    0 => 'Chant BT',
+    1 => 'Cruiser',
+    2 => 'Liberate BT',
+    3 => 'Mini',
+    4 => 'N/A',
+    5 => 'Riva S',
+    6 => 'Soundlink Mini',
+    7 => 'SoundLink Mini II-Carbon',
+    8 => 'SoundLink Mini II-Pearl',
+    9 => 'Soundlink Mobile',
+    10 => 'Soundlink Speaker III',
+    11 => 'Swimmer',
+    12 => 'Swimmer DUO',
+    13 => 'Swimmer Jr.',
+    14 => 'Turbo X',
+  ),
+) ?>

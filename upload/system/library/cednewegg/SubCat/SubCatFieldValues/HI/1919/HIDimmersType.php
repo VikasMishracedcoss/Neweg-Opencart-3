@@ -1,0 +1,26 @@
+<?php return array (
+  'SubcategoryID' => 1919,
+  'SubcategoryName' => 'HILightFanSwitches',
+  'PropertyName' => 'HIDimmersType',
+  'IsAdvancedSearch' => 1,
+  'IsGroupBy' => 0,
+  'IsRequired' => 0,
+  'PropertyValueList' => 
+  array (
+    0 => 'Dimmer Switch',
+    1 => 'Door Safety Limit Switches',
+    2 => 'Fan Control Switches',
+    3 => 'General Purpose Limit Switches',
+    4 => 'Light Switch',
+    5 => 'Lighting Control System Accessories',
+    6 => 'Lighting Control System Components',
+    7 => 'Lighting Control System Sensors',
+    8 => 'Limit Switch Accessories',
+    9 => 'Motion Sensor Accessories',
+    10 => 'Motion Sensors',
+    11 => 'Occupancy Sensors',
+    12 => 'Rope Operated Limit Switches',
+    13 => 'Safety Limit Switches',
+    14 => 'Time Controlled Switches',
+  ),
+) ?>

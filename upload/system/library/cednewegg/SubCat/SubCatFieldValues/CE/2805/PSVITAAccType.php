@@ -1,0 +1,25 @@
+<?php return array (
+  'SubcategoryID' => 2805,
+  'SubcategoryName' => 'PSVitaAccessories',
+  'PropertyName' => 'PSVITAAccType',
+  'IsAdvancedSearch' => 1,
+  'IsGroupBy' => 0,
+  'IsRequired' => 0,
+  'PropertyValueList' => 
+  array (
+    0 => 'Adapter',
+    1 => 'Cable',
+    2 => 'Case',
+    3 => 'Charger',
+    4 => 'Cradle',
+    5 => 'Hand Grip',
+    6 => 'Headset',
+    7 => 'Memory Card',
+    8 => 'Protector',
+    9 => 'Screen Filter',
+    10 => 'Starter Kit',
+    11 => 'Thumb Grips',
+    12 => 'Touch Pen',
+    13 => 'Travel Pouch',
+  ),
+) ?>

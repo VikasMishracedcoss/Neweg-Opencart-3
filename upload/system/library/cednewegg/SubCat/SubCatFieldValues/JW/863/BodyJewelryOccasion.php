@@ -1,0 +1,28 @@
+<?php return array (
+  'SubcategoryID' => 863,
+  'SubcategoryName' => 'BodyJewelry',
+  'PropertyName' => 'BodyJewelryOccasion',
+  'IsAdvancedSearch' => 1,
+  'IsGroupBy' => 0,
+  'IsRequired' => 0,
+  'PropertyValueList' => 
+  array (
+    0 => 'Anniversary',
+    1 => 'Birthday',
+    2 => 'Christmas',
+    3 => 'Communion',
+    4 => 'Congratulations',
+    5 => 'Father\'s Day',
+    6 => 'Graduation',
+    7 => 'Hanukkah',
+    8 => 'Holiday',
+    9 => 'Mother\'s Day',
+    10 => 'New Baby',
+    11 => 'Party',
+    12 => 'Prom',
+    13 => 'Quinceanera',
+    14 => 'Seasonal',
+    15 => 'Valentine\'s Day',
+    16 => 'Wedding',
+  ),
+) ?>

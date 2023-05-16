@@ -1,0 +1,28 @@
+<?php return array (
+  'SubcategoryID' => 3196,
+  'SubcategoryName' => 'GolfDrivers',
+  'PropertyName' => 'GolfDriverFlex',
+  'IsAdvancedSearch' => 1,
+  'IsGroupBy' => 1,
+  'IsRequired' => 0,
+  'PropertyValueList' => 
+  array (
+    0 => '10',
+    1 => '14.5',
+    2 => '15',
+    3 => '6.0',
+    4 => '6.5',
+    5 => '9.0',
+    6 => 'Adjustable Loft',
+    7 => 'Extra Stiff',
+    8 => 'Female',
+    9 => 'Firm',
+    10 => 'Ladies',
+    11 => 'Lite',
+    12 => 'Regular',
+    13 => 'Senior',
+    14 => 'Soft Regular',
+    15 => 'Stiff',
+    16 => 'Uniflex',
+  ),
+) ?>

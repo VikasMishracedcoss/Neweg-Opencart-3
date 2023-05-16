@@ -1,0 +1,27 @@
+<?php return array (
+  'SubcategoryID' => 38,
+  'SubcategoryName' => 'PrinterInkjetPrinters',
+  'PropertyName' => 'PrinterRecommendedUse',
+  'IsAdvancedSearch' => 1,
+  'IsGroupBy' => 0,
+  'IsRequired' => 0,
+  'PropertyValueList' => 
+  array (
+    0 => 'Bar Code',
+    1 => 'Card',
+    2 => 'CD / DVD',
+    3 => 'Copier',
+    4 => 'DesignJet',
+    5 => 'Label',
+    6 => 'Large Format',
+    7 => 'Line',
+    8 => 'MFC / All-In-One',
+    9 => 'MFP',
+    10 => 'Mobile',
+    11 => 'Personal',
+    12 => 'Photo',
+    13 => 'POS',
+    14 => 'Typewriter',
+    15 => 'Workgroup',
+  ),
+) ?>

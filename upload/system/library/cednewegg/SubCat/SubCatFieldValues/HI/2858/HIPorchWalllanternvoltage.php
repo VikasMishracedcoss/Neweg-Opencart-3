@@ -1,0 +1,13 @@
+<?php return array (
+  'SubcategoryID' => 2858,
+  'SubcategoryName' => 'HIOutdoorPorchWallLanterns',
+  'PropertyName' => 'HIPorchWalllanternvoltage',
+  'IsAdvancedSearch' => 0,
+  'IsGroupBy' => 0,
+  'IsRequired' => 0,
+  'PropertyValueList' => 
+  array (
+    0 => '120V',
+    1 => '12V',
+  ),
+) ?>

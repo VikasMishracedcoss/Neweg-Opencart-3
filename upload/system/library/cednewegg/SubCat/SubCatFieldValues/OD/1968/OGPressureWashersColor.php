@@ -1,0 +1,25 @@
+<?php return array (
+  'SubcategoryID' => 1968,
+  'SubcategoryName' => 'OGPressureWashers',
+  'PropertyName' => 'OGPressureWashersColor',
+  'IsAdvancedSearch' => 0,
+  'IsGroupBy' => 1,
+  'IsRequired' => 0,
+  'PropertyValueList' => 
+  array (
+    0 => 'Blue',
+    1 => 'Dark Brushed Bronze',
+    2 => 'Detergent',
+    3 => 'Gas Powered',
+    4 => 'Hose',
+    5 => 'Kit',
+    6 => 'Lance',
+    7 => 'Nozzle',
+    8 => 'Red',
+    9 => 'Spray Gun',
+    10 => 'Spray Nozzle',
+    11 => 'Spray Tip',
+    12 => 'Tip',
+    13 => 'Valve',
+  ),
+) ?>

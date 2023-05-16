@@ -1,0 +1,26 @@
+<?php return array (
+  'SubcategoryID' => 798,
+  'SubcategoryName' => 'LEDTV',
+  'PropertyName' => 'LEDTVColor',
+  'IsAdvancedSearch' => 0,
+  'IsGroupBy' => 1,
+  'IsRequired' => 0,
+  'PropertyValueList' => 
+  array (
+    0 => 'Black',
+    1 => 'Brushed Aluminum',
+    2 => 'Charcoal Black',
+    3 => 'Glossy Black',
+    4 => 'Gray',
+    5 => 'High Gloss Black',
+    6 => 'Metal',
+    7 => 'N/A',
+    8 => 'Piano Black',
+    9 => 'Red',
+    10 => 'Silver',
+    11 => 'Stone Black',
+    12 => 'Titanium',
+    13 => 'White',
+    14 => 'Wood Grain',
+  ),
+) ?>

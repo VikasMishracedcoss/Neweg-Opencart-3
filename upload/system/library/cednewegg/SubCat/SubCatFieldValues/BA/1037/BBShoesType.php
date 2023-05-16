@@ -1,0 +1,28 @@
+<?php return array (
+  'SubcategoryID' => 1037,
+  'SubcategoryName' => 'BabyShoes',
+  'PropertyName' => 'BBShoesType',
+  'IsAdvancedSearch' => 1,
+  'IsGroupBy' => 0,
+  'IsRequired' => 0,
+  'PropertyValueList' => 
+  array (
+    0 => 'Athletic & Outdoor',
+    1 => 'Boat Shoes & Moccasins',
+    2 => 'Booties',
+    3 => 'Boots',
+    4 => 'Clogs',
+    5 => 'Espadrilles',
+    6 => 'Flats',
+    7 => 'Loafers & Oxfords',
+    8 => 'Other',
+    9 => 'Pumps',
+    10 => 'Sandals & Flip-Flops',
+    11 => 'Slides & Slip-Ons',
+    12 => 'Slippers & House Shoes',
+    13 => 'Sneakers',
+    14 => 'Soft-Soled Shoes',
+    15 => 'Walking Shoes',
+    16 => 'Wedding & Formal',
+  ),
+) ?>

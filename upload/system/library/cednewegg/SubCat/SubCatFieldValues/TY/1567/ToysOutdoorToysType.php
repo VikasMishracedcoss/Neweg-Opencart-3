@@ -1,0 +1,28 @@
+<?php return array (
+  'SubcategoryID' => 1567,
+  'SubcategoryName' => 'ToysOutdoorToys',
+  'PropertyName' => 'ToysOutdoorToysType',
+  'IsAdvancedSearch' => 1,
+  'IsGroupBy' => 0,
+  'IsRequired' => 0,
+  'PropertyValueList' => 
+  array (
+    0 => 'Balls',
+    1 => 'Bicycles',
+    2 => 'Bodyboards & Kneeboards',
+    3 => 'Diving Rings & Toys',
+    4 => 'Inner Tubes',
+    5 => 'Jump Ropes',
+    6 => 'Pogo Sticks',
+    7 => 'Rafts & Riders',
+    8 => 'Ride-Ons',
+    9 => 'Scooters',
+    10 => 'Skates',
+    11 => 'Sprinklers & Water Slides',
+    12 => 'Stilts',
+    13 => 'Trampolines & Bouncers',
+    14 => 'Tricycles',
+    15 => 'Water Balloons',
+    16 => 'Water Blasters',
+  ),
+) ?>

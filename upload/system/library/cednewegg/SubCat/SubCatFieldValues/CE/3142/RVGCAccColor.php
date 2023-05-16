@@ -1,0 +1,27 @@
+<?php return array (
+  'SubcategoryID' => 3142,
+  'SubcategoryName' => 'RetroVideoGameAccessories',
+  'PropertyName' => 'RVGCAccColor',
+  'IsAdvancedSearch' => 0,
+  'IsGroupBy' => 1,
+  'IsRequired' => 0,
+  'PropertyValueList' => 
+  array (
+    0 => 'Atomic Purple',
+    1 => 'Black',
+    2 => 'Blue',
+    3 => 'Clear',
+    4 => 'Cyanine',
+    5 => 'Fire',
+    6 => 'Gold',
+    7 => 'Gray',
+    8 => 'Green',
+    9 => 'Pink',
+    10 => 'Red',
+    11 => 'Silver',
+    12 => 'Turquoise',
+    13 => 'Watermelon',
+    14 => 'White',
+    15 => 'Yellow',
+  ),
+) ?>

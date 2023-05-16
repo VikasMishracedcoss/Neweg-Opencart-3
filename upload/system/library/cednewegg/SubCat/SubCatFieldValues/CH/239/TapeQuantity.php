@@ -1,0 +1,25 @@
+<?php return array (
+  'SubcategoryID' => 239,
+  'SubcategoryName' => 'AccessoriesStorageDevicesTapeZip',
+  'PropertyName' => 'TapeQuantity',
+  'IsAdvancedSearch' => 1,
+  'IsGroupBy' => 0,
+  'IsRequired' => 0,
+  'PropertyValueList' => 
+  array (
+    0 => '1 Pack',
+    1 => '10 Packs',
+    2 => '100 Pack',
+    3 => '2 Packs',
+    4 => '20 Packs',
+    5 => '3 Packs',
+    6 => '30 Packs',
+    7 => '4 Packs',
+    8 => '5 Packs',
+    9 => '50 Packs',
+    10 => '6 Packs',
+    11 => '7 Packs',
+    12 => '8 Packs',
+    13 => '9 Pack',
+  ),
+) ?>

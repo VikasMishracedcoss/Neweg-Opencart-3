@@ -1,0 +1,28 @@
+<?php return array (
+  'SubcategoryID' => 3317,
+  'SubcategoryName' => 'Printmaking',
+  'PropertyName' => 'PrintmakingType',
+  'IsAdvancedSearch' => 1,
+  'IsGroupBy' => 0,
+  'IsRequired' => 1,
+  'PropertyValueList' => 
+  array (
+    0 => 'Backdrops',
+    1 => 'Engraving Tools',
+    2 => 'Film Cutting Tools',
+    3 => 'Hand Coloring & Spotting',
+    4 => 'Heat Guns and Drying Guns',
+    5 => 'Lightboxes',
+    6 => 'Linoleum Cutters',
+    7 => 'Photo Coloring',
+    8 => 'Photo Enhanced Paper',
+    9 => 'Printing Presses',
+    10 => 'Printmaking Accessories',
+    11 => 'Printmaking Inks',
+    12 => 'Printmaking Plates',
+    13 => 'Screen Printing Frames & Screens',
+    14 => 'Solutions & Chemicals',
+    15 => 'Stamps',
+    16 => 'Transfer Kits',
+  ),
+) ?>

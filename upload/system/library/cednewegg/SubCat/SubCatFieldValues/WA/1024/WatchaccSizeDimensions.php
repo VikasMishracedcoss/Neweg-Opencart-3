@@ -1,0 +1,28 @@
+<?php return array (
+  'SubcategoryID' => 1024,
+  'SubcategoryName' => 'WatchAccessories',
+  'PropertyName' => 'WatchaccSizeDimensions',
+  'IsAdvancedSearch' => 0,
+  'IsGroupBy' => 1,
+  'IsRequired' => 0,
+  'PropertyValueList' => 
+  array (
+    0 => '10mm',
+    1 => '12mm',
+    2 => '14mm',
+    3 => '16mm',
+    4 => '177 x 139 x 28mm',
+    5 => '18mm',
+    6 => '19mm',
+    7 => '20mm',
+    8 => '21mm',
+    9 => '22mm',
+    10 => '24mm',
+    11 => '26mm',
+    12 => '28mm',
+    13 => '31x10x8cm',
+    14 => '38mm',
+    15 => '42mm',
+    16 => '7 x 2.5 x 3.5 inches',
+  ),
+) ?>

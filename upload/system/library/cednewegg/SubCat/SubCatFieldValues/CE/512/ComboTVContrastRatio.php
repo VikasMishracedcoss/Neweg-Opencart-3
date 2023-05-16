@@ -1,0 +1,28 @@
+<?php return array (
+  'SubcategoryID' => 512,
+  'SubcategoryName' => 'TVCombo',
+  'PropertyName' => 'ComboTVContrastRatio',
+  'IsAdvancedSearch' => 0,
+  'IsGroupBy' => 0,
+  'IsRequired' => 0,
+  'PropertyValueList' => 
+  array (
+    0 => '1000:1',
+    1 => '1200:1',
+    2 => '1300:1',
+    3 => '1500:1',
+    4 => '2500:1',
+    5 => '300:1',
+    6 => '3000:1',
+    7 => '400:1',
+    8 => '4000:1',
+    9 => '450:1',
+    10 => '500:1',
+    11 => '5000:1',
+    12 => '550:1',
+    13 => '600:1',
+    14 => '700:1',
+    15 => '800:1',
+    16 => '900:1',
+  ),
+) ?>

@@ -1,0 +1,27 @@
+<?php return array (
+  'SubcategoryID' => 718,
+  'SubcategoryName' => 'AirConditioners',
+  'PropertyName' => 'AirConditionerdBALevel',
+  'IsAdvancedSearch' => 1,
+  'IsGroupBy' => 0,
+  'IsRequired' => 0,
+  'PropertyValueList' => 
+  array (
+    0 => '46 dB',
+    1 => '49 dB',
+    2 => '51 dB',
+    3 => '52 dB',
+    4 => '53 dB',
+    5 => '54 dB',
+    6 => '55 dB',
+    7 => '56 dB',
+    8 => '57 dB',
+    9 => '58 dB',
+    10 => '59 dB',
+    11 => '61 dB',
+    12 => '62 dB',
+    13 => '63 dB',
+    14 => '64 dB',
+    15 => '65 dB',
+  ),
+) ?>

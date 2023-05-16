@@ -1,0 +1,25 @@
+<?php return array (
+  'SubcategoryID' => 1891,
+  'SubcategoryName' => 'OGHoses',
+  'PropertyName' => 'OGHosesBrand',
+  'IsAdvancedSearch' => 0,
+  'IsGroupBy' => 0,
+  'IsRequired' => 0,
+  'PropertyValueList' => 
+  array (
+    0 => 'Big Boss',
+    1 => 'Colorite/Swan',
+    2 => 'Dramm',
+    3 => 'Emson',
+    4 => 'Gilmour',
+    5 => 'Legacy Manufacturing',
+    6 => 'Lewis',
+    7 => 'Nelson',
+    8 => 'Orbit',
+    9 => 'Rain Bird',
+    10 => 'Raindrip',
+    11 => 'Ray Padula',
+    12 => 'Riverstone',
+    13 => 'Teknor Apex',
+  ),
+) ?>

@@ -1,0 +1,26 @@
+<?php return array (
+  'SubcategoryID' => 2959,
+  'SubcategoryName' => 'CellPhoneUnlockedCellPhones',
+  'PropertyName' => 'MWMobileFrequencies',
+  'IsAdvancedSearch' => 0,
+  'IsGroupBy' => 0,
+  'IsRequired' => 0,
+  'PropertyValueList' => 
+  array (
+    0 => 'CDMA 800 / 1700 / 1900 / 2100 MHz',
+    1 => 'CDMA 800 / 1900 / 2100 MHz',
+    2 => 'CDMA 800 / 1900 MHz',
+    3 => 'CDMA 850 / 1700 / 1900 MHz',
+    4 => 'CDMA2000 800 / 1900 MHz',
+    5 => 'GSM 800 / 1800 / 1900 MHz',
+    6 => 'GSM 850 / 1800 / 1900 MHz',
+    7 => 'GSM 850 / 1800 MHz',
+    8 => 'GSM 850 / 1900 MHz',
+    9 => 'GSM 850 / 900 / 1800 / 1900 MHz',
+    10 => 'GSM 850 / 900 / 1900 MHz',
+    11 => 'GSM 900 / 1800 / 1900 MHz',
+    12 => 'GSM 900 / 1800 MHz',
+    13 => 'Radio:Stereo FM radio with RDS',
+    14 => 'WCDMA | GSM (900 / 1800 / 1900 MHz )',
+  ),
+) ?>

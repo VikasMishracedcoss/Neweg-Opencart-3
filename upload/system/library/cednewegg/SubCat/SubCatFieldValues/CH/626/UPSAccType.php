@@ -1,0 +1,28 @@
+<?php return array (
+  'SubcategoryID' => 626,
+  'SubcategoryName' => 'UPSAccessories',
+  'PropertyName' => 'UPSAccType',
+  'IsAdvancedSearch' => 0,
+  'IsGroupBy' => 0,
+  'IsRequired' => 0,
+  'PropertyValueList' => 
+  array (
+    0 => 'Battery',
+    1 => 'Battery Enclosure',
+    2 => 'Cable',
+    3 => 'Expansion Card',
+    4 => 'Filter',
+    5 => 'Frame Rack',
+    6 => 'Interface Expanders',
+    7 => 'Kit',
+    8 => 'Line Conditioner',
+    9 => 'Module',
+    10 => 'Other',
+    11 => 'Panel',
+    12 => 'Rack Cabinet',
+    13 => 'Rackmount',
+    14 => 'Refresher Kit',
+    15 => 'Stand',
+    16 => 'Switch',
+  ),
+) ?>

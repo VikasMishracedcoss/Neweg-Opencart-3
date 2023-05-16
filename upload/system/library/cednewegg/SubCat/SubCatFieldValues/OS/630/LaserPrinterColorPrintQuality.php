@@ -1,0 +1,26 @@
+<?php return array (
+  'SubcategoryID' => 630,
+  'SubcategoryName' => 'PrinterLaserPrinters',
+  'PropertyName' => 'LaserPrinterColorPrintQuality',
+  'IsAdvancedSearch' => 0,
+  'IsGroupBy' => 0,
+  'IsRequired' => 0,
+  'PropertyValueList' => 
+  array (
+    0 => '1200 dpi',
+    1 => '1200 x 1200 dpi',
+    2 => '1200 x 2400 dpi',
+    3 => '1200 x 600 dpi',
+    4 => '1800 x 600 dpi',
+    5 => '2400 dpi',
+    6 => '2400 x 1200 dpi',
+    7 => '2400 x 600 dpi',
+    8 => '3600 x 1200 dpi',
+    9 => '400 x 600 dpi',
+    10 => '4800 dpi',
+    11 => '4800 x 1200 dpi',
+    12 => '600 x 2400 dpi',
+    13 => '600 x 600 dpi',
+    14 => '9600 x 600 dpi',
+  ),
+) ?>

@@ -1,0 +1,27 @@
+<?php return array (
+  'SubcategoryID' => 3046,
+  'SubcategoryName' => 'AudioVideoConverters',
+  'PropertyName' => 'GroupADPTCHNGEROutput',
+  'IsAdvancedSearch' => 0,
+  'IsGroupBy' => 1,
+  'IsRequired' => 0,
+  'PropertyValueList' => 
+  array (
+    0 => '2 Ports',
+    1 => '3 Ports',
+    2 => '4 Ports',
+    3 => 'DisplayPort - DVI - HDMI (Black)',
+    4 => 'DisplayPort - DVI - VGA (Black)',
+    5 => 'HDMI (Active)',
+    6 => 'HDMI - 3 Port',
+    7 => 'Micro HDMI to VGA',
+    8 => 'Micro HDMI to VGA w/ Audio',
+    9 => 'Mini HDMI to VGA',
+    10 => 'n/a',
+    11 => 'VGA - DVI - HDMI (Aluminum)',
+    12 => 'VGA - DVI - HDMI (Black)',
+    13 => 'VGA - DVI - HDMI (White)',
+    14 => 'VGA - HDMI (Black)',
+    15 => 'VGA - HDMI (White)',
+  ),
+) ?>

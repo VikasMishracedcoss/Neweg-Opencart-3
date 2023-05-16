@@ -1,0 +1,25 @@
+<?php return array (
+  'SubcategoryID' => 759,
+  'SubcategoryName' => 'ProcessorsMobile',
+  'PropertyName' => 'MobileCPUThermalDesignPower',
+  'IsAdvancedSearch' => 1,
+  'IsGroupBy' => 0,
+  'IsRequired' => 0,
+  'PropertyValueList' => 
+  array (
+    0 => '15W',
+    1 => '21W',
+    2 => '25W',
+    3 => '27-31W',
+    4 => '27W',
+    5 => '28W',
+    6 => '31W',
+    7 => '33W',
+    8 => '34W',
+    9 => '35W',
+    10 => '45W',
+    11 => '47W',
+    12 => '55W',
+    13 => '8W',
+  ),
+) ?>

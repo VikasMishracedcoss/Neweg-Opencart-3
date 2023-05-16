@@ -1,0 +1,25 @@
+<?php return array (
+  'SubcategoryID' => 28,
+  'SubcategoryName' => 'NetworkRoutersRemote',
+  'PropertyName' => 'RTRMWANPorts',
+  'IsAdvancedSearch' => 1,
+  'IsGroupBy' => 0,
+  'IsRequired' => 0,
+  'PropertyValueList' => 
+  array (
+    0 => '1 x 10/100/1000Mbps',
+    1 => '1 x 10/100Mbps',
+    2 => '1 x 10/100Mbps, 1 x COM',
+    3 => '1 x 10Mbps',
+    4 => '1 x RJ11',
+    5 => '1 x RJ45',
+    6 => '2 x 10/100/1000Mbps',
+    7 => '2 x 10/100Mbps',
+    8 => '2 x 10Mbps',
+    9 => '3 x 10/100/1000Mbps',
+    10 => '4 x 10/100Mbps',
+    11 => '5 x 10/100Mbps',
+    12 => 'DOCSIS 2.0',
+    13 => 'T1 WAN',
+  ),
+) ?>

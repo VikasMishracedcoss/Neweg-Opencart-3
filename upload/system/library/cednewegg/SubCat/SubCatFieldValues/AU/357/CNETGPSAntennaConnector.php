@@ -1,0 +1,16 @@
+<?php return array (
+  'SubcategoryID' => 357,
+  'SubcategoryName' => 'GPSNavigation',
+  'PropertyName' => 'CNETGPSAntennaConnector',
+  'IsAdvancedSearch' => 0,
+  'IsGroupBy' => 0,
+  'IsRequired' => 0,
+  'PropertyValueList' => 
+  array (
+    0 => 'BNC',
+    1 => 'MCX',
+    2 => 'MCX/SMC/MMCX',
+    3 => 'MMCX',
+    4 => 'Yes',
+  ),
+) ?>

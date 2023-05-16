@@ -1,0 +1,25 @@
+<?php return array (
+  'SubcategoryID' => 727,
+  'SubcategoryName' => 'ProcessorsServer',
+  'PropertyName' => 'ServerCPUHyperTransports',
+  'IsAdvancedSearch' => 1,
+  'IsGroupBy' => 0,
+  'IsRequired' => 0,
+  'PropertyValueList' => 
+  array (
+    0 => '1 GT/s',
+    1 => '1000 MHz',
+    2 => '1600 MHz',
+    3 => '2000 MHz',
+    4 => '2200 MHz',
+    5 => '2400 MHz',
+    6 => '2933 MHz',
+    7 => '3200 MHz',
+    8 => '3600 MHz',
+    9 => '4000 MHz',
+    10 => '4800 MHz',
+    11 => '6.40 GT/s',
+    12 => '6400 MHz',
+    13 => '800 MHz',
+  ),
+) ?>

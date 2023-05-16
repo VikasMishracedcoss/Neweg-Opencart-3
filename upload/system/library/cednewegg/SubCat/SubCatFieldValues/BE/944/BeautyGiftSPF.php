@@ -1,0 +1,27 @@
+<?php return array (
+  'SubcategoryID' => 944,
+  'SubcategoryName' => 'BeautyGiftSets',
+  'PropertyName' => 'BeautyGiftSPF',
+  'IsAdvancedSearch' => 1,
+  'IsGroupBy' => 0,
+  'IsRequired' => 0,
+  'PropertyValueList' => 
+  array (
+    0 => '10',
+    1 => '15',
+    2 => '20',
+    3 => '25',
+    4 => '30',
+    5 => '35',
+    6 => '40',
+    7 => '45',
+    8 => '5',
+    9 => '50',
+    10 => '55',
+    11 => '60',
+    12 => '65',
+    13 => '70',
+    14 => '75',
+    15 => 'None',
+  ),
+) ?>

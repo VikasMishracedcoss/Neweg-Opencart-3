@@ -1,0 +1,25 @@
+<?php return array (
+  'SubcategoryID' => 3238,
+  'SubcategoryName' => 'Filament',
+  'PropertyName' => 'FilamentMaterial',
+  'IsAdvancedSearch' => 1,
+  'IsGroupBy' => 0,
+  'IsRequired' => 0,
+  'PropertyValueList' => 
+  array (
+    0 => 'ABS',
+    1 => 'ABS plastic',
+    2 => 'CCT',
+    3 => 'CCU',
+    4 => 'CLN',
+    5 => 'CON',
+    6 => 'HIPS',
+    7 => 'Nylon',
+    8 => 'PETG',
+    9 => 'PLA',
+    10 => 'PLA plastic',
+    11 => 'PVA',
+    12 => 'PVA plastic',
+    13 => 'Wood',
+  ),
+) ?>

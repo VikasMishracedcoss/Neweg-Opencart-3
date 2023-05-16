@@ -1,0 +1,27 @@
+<?php return array (
+  'SubcategoryID' => 3319,
+  'SubcategoryName' => 'FabricCraftsSewingAccessories',
+  'PropertyName' => 'FabricType',
+  'IsAdvancedSearch' => 1,
+  'IsGroupBy' => 0,
+  'IsRequired' => 1,
+  'PropertyValueList' => 
+  array (
+    0 => 'Batting & Foam',
+    1 => 'Charts & Patterns',
+    2 => 'Dress Forms',
+    3 => 'Dyes',
+    4 => 'Embellishments & Notions',
+    5 => 'Fabric',
+    6 => 'Fabric Brushes',
+    7 => 'Fabric Markers',
+    8 => 'Fabric Paints',
+    9 => 'Fiberfill & Pillow Forms',
+    10 => 'Iron-Ons & Appliques',
+    11 => 'Other Accessories',
+    12 => 'Quilting Frames',
+    13 => 'Scissors & Shears',
+    14 => 'Thread',
+    15 => 'Tools',
+  ),
+) ?>

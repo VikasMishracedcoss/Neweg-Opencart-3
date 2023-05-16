@@ -1,0 +1,27 @@
+<?php return array (
+  'SubcategoryID' => 30,
+  'SubcategoryName' => 'NetworkSwitches',
+  'PropertyName' => 'SwitchPrimaryPortSpeed',
+  'IsAdvancedSearch' => 1,
+  'IsGroupBy' => 0,
+  'IsRequired' => 0,
+  'PropertyValueList' => 
+  array (
+    0 => '10 Gigabit',
+    1 => '10/100/1000Mbps',
+    2 => '10/100/1000Mbps + 10 Gigabit',
+    3 => '10/100/1000Mbps + 1000Mbps',
+    4 => '10/100/1000Mbps + 1000Mbps Uplinks',
+    5 => '10/100Mbps',
+    6 => '10/100Mbps + 1000Mbps',
+    7 => '10/100Mbps Ports + 1000Mbps Uplinks',
+    8 => '10/20/100/1000/2000Mbps',
+    9 => '10/20/100/200/1000/2000Mbps',
+    10 => '10/20/100/200/2000Mbps',
+    11 => '10/20/100/200Mbps',
+    12 => '10/20/100/200Mbps + 2000Mbps',
+    13 => '10/20/100/200Mbps Ports + 1000/2000Mbps Uplinks',
+    14 => '10Mbps',
+    15 => '15Mbps',
+  ),
+) ?>

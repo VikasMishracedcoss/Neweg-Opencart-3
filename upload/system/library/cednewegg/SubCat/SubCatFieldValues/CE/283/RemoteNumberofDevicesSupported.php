@@ -1,0 +1,27 @@
+<?php return array (
+  'SubcategoryID' => 283,
+  'SubcategoryName' => 'DigitalMediaRemote',
+  'PropertyName' => 'RemoteNumberofDevicesSupported',
+  'IsAdvancedSearch' => 1,
+  'IsGroupBy' => 0,
+  'IsRequired' => 0,
+  'PropertyValueList' => 
+  array (
+    0 => '1',
+    1 => '10',
+    2 => '12',
+    3 => '15',
+    4 => '16',
+    5 => '18',
+    6 => '20',
+    7 => '3',
+    8 => '4',
+    9 => '40',
+    10 => '48',
+    11 => '5',
+    12 => '6',
+    13 => '7',
+    14 => '8',
+    15 => '9',
+  ),
+) ?>

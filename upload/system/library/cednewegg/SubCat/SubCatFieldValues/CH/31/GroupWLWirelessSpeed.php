@@ -1,0 +1,28 @@
+<?php return array (
+  'SubcategoryID' => 31,
+  'SubcategoryName' => 'NetworkWirelessAdapters',
+  'PropertyName' => 'GroupWLWirelessSpeed',
+  'IsAdvancedSearch' => 0,
+  'IsGroupBy' => 1,
+  'IsRequired' => 0,
+  'PropertyValueList' => 
+  array (
+    0 => '54GL',
+    1 => 'AC1200',
+    2 => 'AC1300',
+    3 => 'AC1300 PCIE',
+    4 => 'AC1750',
+    5 => 'AC1900',
+    6 => 'AC1900 PCIE',
+    7 => 'AC2350',
+    8 => 'AC2600',
+    9 => 'AC3200',
+    10 => 'AC5300',
+    11 => 'AC600',
+    12 => 'N150 PCIE',
+    13 => 'N300 PCI',
+    14 => 'N300 PCIE',
+    15 => 'N600 PCIE',
+    16 => 'N900 PCIE',
+  ),
+) ?>

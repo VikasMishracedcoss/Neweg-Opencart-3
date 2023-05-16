@@ -1,0 +1,26 @@
+<?php return array (
+  'SubcategoryID' => 1881,
+  'SubcategoryName' => 'OGCuttingEdgingPruning',
+  'PropertyName' => 'OGCuttingBladeLength',
+  'IsAdvancedSearch' => 1,
+  'IsGroupBy' => 1,
+  'IsRequired' => 0,
+  'PropertyValueList' => 
+  array (
+    0 => '10"',
+    1 => '11"',
+    2 => '12"',
+    3 => '14"',
+    4 => '16"',
+    5 => '18"',
+    6 => '20"',
+    7 => '22"',
+    8 => '24"',
+    9 => '4"',
+    10 => '5"',
+    11 => '6"',
+    12 => '7"',
+    13 => '8"',
+    14 => '9"',
+  ),
+) ?>

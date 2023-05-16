@@ -1,0 +1,25 @@
+<?php return array (
+  'SubcategoryID' => 386,
+  'SubcategoryName' => 'ServerWorkstationSystems',
+  'PropertyName' => 'ServersNumberofMemorySlots',
+  'IsAdvancedSearch' => 1,
+  'IsGroupBy' => 0,
+  'IsRequired' => 0,
+  'PropertyValueList' => 
+  array (
+    0 => '10',
+    1 => '12',
+    2 => '16',
+    3 => '192',
+    4 => '2',
+    5 => '20',
+    6 => '24',
+    7 => '32',
+    8 => '4',
+    9 => '48',
+    10 => '6',
+    11 => '64',
+    12 => '8',
+    13 => '96',
+  ),
+) ?>

@@ -1,0 +1,26 @@
+<?php return array (
+  'SubcategoryID' => 3312,
+  'SubcategoryName' => 'PotteryCeramicsSculpting',
+  'PropertyName' => 'PotteryType',
+  'IsAdvancedSearch' => 1,
+  'IsGroupBy' => 0,
+  'IsRequired' => 1,
+  'PropertyValueList' => 
+  array (
+    0 => 'Clay',
+    1 => 'Clay & Pottery Tools',
+    2 => 'Coping Saws',
+    3 => 'Drills',
+    4 => 'Engraving Tools',
+    5 => 'Glass Cutters & Grinders',
+    6 => 'Glass, Stone, Woodworking Tools & Waxes',
+    7 => 'Glaze & Under Glaze',
+    8 => 'Kilns & Firing Accessories',
+    9 => 'Other Accessories',
+    10 => 'Plaster Casting & Mold Making',
+    11 => 'Pottery Wheels',
+    12 => 'Pug Mills',
+    13 => 'Rollers & Wedging Boards',
+    14 => 'Stone for Sculpting',
+  ),
+) ?>

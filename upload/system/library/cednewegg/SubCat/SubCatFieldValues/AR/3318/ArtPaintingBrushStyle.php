@@ -1,0 +1,27 @@
+<?php return array (
+  'SubcategoryID' => 3318,
+  'SubcategoryName' => 'FineArtCraftPainting',
+  'PropertyName' => 'ArtPaintingBrushStyle',
+  'IsAdvancedSearch' => 1,
+  'IsGroupBy' => 0,
+  'IsRequired' => 0,
+  'PropertyValueList' => 
+  array (
+    0 => 'Assorted',
+    1 => 'Bold',
+    2 => 'Bright',
+    3 => 'Broad',
+    4 => 'Broad Chisel',
+    5 => 'Chisel',
+    6 => 'Double Thick Filbert',
+    7 => 'Extra Fine',
+    8 => 'Fan',
+    9 => 'Filbert',
+    10 => 'Fine',
+    11 => 'Medium',
+    12 => 'Mop',
+    13 => 'Portrait',
+    14 => 'Round',
+    15 => 'Square',
+  ),
+) ?>

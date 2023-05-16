@@ -1,0 +1,27 @@
+<?php return array (
+  'SubcategoryID' => 494,
+  'SubcategoryName' => 'HomeAudioSpeakers',
+  'PropertyName' => 'HomeAudioSpeakersChannels',
+  'IsAdvancedSearch' => 1,
+  'IsGroupBy' => 0,
+  'IsRequired' => 0,
+  'PropertyValueList' => 
+  array (
+    0 => '2 CH',
+    1 => '2.1 CH',
+    2 => '2.2 CH',
+    3 => '3 CH',
+    4 => '3.1 CH',
+    5 => '4 CH',
+    6 => '4.1 CH',
+    7 => '5 CH',
+    8 => '5.1 CH',
+    9 => '6.1 CH',
+    10 => '7.1 CH',
+    11 => 'Five',
+    12 => 'Pair',
+    13 => 'Single',
+    14 => 'Subwoofer Only',
+    15 => 'Three',
+  ),
+) ?>

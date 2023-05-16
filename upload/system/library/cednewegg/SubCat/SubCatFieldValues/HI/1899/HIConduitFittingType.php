@@ -1,0 +1,25 @@
+<?php return array (
+  'SubcategoryID' => 1899,
+  'SubcategoryName' => 'HIConduitFittings',
+  'PropertyName' => 'HIConduitFittingType',
+  'IsAdvancedSearch' => 1,
+  'IsGroupBy' => 0,
+  'IsRequired' => 0,
+  'PropertyValueList' => 
+  array (
+    0 => 'Angled Connector',
+    1 => 'Bushing',
+    2 => 'Clamp',
+    3 => 'Conduit Box Adapter',
+    4 => 'End Cap',
+    5 => 'Expansion Coupling',
+    6 => 'Flexible Connector',
+    7 => 'Hub',
+    8 => 'Locknut',
+    9 => 'Nipple',
+    10 => 'Plug',
+    11 => 'Reducer',
+    12 => 'Sealing Fitting',
+    13 => 'Sealing Ring',
+  ),
+) ?>

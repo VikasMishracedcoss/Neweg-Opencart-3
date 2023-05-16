@@ -1,0 +1,27 @@
+<?php return array (
+  'SubcategoryID' => 2847,
+  'SubcategoryName' => 'HIWallSconces',
+  'PropertyName' => 'HIWallSconcesLampType',
+  'IsAdvancedSearch' => 0,
+  'IsGroupBy' => 0,
+  'IsRequired' => 0,
+  'PropertyValueList' => 
+  array (
+    0 => '24w PLL G10Q',
+    1 => 'E-12 Type C',
+    2 => 'E-26 Type A-19',
+    3 => 'E-26 Type B-10',
+    4 => 'E-26 Type PAR-30',
+    5 => 'E-26 Type-D',
+    6 => 'FT18DL',
+    7 => 'FT24DL',
+    8 => 'G-4 Bi-Pin Halogen 12V',
+    9 => 'G-9 Halopin',
+    10 => 'GU-10 Halogen',
+    11 => 'GU-24 Spiral',
+    12 => 'LED',
+    13 => 'T-3 118mm Halogen',
+    14 => 'T-3 78mm Halogen',
+    15 => 'T-5 HO',
+  ),
+) ?>

@@ -1,0 +1,26 @@
+<?php return array (
+  'SubcategoryID' => 34,
+  'SubcategoryName' => 'PCCardsPCMCIAModemandNetworkDevices',
+  'PropertyName' => 'PCCardsType',
+  'IsAdvancedSearch' => 1,
+  'IsGroupBy' => 0,
+  'IsRequired' => 0,
+  'PropertyValueList' => 
+  array (
+    0 => '802.11a/b/g CardBus Wireless Adapter',
+    1 => '802.11b CardBus Wireless Adapter',
+    2 => '802.11b PCMCIA Wireless Adapter',
+    3 => '802.11b/g CardBus Wireless Adapter',
+    4 => '802.11b/g ExpressCard Wireless Adapter',
+    5 => '802.11b/g PCMCIA Wireless Adapter',
+    6 => '802.11b/g/n CardBus Wireless Adapter',
+    7 => '802.11g CardBus Wireless Adapter',
+    8 => '802.11g PCMCIA Wireless Adapter',
+    9 => '802.11g/n CardBus Wireless Adapter',
+    10 => 'CardBus Ethernet Adapter',
+    11 => 'ExpressCard Ethernet Adapter',
+    12 => 'PCMCIA Ethernet Adapter',
+    13 => 'PCMCIA Modem',
+    14 => 'USB2.0 CardBus Card',
+  ),
+) ?>

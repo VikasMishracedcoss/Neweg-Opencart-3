@@ -1,0 +1,28 @@
+<?php return array (
+  'SubcategoryID' => 647,
+  'SubcategoryName' => 'Refrigerators',
+  'PropertyName' => 'RefrigeratorBodyColor',
+  'IsAdvancedSearch' => 1,
+  'IsGroupBy' => 1,
+  'IsRequired' => 0,
+  'PropertyValueList' => 
+  array (
+    0 => '2-Tone',
+    1 => 'Bisque',
+    2 => 'Black',
+    3 => 'Black Cabinet with Stainless Steel Door',
+    4 => 'Blue',
+    5 => 'Custom Panel Required',
+    6 => 'Green',
+    7 => 'Orange',
+    8 => 'Pink',
+    9 => 'Platinum',
+    10 => 'Red',
+    11 => 'Silver',
+    12 => 'Silver Mist',
+    13 => 'Stainless Steel',
+    14 => 'Titanium',
+    15 => 'Virtual Steel',
+    16 => 'White',
+  ),
+) ?>

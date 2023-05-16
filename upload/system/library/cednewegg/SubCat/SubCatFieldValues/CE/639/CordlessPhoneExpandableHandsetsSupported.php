@@ -1,0 +1,28 @@
+<?php return array (
+  'SubcategoryID' => 639,
+  'SubcategoryName' => 'CordlessPhones',
+  'PropertyName' => 'CordlessPhoneExpandableHandsetsSupported',
+  'IsAdvancedSearch' => 1,
+  'IsGroupBy' => 0,
+  'IsRequired' => 0,
+  'PropertyValueList' => 
+  array (
+    0 => '10X',
+    1 => '11X',
+    2 => '12X',
+    3 => '15X',
+    4 => '16X',
+    5 => '17X',
+    6 => '18X',
+    7 => '1X',
+    8 => '2X',
+    9 => '3X',
+    10 => '4X',
+    11 => '5X',
+    12 => '6X',
+    13 => '7X',
+    14 => '8X',
+    15 => '9X',
+    16 => 'None',
+  ),
+) ?>

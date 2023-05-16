@@ -1,0 +1,25 @@
+<?php return array (
+  'SubcategoryID' => 2841,
+  'SubcategoryName' => 'HIFlushMounts',
+  'PropertyName' => 'HIFlushmountslampwattage',
+  'IsAdvancedSearch' => 0,
+  'IsGroupBy' => 0,
+  'IsRequired' => 0,
+  'PropertyValueList' => 
+  array (
+    0 => '100W',
+    1 => '10W',
+    2 => '150W',
+    3 => '18W',
+    4 => '200W',
+    5 => '22W + 32W',
+    6 => '24W',
+    7 => '32W + 40W',
+    8 => '35W',
+    9 => '39W',
+    10 => '40W',
+    11 => '50W',
+    12 => '60W',
+    13 => '75W',
+  ),
+) ?>

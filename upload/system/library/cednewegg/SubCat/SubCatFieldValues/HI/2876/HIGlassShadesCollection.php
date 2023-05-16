@@ -1,0 +1,26 @@
+<?php return array (
+  'SubcategoryID' => 2876,
+  'SubcategoryName' => 'HIGlassShades',
+  'PropertyName' => 'HIGlassShadesCollection',
+  'IsAdvancedSearch' => 0,
+  'IsGroupBy' => 0,
+  'IsRequired' => 0,
+  'PropertyValueList' => 
+  array (
+    0 => 'Anari Silk',
+    1 => 'Bella',
+    2 => 'Cone',
+    3 => 'Fire',
+    4 => 'FireBird Ostrich',
+    5 => 'Gn\'G',
+    6 => 'Hermes',
+    7 => 'Inari Silk',
+    8 => 'Iridescent',
+    9 => 'Mania',
+    10 => 'Pearl',
+    11 => 'Safari',
+    12 => 'Sphere',
+    13 => 'Swirl',
+    14 => 'Thea',
+  ),
+) ?>

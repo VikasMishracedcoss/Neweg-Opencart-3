@@ -1,0 +1,27 @@
+<?php return array (
+  'SubcategoryID' => 3236,
+  'SubcategoryName' => 'WirelessAttachedStorage',
+  'PropertyName' => 'NASDefaultMaxMemory',
+  'IsAdvancedSearch' => 0,
+  'IsGroupBy' => 0,
+  'IsRequired' => 0,
+  'PropertyValueList' => 
+  array (
+    0 => '128MB',
+    1 => '12GB',
+    2 => '16GB',
+    3 => '16MB',
+    4 => '1GB',
+    5 => '1GB/2GB',
+    6 => '256/512MB',
+    7 => '256MB',
+    8 => '2GB',
+    9 => '32MB',
+    10 => '4GB',
+    11 => '512MB',
+    12 => '64MB',
+    13 => '6GB',
+    14 => '8GB',
+    15 => '8MB',
+  ),
+) ?>

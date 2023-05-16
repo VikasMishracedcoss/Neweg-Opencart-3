@@ -1,0 +1,25 @@
+<?php return array (
+  'SubcategoryID' => 412,
+  'SubcategoryName' => 'ServerChassis',
+  'PropertyName' => 'CaseRackFormFactor',
+  'IsAdvancedSearch' => 1,
+  'IsGroupBy' => 0,
+  'IsRequired' => 0,
+  'PropertyValueList' => 
+  array (
+    0 => '1.3U',
+    1 => '1.5U',
+    2 => '10U',
+    3 => '12U',
+    4 => '18U',
+    5 => '1U',
+    6 => '2U',
+    7 => '3U',
+    8 => '4U',
+    9 => '5U',
+    10 => '6U',
+    11 => '7U',
+    12 => '8U',
+    13 => '9U',
+  ),
+) ?>

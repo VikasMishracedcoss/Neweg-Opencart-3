@@ -1,0 +1,27 @@
+<?php return array (
+  'SubcategoryID' => 2787,
+  'SubcategoryName' => 'Shoes',
+  'PropertyName' => 'ShoesSport',
+  'IsAdvancedSearch' => 1,
+  'IsGroupBy' => 0,
+  'IsRequired' => 0,
+  'PropertyValueList' => 
+  array (
+    0 => 'Baseball & Softball',
+    1 => 'Basketball',
+    2 => 'Beach Sports',
+    3 => 'Bowling',
+    4 => 'Cycling',
+    5 => 'Football',
+    6 => 'Hiking',
+    7 => 'Hunting',
+    8 => 'Lacrosse',
+    9 => 'Running',
+    10 => 'Skateboarding',
+    11 => 'Soccer',
+    12 => 'Track & Field',
+    13 => 'Walking',
+    14 => 'Water Sports',
+    15 => 'Winter Sports',
+  ),
+) ?>

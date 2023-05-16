@@ -1,0 +1,190 @@
+
+<div class="form-group row">
+    <label class="col-sm-2 control-label"
+           for="input-title">{{ label_listing_type }}</label>
+    <div class="col-sm-10">
+        <select name="profile_specifics[listing_type]"   class="form-control">
+            {% if (listing_type and (listing_type |length)) %}
+                {% for type in listing_type %}
+                    <option value="{{ type['value'] }}"
+                            {% if (profile_specifics['listing_type'] is defined and profile_specifics['listing_type'] == type['value']) %}
+                                selected="selected"
+                            {% endif %}
+                    >
+                        {{ type['label'] }}</option>
+                {% endfor %}     {% endif %}
+        </select>
+    </div>
+</div>
+<div class="form-group row">
+    <label class="col-sm-2 control-label"
+           for="input-title">{{ label_item_condition }}</label>
+    <div class="col-sm-10">
+        <select name="profile_specifics[item_condition]"   class="form-control">
+            {% if (item_conditions and (item_conditions|length)) %}
+                {% for condition in item_conditions %}
+                    <option value="{{ condition['ID'] }}"
+                            {% if (profile_specifics['item_condition'] is defined and profile_specifics['item_condition'] == condition['ID']) %}
+                                selected="selected"
+                            {% endif %}
+                    >
+                        {{ condition['DisplayName'] }}</option>
+                {% endfor %}     {% endif %}
+        </select>
+    </div>
+</div>
+<div class="form-group row">
+    <label class="col-sm-2 control-label"
+           for="input-title">{{ label_listing_duration }}</label>
+    <div class="col-sm-10">
+        <select name="profile_specifics[listing_duration]"   class="form-control">
+            {% if (listing_durations and (listing_durations|length)) %}
+                {% for duration in listing_durations %}
+                    <option value="{{ duration['value'] }}"
+                            {% if (profile_specifics['listing_duration'] is defined and profile_specifics['listing_duration'] == duration['value']) %}
+                                selected="selected"
+                            {% endif %}
+                    >
+                        {{ duration['label'] }}</option>
+                {% endfor %}     {% endif %}
+        </select>
+    </div>
+</div>
+<div class="form-group row">
+    <label class="col-sm-2 control-label"
+           for="input-title">{{ label_item_location }}</label>
+    <div class="col-sm-10">
+        <input type="text" name="profile_specifics[item_location]" id="" value="{% if (profile_specifics['item_location'] is defined) %}{{ profile_specifics['item_location'] }}{% endif %}"
+               class="form-control"/>
+    </div>
+</div>
+<div class="form-group row">
+    <label class="col-sm-2 control-label"
+           for="input-title">{{ label_postal_code }}</label>
+    <div class="col-sm-10">
+        <input type="text" name="profile_specifics[postal_code]" id="" value="{% if (profile_specifics['postal_code'] is defined) %}{{ profile_specifics['postal_code'] }}{% endif %}"
+               class="form-control"/>
+    </div>
+</div>
+<div class="form-group row">
+    <label class="col-sm-2 control-label"
+           for="input-title">{{ label_max_dispatch_time }}</label>
+    <div class="col-sm-10">
+        <input type="text" name="profile_specifics[max_dispatch_time]" id="" value="{% if (profile_specifics['max_dispatch_time'] is defined) %}{{ profile_specifics['max_dispatch_time'] }}{% endif %}"
+               class="form-control"/>
+    </div>
+</div>
+<div class="form-group row">
+    <label class="col-sm-2 control-label"
+           for="input-title">{{ label_payment_methods }}</label>
+    <div class="col-sm-10">
+        <select name="profile_specifics[payment_methods][]"  multiple="multiple" size="6" class="form-control">
+            {% if (payment_methods and (payment_methods |length)) %}
+                {% for method in payment_methods %}
+                    <option value="{{ method }}"
+                            {% if (profile_specifics['payment_methods'] is defined and (method in profile_specifics['payment_methods'])) %}
+                                selected="selected"
+                            {% endif %}
+                    >
+                        {{ method }}</option>
+                {% endfor %}     {% endif %}
+        </select>
+    </div>
+</div>
+<div class="form-group row">
+    <label class="col-sm-2 control-label"
+           for="input-title">    <span data-toggle="tooltip" title="" data-original-title="Applicable only if COD payment method is selected">
+            COD Cost</span></label>
+    <div class="col-sm-10">
+        <input type="text" name="profile_specifics[cod_cost]" id="" value="{% if (profile_specifics['cod_cost'] is defined) %}{{ profile_specifics['cod_cost'] }}{% endif %}"
+               class="form-control"/>
+    </div>
+</div>
+<div class="form-group row">
+    <label class="col-sm-2 control-label"
+           for="input-title">{{ label_paypal_email }}</label>
+    <div class="col-sm-10">
+        <input type="text" name="profile_specifics[paypal_email]" id="" value="{% if (profile_specifics['paypal_email'] is defined) %}{{ profile_specifics['paypal_email'] }}{% endif %}"
+               class="form-control"/>
+    </div>
+</div>
+<div class="form-group row">
+    <label class="col-sm-2 control-label"
+           for="input-title">{{ label_return_accepted }}</label>
+    <div class="col-sm-10">
+        <select name="profile_specifics[return_accepted]"   class="form-control">
+            {% if (return_accepted and (return_accepted |length)) %}
+                {% for key,ret_acc in return_accepted %}
+                    <option value="{{ key }}"
+                            {% if (profile_specifics['return_accepted'] is defined and profile_specifics['return_accepted'] == key) %}
+                                selected="selected"
+                            {% endif %}
+                    >
+                        {{ ret_acc }}</option>
+                {% endfor %}     {% endif %}
+        </select>
+    </div>
+</div>
+<div class="form-group row">
+    <label class="col-sm-2 control-label"
+           for="input-title">{{ label_refund_option }}</label>
+    <div class="col-sm-10">
+        <select name="profile_specifics[refund_option]"   class="form-control">
+            {% if (refund_options and (refund_options |length)) %}
+                {% for key,ret_acc in refund_options %}
+                    <option value="{{ key }}"
+                            {% if (profile_specifics['refund_option'] is defined and profile_specifics['refund_option'] == key) %}
+                                selected="selected"
+                            {% endif %}
+                    >
+                        {{ ret_acc }}</option>
+                {% endfor %}     {% endif %}
+        </select>
+    </div>
+</div>
+<div class="form-group row">
+    <label class="col-sm-2 control-label"
+           for="input-title">{{ label_return_within }}</label>
+    <div class="col-sm-10">
+        <select name="profile_specifics[return_within]"   class="form-control">
+            {% if (return_within and (return_within|length)) %}
+                {% for key,ret_acc in return_within %}
+                    <option value="{{ key }}"
+                            {% if (profile_specifics['return_within'] is defined and profile_specifics['return_within'] == key) %}
+                                selected="selected"
+                            {% endif %}
+                    >
+                        {{ ret_acc }}</option>
+                {% endfor %}     {% endif %}
+        </select>
+    </div>
+</div>
+<div class="form-group row">
+    <label class="col-sm-2 control-label"
+           for="input-title">{{ label_shipping_cost_paidby }}</label>
+    <div class="col-sm-10">
+        <select name="profile_specifics[shipping_cost_paidby]"   class="form-control">
+            {% if (shipping_cost_paidby and (shipping_cost_paidby |length)) %}
+                {% for key,ret_acc in shipping_cost_paidby %}
+                    <option value="{{ key }}"
+                            {% if (profile_specifics['shipping_cost_paidby'] is defined and profile_specifics['shipping_cost_paidby'] == key) %}
+                                selected="selected"
+                            {% endif %}
+                    >
+                        {{ ret_acc }}</option>
+                {% endfor %}     {% endif %}
+        </select>
+    </div>
+</div>
+
+<script>
+    function numberValidate(event, el) {
+        var attr = el.placeholder;
+        const charCode = (event.which) ? event.which : event.keyCode;
+        if (charCode !== 46 && charCode!== 8 && charCode!==8 && (charCode < 48 || charCode > 57)) {
+            event.preventDefault();
+            return false;
+        }
+        return true;
+    }
+</script>

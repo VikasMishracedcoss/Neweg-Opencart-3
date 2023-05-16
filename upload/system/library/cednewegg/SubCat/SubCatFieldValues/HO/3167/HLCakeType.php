@@ -1,0 +1,27 @@
+<?php return array (
+  'SubcategoryID' => 3167,
+  'SubcategoryName' => 'HLCakeDecoratingSupplies',
+  'PropertyName' => 'HLCakeType',
+  'IsAdvancedSearch' => 1,
+  'IsGroupBy' => 0,
+  'IsRequired' => 1,
+  'PropertyValueList' => 
+  array (
+    0 => 'Air-Brush Equipment',
+    1 => 'Cake Boards & Drums',
+    2 => 'Cake Boxes',
+    3 => 'Cake Dummies',
+    4 => 'Cake Pillars & Dowels',
+    5 => 'Cake Sprinkles',
+    6 => 'Cake Testers',
+    7 => 'Cake Toppers',
+    8 => 'Decorating Bags',
+    9 => 'Decorating Kits',
+    10 => 'Decorating Tips',
+    11 => 'Food Dyes',
+    12 => 'Food Spray Machines',
+    13 => 'Impression Mats & Texture Sheets',
+    14 => 'Pattern Stamps',
+    15 => 'Specialty Candles',
+  ),
+) ?>

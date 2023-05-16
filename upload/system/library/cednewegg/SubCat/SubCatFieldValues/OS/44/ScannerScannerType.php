@@ -1,0 +1,27 @@
+<?php return array (
+  'SubcategoryID' => 44,
+  'SubcategoryName' => 'ScannerFlatbed',
+  'PropertyName' => 'ScannerScannerType',
+  'IsAdvancedSearch' => 1,
+  'IsGroupBy' => 0,
+  'IsRequired' => 0,
+  'PropertyValueList' => 
+  array (
+    0 => 'Barcode',
+    1 => 'Book',
+    2 => 'Card',
+    3 => 'Duplex Document',
+    4 => 'Fast Duplex Sheetfed',
+    5 => 'Fast Sheetfed',
+    6 => 'Fast Single Pass',
+    7 => 'Film',
+    8 => 'Flatbed',
+    9 => 'Mobile',
+    10 => 'Oversize Flatbed',
+    11 => 'Photo',
+    12 => 'Sheet Fed/Document Fed',
+    13 => 'Single Pass',
+    14 => 'Text',
+    15 => 'Translator',
+  ),
+) ?>

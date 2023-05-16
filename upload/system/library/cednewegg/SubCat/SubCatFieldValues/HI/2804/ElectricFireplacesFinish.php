@@ -1,0 +1,25 @@
+<?php return array (
+  'SubcategoryID' => 2804,
+  'SubcategoryName' => 'HIElectricFireplaces',
+  'PropertyName' => 'ElectricFireplacesFinish',
+  'IsAdvancedSearch' => 0,
+  'IsGroupBy' => 0,
+  'IsRequired' => 0,
+  'PropertyValueList' => 
+  array (
+    0 => 'Black',
+    1 => 'Cherry',
+    2 => 'Espresso',
+    3 => 'Gloss Black',
+    4 => 'Mahogany',
+    5 => 'Oak',
+    6 => 'Polished Beige',
+    7 => 'Rustic Birch',
+    8 => 'Slate and Black',
+    9 => 'Sleek Black',
+    10 => 'Stone',
+    11 => 'Walnut',
+    12 => 'White',
+    13 => 'Wood and Black Metal',
+  ),
+) ?>

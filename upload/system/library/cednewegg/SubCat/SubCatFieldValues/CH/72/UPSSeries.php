@@ -1,0 +1,25 @@
+<?php return array (
+  'SubcategoryID' => 72,
+  'SubcategoryName' => 'UPSBackUpPowerSupply',
+  'PropertyName' => 'UPSSeries',
+  'IsAdvancedSearch' => 0,
+  'IsGroupBy' => 0,
+  'IsRequired' => 0,
+  'PropertyValueList' => 
+  array (
+    0 => 'Back-UPS',
+    1 => 'Durable Series',
+    2 => 'ECO',
+    3 => 'Fortis',
+    4 => 'Magnus',
+    5 => 'OMNISMART',
+    6 => 'Prestige',
+    7 => 'Rocwave',
+    8 => 'Smart-UPS',
+    9 => 'Smartower',
+    10 => 'SmartPro',
+    11 => 'Smartroc',
+    12 => 'Thunder Shield Series',
+    13 => 'XP Series',
+  ),
+) ?>

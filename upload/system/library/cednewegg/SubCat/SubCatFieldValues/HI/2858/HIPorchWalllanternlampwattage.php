@@ -1,0 +1,26 @@
+<?php return array (
+  'SubcategoryID' => 2858,
+  'SubcategoryName' => 'HIOutdoorPorchWallLanterns',
+  'PropertyName' => 'HIPorchWalllanternlampwattage',
+  'IsAdvancedSearch' => 0,
+  'IsGroupBy' => 0,
+  'IsRequired' => 0,
+  'PropertyValueList' => 
+  array (
+    0 => '100W',
+    1 => '13W',
+    2 => '150W',
+    3 => '18W',
+    4 => '24W',
+    5 => '35W',
+    6 => '3W',
+    7 => '40W',
+    8 => '42W',
+    9 => '4W',
+    10 => '50W',
+    11 => '5W',
+    12 => '60W',
+    13 => '7.2W',
+    14 => '75W',
+  ),
+) ?>

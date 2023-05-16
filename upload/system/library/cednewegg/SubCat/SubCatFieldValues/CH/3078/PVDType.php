@@ -1,0 +1,25 @@
+<?php return array (
+  'SubcategoryID' => 3078,
+  'SubcategoryName' => 'ProfessionalVideoDevices',
+  'PropertyName' => 'PVDType',
+  'IsAdvancedSearch' => 1,
+  'IsGroupBy' => 0,
+  'IsRequired' => 0,
+  'PropertyValueList' => 
+  array (
+    0 => 'Control Panel',
+    1 => 'Digital signage media player',
+    2 => 'Media Streamer',
+    3 => 'Media Transfer',
+    4 => 'PC to TV',
+    5 => 'Profession Video Device',
+    6 => 'Video Adapter/Converter',
+    7 => 'Video Capture & Editing',
+    8 => 'Video Device Accessory',
+    9 => 'Video Editor',
+    10 => 'Video Extender',
+    11 => 'Video Recorder',
+    12 => 'Video Splitter',
+    13 => 'Video Switch',
+  ),
+) ?>

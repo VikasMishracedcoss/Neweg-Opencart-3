@@ -1,0 +1,27 @@
+<?php return array (
+  'SubcategoryID' => 2888,
+  'SubcategoryName' => 'HIFanBlades',
+  'PropertyName' => 'HIFanBladesmaterial',
+  'IsAdvancedSearch' => 1,
+  'IsGroupBy' => 0,
+  'IsRequired' => 0,
+  'PropertyValueList' => 
+  array (
+    0 => 'Acrylic',
+    1 => 'Bamboo',
+    2 => 'Fabric',
+    3 => 'Faux Leather',
+    4 => 'Fossil Stone',
+    5 => 'Glass',
+    6 => 'Iron',
+    7 => 'Leather',
+    8 => 'Linen',
+    9 => 'Metal',
+    10 => 'Rattan',
+    11 => 'Reclaimed Wood',
+    12 => 'Resin',
+    13 => 'Silk',
+    14 => 'Wicker',
+    15 => 'Wood',
+  ),
+) ?>

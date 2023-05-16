@@ -1,0 +1,28 @@
+<?php return array (
+  'SubcategoryID' => 718,
+  'SubcategoryName' => 'AirConditioners',
+  'PropertyName' => 'GroupAirConditionersCoolingCapacityBTU',
+  'IsAdvancedSearch' => 0,
+  'IsGroupBy' => 1,
+  'IsRequired' => 0,
+  'PropertyValueList' => 
+  array (
+    0 => '10,000',
+    1 => '10,200',
+    2 => '12,000',
+    3 => '12,600',
+    4 => '14,000',
+    5 => '15,000',
+    6 => '15,100',
+    7 => '15,400',
+    8 => '18,300',
+    9 => '24,600',
+    10 => '5,000',
+    11 => '6,000',
+    12 => '6,400',
+    13 => '7,800',
+    14 => '8,000',
+    15 => '8,500',
+    16 => 'N/A',
+  ),
+) ?>

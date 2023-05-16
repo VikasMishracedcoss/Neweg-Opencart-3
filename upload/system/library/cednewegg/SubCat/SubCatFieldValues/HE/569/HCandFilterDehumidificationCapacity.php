@@ -1,0 +1,25 @@
+<?php return array (
+  'SubcategoryID' => 569,
+  'SubcategoryName' => 'Humidifiers',
+  'PropertyName' => 'HCandFilterDehumidificationCapacity',
+  'IsAdvancedSearch' => 0,
+  'IsGroupBy' => 0,
+  'IsRequired' => 0,
+  'PropertyValueList' => 
+  array (
+    0 => '21 pints/day',
+    1 => '25 pints/day',
+    2 => '30 pints/day',
+    3 => '32 pints/day',
+    4 => '35 pints/day',
+    5 => '40 pints/day',
+    6 => '45 pints/day',
+    7 => '46 pints/day',
+    8 => '50 pints/day',
+    9 => '55 pints/day',
+    10 => '60 pints/day',
+    11 => '65 pints/day',
+    12 => '70 pints/day',
+    13 => '98 pints/day',
+  ),
+) ?>

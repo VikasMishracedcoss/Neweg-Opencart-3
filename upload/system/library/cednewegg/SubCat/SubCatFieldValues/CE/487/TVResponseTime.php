@@ -1,0 +1,26 @@
+<?php return array (
+  'SubcategoryID' => 487,
+  'SubcategoryName' => 'RearProjectionTV',
+  'PropertyName' => 'TVResponseTime',
+  'IsAdvancedSearch' => 0,
+  'IsGroupBy' => 0,
+  'IsRequired' => 0,
+  'PropertyValueList' => 
+  array (
+    0 => '12ms',
+    1 => '14ms',
+    2 => '15ms',
+    3 => '16ms',
+    4 => '20ms',
+    5 => '21ms',
+    6 => '22ms',
+    7 => '23ms',
+    8 => '25ms',
+    9 => '26ms',
+    10 => '30ms',
+    11 => '35ms',
+    12 => '40ms',
+    13 => '50ms',
+    14 => '8ms',
+  ),
+) ?>

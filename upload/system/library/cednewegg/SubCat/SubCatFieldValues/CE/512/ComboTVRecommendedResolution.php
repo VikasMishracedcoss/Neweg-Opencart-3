@@ -1,0 +1,25 @@
+<?php return array (
+  'SubcategoryID' => 512,
+  'SubcategoryName' => 'TVCombo',
+  'PropertyName' => 'ComboTVRecommendedResolution',
+  'IsAdvancedSearch' => 0,
+  'IsGroupBy' => 0,
+  'IsRequired' => 0,
+  'PropertyValueList' => 
+  array (
+    0 => '1024x768',
+    1 => '1280x720',
+    2 => '1280x768',
+    3 => '1280x800',
+    4 => '1366x768',
+    5 => '1440 x 23',
+    6 => '1440x900',
+    7 => '1680x1050',
+    8 => '1900x1050',
+    9 => '1920x1080',
+    10 => '480x234',
+    11 => '480x240',
+    12 => '640x234',
+    13 => '800x480',
+  ),
+) ?>

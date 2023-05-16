@@ -1,0 +1,28 @@
+<?php return array (
+  'SubcategoryID' => 713,
+  'SubcategoryName' => 'InductionCookers',
+  'PropertyName' => 'InductionCookerBrand',
+  'IsAdvancedSearch' => 0,
+  'IsGroupBy' => 0,
+  'IsRequired' => 0,
+  'PropertyValueList' => 
+  array (
+    0 => 'AERVOE',
+    1 => 'AROMA',
+    2 => 'Avanti Products',
+    3 => 'Chard',
+    4 => 'Elite',
+    5 => 'Fagor',
+    6 => 'Hamilton Beach',
+    7 => 'MAXI-MATIC',
+    8 => 'Midea',
+    9 => 'NESCO',
+    10 => 'NuWave',
+    11 => 'Oyama',
+    12 => 'Rosewill',
+    13 => 'Sunpentown',
+    14 => 'TATUNG',
+    15 => 'Tayama',
+    16 => 'Waring Pro',
+  ),
+) ?>

@@ -1,0 +1,25 @@
+<?php return array (
+  'SubcategoryID' => 673,
+  'SubcategoryName' => 'Blenders',
+  'PropertyName' => 'BlenderPower',
+  'IsAdvancedSearch' => 0,
+  'IsGroupBy' => 0,
+  'IsRequired' => 0,
+  'PropertyValueList' => 
+  array (
+    0 => '1000 Watts',
+    1 => '150 Watts',
+    2 => '175 Watts',
+    3 => '200 Watts',
+    4 => '225 Watts',
+    5 => '300 Watts',
+    6 => '350 Watts',
+    7 => '380 Watts',
+    8 => '400 Watts',
+    9 => '450 Watts',
+    10 => '500 Watts',
+    11 => '600 Watts',
+    12 => '700 Watts',
+    13 => '750 Watts',
+  ),
+) ?>

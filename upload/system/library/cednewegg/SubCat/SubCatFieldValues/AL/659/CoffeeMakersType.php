@@ -1,0 +1,25 @@
+<?php return array (
+  'SubcategoryID' => 659,
+  'SubcategoryName' => 'AutomaticCoffeeMakers',
+  'PropertyName' => 'CoffeeMakersType',
+  'IsAdvancedSearch' => 1,
+  'IsGroupBy' => 0,
+  'IsRequired' => 0,
+  'PropertyValueList' => 
+  array (
+    0 => 'Automatic',
+    1 => 'Coffee Brewers',
+    2 => 'Coffee Maker',
+    3 => 'Coffee Maker Accessories',
+    4 => 'Coffee Pod Machines',
+    5 => 'Combination Machine',
+    6 => 'Drip Coffee Machines',
+    7 => 'Espresso',
+    8 => 'French Presses',
+    9 => 'Manual',
+    10 => 'Percolators',
+    11 => 'Semi-Automatic',
+    12 => 'Single-Serve Brewers',
+    13 => 'Urn',
+  ),
+) ?>

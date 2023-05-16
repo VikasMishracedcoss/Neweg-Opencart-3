@@ -1,0 +1,27 @@
+<?php return array (
+  'SubcategoryID' => 638,
+  'SubcategoryName' => 'CordedPhones',
+  'PropertyName' => 'CordedPhonePhoneDirectoryMemory',
+  'IsAdvancedSearch' => 0,
+  'IsGroupBy' => 0,
+  'IsRequired' => 0,
+  'PropertyValueList' => 
+  array (
+    0 => '10',
+    1 => '100',
+    2 => '110',
+    3 => '13',
+    4 => '200',
+    5 => '25',
+    6 => '250',
+    7 => '30',
+    8 => '40',
+    9 => '50',
+    10 => '60',
+    11 => '70',
+    12 => '80',
+    13 => '90',
+    14 => '94',
+    15 => '99',
+  ),
+) ?>

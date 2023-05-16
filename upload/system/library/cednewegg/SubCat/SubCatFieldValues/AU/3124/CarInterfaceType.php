@@ -1,0 +1,26 @@
+<?php return array (
+  'SubcategoryID' => 3124,
+  'SubcategoryName' => 'InterfacesConverters',
+  'PropertyName' => 'CarInterfaceType',
+  'IsAdvancedSearch' => 1,
+  'IsGroupBy' => 0,
+  'IsRequired' => 1,
+  'PropertyValueList' => 
+  array (
+    0 => 'Auxiliary Input Adapters',
+    1 => 'Car Audio Speaker Wire Adapters',
+    2 => 'Cassette Adapters',
+    3 => 'Changer Adapters & Cables',
+    4 => 'Changer Magazines',
+    5 => 'Changer to Factory Radio Adapters',
+    6 => 'Deck Harnesses',
+    7 => 'iPod Adapters for Aftermarket Decks',
+    8 => 'iPod Adapters for Factory Decks',
+    9 => 'Line Output Adapters',
+    10 => 'Media Expansion Adapters',
+    11 => 'Radio Replacement Interfaces',
+    12 => 'Speaker Harnesses',
+    13 => 'Steering Wheel Audio Control Adapters',
+    14 => 'Steering Wheel Control Interface Kits',
+  ),
+) ?>

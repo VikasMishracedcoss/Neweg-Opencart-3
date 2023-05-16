@@ -1,0 +1,25 @@
+<?php return array (
+  'SubcategoryID' => 738,
+  'SubcategoryName' => 'BloodPressureMonitors',
+  'PropertyName' => 'BPMonitorCuffCircumference',
+  'IsAdvancedSearch' => 0,
+  'IsGroupBy' => 0,
+  'IsRequired' => 0,
+  'PropertyValueList' => 
+  array (
+    0 => '13" - 17"',
+    1 => '5" - 8.75"',
+    2 => '5.25" - 8.5"',
+    3 => '5.3" - 7.7"',
+    4 => '5.3" - 8.5"',
+    5 => '7.75" - 13.25"',
+    6 => '7.75" - 15"',
+    7 => '7.75" - 15.75"',
+    8 => '8.5" - 14"',
+    9 => '8.7" - 12.6"',
+    10 => '9" - 13"',
+    11 => '9" - 17"',
+    12 => '9.5" - 14.2"',
+    13 => '9.5" - 18.2"',
+  ),
+) ?>

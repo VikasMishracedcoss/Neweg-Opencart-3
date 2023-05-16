@@ -1,0 +1,27 @@
+<?php return array (
+  'SubcategoryID' => 513,
+  'SubcategoryName' => 'HomeTheaterProjectors',
+  'PropertyName' => 'MonitorConnectivityInputVideoCompatibility',
+  'IsAdvancedSearch' => 0,
+  'IsGroupBy' => 0,
+  'IsRequired' => 0,
+  'PropertyValueList' => 
+  array (
+    0 => 'Analog RGB',
+    1 => 'Analog RGB, Composite',
+    2 => 'Analog RGB, Composite, Component',
+    3 => 'Analog RGB, Digital',
+    4 => 'Analog RGB, Digital, Component',
+    5 => 'Analog RGB, Digital, Composite',
+    6 => 'Analog RGB, Digital, Composite, Component',
+    7 => 'Analog RGB, Digital, S-Video',
+    8 => 'Analog RGB, Digital, S-Video, Component',
+    9 => 'Analog RGB, Digital, S-Video, Composite',
+    10 => 'Analog RGB, Digital, S-Video, Composite, Component',
+    11 => 'Analog RGB, S-Video',
+    12 => 'Analog RGB, S-Video, Composite',
+    13 => 'Analog RGB, S-Video, Composite, Component',
+    14 => 'Composite',
+    15 => 'Digital',
+  ),
+) ?>

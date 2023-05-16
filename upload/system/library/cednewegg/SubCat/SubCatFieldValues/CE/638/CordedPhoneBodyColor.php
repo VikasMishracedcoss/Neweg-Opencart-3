@@ -1,0 +1,27 @@
+<?php return array (
+  'SubcategoryID' => 638,
+  'SubcategoryName' => 'CordedPhones',
+  'PropertyName' => 'CordedPhoneBodyColor',
+  'IsAdvancedSearch' => 0,
+  'IsGroupBy' => 0,
+  'IsRequired' => 0,
+  'PropertyValueList' => 
+  array (
+    0 => 'Ash',
+    1 => 'Beige',
+    2 => 'Black',
+    3 => 'Black/Sliver',
+    4 => 'Blue',
+    5 => 'Chocolate',
+    6 => 'Gray',
+    7 => 'Green',
+    8 => 'Pink',
+    9 => 'Red',
+    10 => 'Silver',
+    11 => 'White',
+    12 => 'White/Blue',
+    13 => 'White/Green',
+    14 => 'White/Orange',
+    15 => 'White/Pink',
+  ),
+) ?>

@@ -1,0 +1,27 @@
+<?php return array (
+  'SubcategoryID' => 665,
+  'SubcategoryName' => 'Toasters',
+  'PropertyName' => 'ToasterPower',
+  'IsAdvancedSearch' => 0,
+  'IsGroupBy' => 0,
+  'IsRequired' => 0,
+  'PropertyValueList' => 
+  array (
+    0 => '1000 W',
+    1 => '1050 W',
+    2 => '1100 W',
+    3 => '1200 W',
+    4 => '1250 W',
+    5 => '1400 W',
+    6 => '1500 W',
+    7 => '1600 W',
+    8 => '1800 W',
+    9 => '700 W',
+    10 => '750 W',
+    11 => '800 W',
+    12 => '850 W',
+    13 => '900 W',
+    14 => '920 W',
+    15 => '975 W',
+  ),
+) ?>

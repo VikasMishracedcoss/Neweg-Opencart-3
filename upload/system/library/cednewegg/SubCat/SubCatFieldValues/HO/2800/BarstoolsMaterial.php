@@ -1,0 +1,28 @@
+<?php return array (
+  'SubcategoryID' => 2800,
+  'SubcategoryName' => 'HLBarstools',
+  'PropertyName' => 'BarstoolsMaterial',
+  'IsAdvancedSearch' => 1,
+  'IsGroupBy' => 0,
+  'IsRequired' => 0,
+  'PropertyValueList' => 
+  array (
+    0 => 'ABS',
+    1 => 'Acrylic',
+    2 => 'Bonded Leather',
+    3 => 'Bycast Leather',
+    4 => 'Fabric',
+    5 => 'Faux Leather',
+    6 => 'Faux Leather / Vinyl',
+    7 => 'Leather',
+    8 => 'Leatherette',
+    9 => 'Mesh',
+    10 => 'Mesh/ployester',
+    11 => 'Metal',
+    12 => 'Microfiber',
+    13 => 'Plastic',
+    14 => 'Plywood',
+    15 => 'Stainless Steel',
+    16 => 'Wood',
+  ),
+) ?>

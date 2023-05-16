@@ -1,0 +1,25 @@
+<?php return array (
+  'SubcategoryID' => 1573,
+  'SubcategoryName' => 'ToysRemoteRadioControlled',
+  'PropertyName' => 'ToysRCBrand',
+  'IsAdvancedSearch' => 0,
+  'IsGroupBy' => 0,
+  'IsRequired' => 0,
+  'PropertyValueList' => 
+  array (
+    0 => '3D Robotics',
+    1 => 'Cheerson',
+    2 => 'DJI',
+    3 => 'Eachine',
+    4 => 'Estes',
+    5 => 'Force Flyers',
+    6 => 'Hubsan',
+    7 => 'HYPE RC',
+    8 => 'Odyssey',
+    9 => 'PaulG',
+    10 => 'Sports Logo Lights',
+    11 => 'Syma',
+    12 => 'UDI',
+    13 => 'Yuneec',
+  ),
+) ?>

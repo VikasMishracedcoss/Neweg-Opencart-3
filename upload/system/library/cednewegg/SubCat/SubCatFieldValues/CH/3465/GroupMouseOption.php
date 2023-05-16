@@ -1,0 +1,26 @@
+<?php return array (
+  'SubcategoryID' => 3465,
+  'SubcategoryName' => 'GamingMice',
+  'PropertyName' => 'GroupMouseOption',
+  'IsAdvancedSearch' => 0,
+  'IsGroupBy' => 1,
+  'IsRequired' => 0,
+  'PropertyValueList' => 
+  array (
+    0 => 'CERBERUS',
+    1 => 'EC1-A',
+    2 => 'EC2-A',
+    3 => 'FK1',
+    4 => 'FK1+',
+    5 => 'FK2',
+    6 => 'GLADIUS',
+    7 => 'SICA BLACK',
+    8 => 'SICA WHITE',
+    9 => 'SPATHA RGB',
+    10 => 'Wired',
+    11 => 'Wireless',
+    12 => 'ZA11',
+    13 => 'ZA12',
+    14 => 'ZA13',
+  ),
+) ?>

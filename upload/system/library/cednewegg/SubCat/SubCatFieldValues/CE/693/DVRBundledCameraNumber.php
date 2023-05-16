@@ -1,0 +1,26 @@
+<?php return array (
+  'SubcategoryID' => 693,
+  'SubcategoryName' => 'SurveillanceVideoMonitoringKitsAllinOneSystems',
+  'PropertyName' => 'DVRBundledCameraNumber',
+  'IsAdvancedSearch' => 1,
+  'IsGroupBy' => 1,
+  'IsRequired' => 0,
+  'PropertyValueList' => 
+  array (
+    0 => '1',
+    1 => '10',
+    2 => '12',
+    3 => '16',
+    4 => '2',
+    5 => '20',
+    6 => '24',
+    7 => '28',
+    8 => '32',
+    9 => '4',
+    10 => '5',
+    11 => '6',
+    12 => '8',
+    13 => '9',
+    14 => 'N/a',
+  ),
+) ?>

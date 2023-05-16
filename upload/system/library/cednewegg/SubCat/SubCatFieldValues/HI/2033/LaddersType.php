@@ -1,0 +1,28 @@
+<?php return array (
+  'SubcategoryID' => 2033,
+  'SubcategoryName' => 'Ladders',
+  'PropertyName' => 'LaddersType',
+  'IsAdvancedSearch' => 1,
+  'IsGroupBy' => 0,
+  'IsRequired' => 0,
+  'PropertyValueList' => 
+  array (
+    0 => 'A Frame Ladders',
+    1 => 'Accessory',
+    2 => 'Attic Ladders',
+    3 => 'Extension Ladders',
+    4 => 'Fixed Ladders',
+    5 => 'Folding Ladder',
+    6 => 'Multi Position Ladders',
+    7 => 'Multipurpose Ladders',
+    8 => 'Platform Stepladders',
+    9 => 'Rolling Stepladders',
+    10 => 'Scaffolding',
+    11 => 'Scaffolding & Platform Accessories',
+    12 => 'Specialty Ladders',
+    13 => 'Step Ladders',
+    14 => 'Step Stools',
+    15 => 'Stepladders',
+    16 => 'Work Platforms',
+  ),
+) ?>

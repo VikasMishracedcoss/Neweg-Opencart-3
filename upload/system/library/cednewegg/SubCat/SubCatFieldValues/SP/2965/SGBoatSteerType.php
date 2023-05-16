@@ -1,0 +1,28 @@
+<?php return array (
+  'SubcategoryID' => 2965,
+  'SubcategoryName' => 'SGBoatSteeringControls',
+  'PropertyName' => 'SGBoatSteerType',
+  'IsAdvancedSearch' => 1,
+  'IsGroupBy' => 0,
+  'IsRequired' => 0,
+  'PropertyValueList' => 
+  array (
+    0 => 'Bezels & Helms',
+    1 => 'Cable Adapter & Connection Kits',
+    2 => 'Cable Fittings',
+    3 => 'Control Boxes',
+    4 => 'Control Cables',
+    5 => 'Cylinders',
+    6 => 'Electronic Steering & Throttle',
+    7 => 'Engine Controls',
+    8 => 'Extension Handles',
+    9 => 'Foot Pedals',
+    10 => 'Hoses',
+    11 => 'Other Accessories',
+    12 => 'Steering Hardware',
+    13 => 'Steering Link Arms',
+    14 => 'Steering Wheels',
+    15 => 'Throttles',
+    16 => 'Trim Tabs',
+  ),
+) ?>

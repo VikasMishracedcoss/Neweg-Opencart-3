@@ -1,0 +1,28 @@
+<?php return array (
+  'SubcategoryID' => 766,
+  'SubcategoryName' => 'Fans',
+  'PropertyName' => 'HAFanType',
+  'IsAdvancedSearch' => 1,
+  'IsGroupBy' => 0,
+  'IsRequired' => 0,
+  'PropertyValueList' => 
+  array (
+    0 => 'Accessories',
+    1 => 'Air Circulator',
+    2 => 'Blower Fan',
+    3 => 'Box Fan',
+    4 => 'Ceiling Fan',
+    5 => 'Clip Fan',
+    6 => 'Desk Fan',
+    7 => 'Floor Fan',
+    8 => 'Handheld Fan',
+    9 => 'Misting Fan',
+    10 => 'Pedestal Fan',
+    11 => 'Portable Fan',
+    12 => 'Stand Fan',
+    13 => 'Table Fan',
+    14 => 'Tower Fan',
+    15 => 'Wall-Mount Fan',
+    16 => 'Window Fan',
+  ),
+) ?>

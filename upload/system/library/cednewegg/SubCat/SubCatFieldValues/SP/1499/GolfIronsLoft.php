@@ -1,0 +1,25 @@
+<?php return array (
+  'SubcategoryID' => 1499,
+  'SubcategoryName' => 'GolfIrons',
+  'PropertyName' => 'GolfIronsLoft',
+  'IsAdvancedSearch' => 0,
+  'IsGroupBy' => 0,
+  'IsRequired' => 0,
+  'PropertyValueList' => 
+  array (
+    0 => '3.0',
+    1 => '3.5',
+    2 => '4.0',
+    3 => '4.5',
+    4 => '5.0',
+    5 => '5.5',
+    6 => '6.0',
+    7 => '6.5',
+    8 => '7.0',
+    9 => '7.5',
+    10 => '8.0',
+    11 => '8.5',
+    12 => '9.0',
+    13 => 'Adjustable',
+  ),
+) ?>

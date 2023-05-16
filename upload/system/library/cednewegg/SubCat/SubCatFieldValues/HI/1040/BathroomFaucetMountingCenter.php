@@ -1,0 +1,25 @@
+<?php return array (
+  'SubcategoryID' => 1040,
+  'SubcategoryName' => 'BathroomFaucets',
+  'PropertyName' => 'BathroomFaucetMountingCenter',
+  'IsAdvancedSearch' => 1,
+  'IsGroupBy' => 0,
+  'IsRequired' => 0,
+  'PropertyValueList' => 
+  array (
+    0 => '10" Widespread',
+    1 => '12" Widespread',
+    2 => '4"',
+    3 => '4" Centerset',
+    4 => '4" Minispread',
+    5 => '4" O.C. Wall Mount',
+    6 => '5.5" O.C. Wall Mount',
+    7 => '5.5" Widespread',
+    8 => '6" Centerset',
+    9 => '6" Widespread',
+    10 => '8" Centerset',
+    11 => '8" O.C. Wall Mount',
+    12 => '8" Widespread',
+    13 => 'Single Hole',
+  ),
+) ?>

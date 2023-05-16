@@ -1,0 +1,28 @@
+<?php return array (
+  'SubcategoryID' => 1015,
+  'SubcategoryName' => 'Watches',
+  'PropertyName' => 'WatchBezel',
+  'IsAdvancedSearch' => 0,
+  'IsGroupBy' => 0,
+  'IsRequired' => 0,
+  'PropertyValueList' => 
+  array (
+    0 => 'Crystals',
+    1 => 'Fixed Black Ion-Plated',
+    2 => 'Fixed Gold-Tone',
+    3 => 'Fixed-Ceramic',
+    4 => 'Fixed-Goldtone',
+    5 => 'Fixed-IP Black Plating',
+    6 => 'Fixed-Rosetone',
+    7 => 'Fixed-Stainless Steel',
+    8 => 'Gold',
+    9 => 'Gold-Plated',
+    10 => 'Rotating-Ceramic',
+    11 => 'Rotating-Goldtone',
+    12 => 'Rotating-IP Black plating',
+    13 => 'Rotating-Rosetone',
+    14 => 'Rotating-Stainless Steel',
+    15 => 'Round Diamond',
+    16 => 'Stainless Steel',
+  ),
+) ?>

@@ -1,0 +1,25 @@
+<?php return array (
+  'SubcategoryID' => 3465,
+  'SubcategoryName' => 'GamingMice',
+  'PropertyName' => 'MouseTrackingMethod',
+  'IsAdvancedSearch' => 1,
+  'IsGroupBy' => 0,
+  'IsRequired' => 0,
+  'PropertyValueList' => 
+  array (
+    0 => 'Ball',
+    1 => 'BlueEye',
+    2 => 'BlueTrack',
+    3 => 'Dual Sensor',
+    4 => 'Gyroscopic',
+    5 => 'Laser',
+    6 => 'Mechanical',
+    7 => 'Optical',
+    8 => 'Opto-mechanical',
+    9 => 'R2',
+    10 => 'SurfaceTrack',
+    11 => 'TerrainTested',
+    12 => 'TrackBall',
+    13 => 'V-Track',
+  ),
+) ?>

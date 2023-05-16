@@ -1,0 +1,25 @@
+<?php return array (
+  'SubcategoryID' => 1804,
+  'SubcategoryName' => 'PaintballGunsParts',
+  'PropertyName' => 'PaintballGunsType',
+  'IsAdvancedSearch' => 1,
+  'IsGroupBy' => 0,
+  'IsRequired' => 0,
+  'PropertyValueList' => 
+  array (
+    0 => 'Air Systems',
+    1 => 'Barrels',
+    2 => 'Chronographs',
+    3 => 'Drop Forwards, Rails, ASA & Fittings',
+    4 => 'Expansion Chambers',
+    5 => 'Gauges',
+    6 => 'Grips',
+    7 => 'Gun Upgrades',
+    8 => 'Lubricants & Solvents',
+    9 => 'Paintball Guns',
+    10 => 'Paintball Packages',
+    11 => 'Sights & Scopes',
+    12 => 'Tank Accessories',
+    13 => 'Tanks',
+  ),
+) ?>

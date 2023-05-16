@@ -1,0 +1,28 @@
+<?php return array (
+  'SubcategoryID' => 2938,
+  'SubcategoryName' => 'HLHomeEntertainment',
+  'PropertyName' => 'HIHomeEntertainmentCollection',
+  'IsAdvancedSearch' => 0,
+  'IsGroupBy' => 0,
+  'IsRequired' => 0,
+  'PropertyValueList' => 
+  array (
+    0 => 'Arts & Crafts',
+    1 => 'Aspen',
+    2 => 'Bermuda',
+    3 => 'Bordeaux',
+    4 => 'Champion',
+    5 => 'Galloway',
+    6 => 'Homestead',
+    7 => 'Marco',
+    8 => 'Modern Craftsman',
+    9 => 'Nantucket',
+    10 => 'Naples',
+    11 => 'Nova',
+    12 => 'Orleans',
+    13 => 'St. Croix',
+    14 => 'St. Ives',
+    15 => 'Traditions',
+    16 => 'Woodland',
+  ),
+) ?>

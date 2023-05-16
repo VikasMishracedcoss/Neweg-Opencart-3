@@ -1,0 +1,28 @@
+<?php return array (
+  'SubcategoryID' => 71,
+  'SubcategoryName' => 'CDDVDRRWMedia',
+  'PropertyName' => 'DISCMaxSpeedSupported',
+  'IsAdvancedSearch' => 1,
+  'IsGroupBy' => 0,
+  'IsRequired' => 0,
+  'PropertyValueList' => 
+  array (
+    0 => '10X',
+    1 => '12X',
+    2 => '14X',
+    3 => '16X',
+    4 => '1X',
+    5 => '2.4X',
+    6 => '24X',
+    7 => '2X',
+    8 => '32X',
+    9 => '3X',
+    10 => '40X',
+    11 => '48X',
+    12 => '4X',
+    13 => '52X',
+    14 => '5X',
+    15 => '6X',
+    16 => '8X',
+  ),
+) ?>

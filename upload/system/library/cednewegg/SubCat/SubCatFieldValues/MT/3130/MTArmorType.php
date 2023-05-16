@@ -1,0 +1,25 @@
+<?php return array (
+  'SubcategoryID' => 3130,
+  'SubcategoryName' => 'MTBodyArmorAccessories',
+  'PropertyName' => 'MTArmorType',
+  'IsAdvancedSearch' => 1,
+  'IsGroupBy' => 0,
+  'IsRequired' => 1,
+  'PropertyValueList' => 
+  array (
+    0 => 'Back Protectors',
+    1 => 'Body Armor',
+    2 => 'Collars',
+    3 => 'Elbow Guards',
+    4 => 'Kidney Belts',
+    5 => 'Knee & Shin Guards',
+    6 => 'Knee Brace Accessories',
+    7 => 'Knee Sliders',
+    8 => 'Neck Brace Accessories',
+    9 => 'Neck Braces',
+    10 => 'Palm Protectors',
+    11 => 'Spine Protection',
+    12 => 'Technical Undergarments',
+    13 => 'Wrist Guards',
+  ),
+) ?>

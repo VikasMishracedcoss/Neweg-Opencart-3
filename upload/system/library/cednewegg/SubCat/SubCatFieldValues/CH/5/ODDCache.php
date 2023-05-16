@@ -1,0 +1,27 @@
+<?php return array (
+  'SubcategoryID' => 5,
+  'SubcategoryName' => 'CDDVDBurnersRWDrives',
+  'PropertyName' => 'ODDCache',
+  'IsAdvancedSearch' => 1,
+  'IsGroupBy' => 0,
+  'IsRequired' => 0,
+  'PropertyValueList' => 
+  array (
+    0 => '1.5MB',
+    1 => '128KB',
+    2 => '128MB',
+    3 => '192KB',
+    4 => '198KB',
+    5 => '1MB',
+    6 => '256KB',
+    7 => '2MB',
+    8 => '4.5MB',
+    9 => '4MB',
+    10 => '500KB',
+    11 => '512KB',
+    12 => '750KB',
+    13 => '768KB',
+    14 => '8MB',
+    15 => '96KB',
+  ),
+) ?>

@@ -1,0 +1,25 @@
+<?php return array (
+  'SubcategoryID' => 3275,
+  'SubcategoryName' => 'OSBoards',
+  'PropertyName' => 'BoardsType',
+  'IsAdvancedSearch' => 1,
+  'IsGroupBy' => 0,
+  'IsRequired' => 1,
+  'PropertyValueList' => 
+  array (
+    0 => 'Board Accessories',
+    1 => 'Boards',
+    2 => 'Bulletin Boards',
+    3 => 'Calendar Boards',
+    4 => 'Chalkboards',
+    5 => 'Combo Boards',
+    6 => 'Dry Erase Boards',
+    7 => 'Eraser',
+    8 => 'Glass Boards',
+    9 => 'Interactive Boards',
+    10 => 'Poster Boards',
+    11 => 'Project & Display Boards',
+    12 => 'Sign & Message Boards',
+    13 => 'Wall Decals',
+  ),
+) ?>

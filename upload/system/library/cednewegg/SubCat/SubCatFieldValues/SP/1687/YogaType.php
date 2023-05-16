@@ -1,0 +1,27 @@
+<?php return array (
+  'SubcategoryID' => 1687,
+  'SubcategoryName' => 'YogaPilatesToning',
+  'PropertyName' => 'YogaType',
+  'IsAdvancedSearch' => 1,
+  'IsGroupBy' => 0,
+  'IsRequired' => 0,
+  'PropertyValueList' => 
+  array (
+    0 => 'Ab, Bun & Thigh Toning',
+    1 => 'Advanced',
+    2 => 'Core Training',
+    3 => 'Energizing Gingergrass',
+    4 => 'Entry',
+    5 => 'Heavy',
+    6 => 'Intermediate',
+    7 => 'Light',
+    8 => 'Mats & Accessories',
+    9 => 'Medium',
+    10 => 'N/A',
+    11 => 'Pilates Accessories',
+    12 => 'Soothing Citrus',
+    13 => 'Toning Bands & Weights',
+    14 => 'Tranquil Lavender',
+    15 => 'Yoga Straps',
+  ),
+) ?>

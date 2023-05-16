@@ -1,0 +1,25 @@
+<?php return array (
+  'SubcategoryID' => 2182,
+  'SubcategoryName' => 'HLHomeEmergencySafety',
+  'PropertyName' => 'HLEmergencyType',
+  'IsAdvancedSearch' => 1,
+  'IsGroupBy' => 0,
+  'IsRequired' => 0,
+  'PropertyValueList' => 
+  array (
+    0 => 'Accessories',
+    1 => 'Cooking Stoves and Accessories',
+    2 => 'Emergency Food and Water',
+    3 => 'Fire Extinguishers',
+    4 => 'First-Aid and Trauma Kits',
+    5 => 'Food and Water Storage',
+    6 => 'Furniture Anchors',
+    7 => 'Lighting',
+    8 => 'Radios and Communication',
+    9 => 'Sanitation and Hygiene',
+    10 => 'Survival Kits',
+    11 => 'Tools and Knives',
+    12 => 'Warmth and Coverings',
+    13 => 'Water Potability',
+  ),
+) ?>

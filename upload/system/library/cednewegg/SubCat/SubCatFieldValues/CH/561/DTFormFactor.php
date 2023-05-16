@@ -1,0 +1,25 @@
+<?php return array (
+  'SubcategoryID' => 561,
+  'SubcategoryName' => 'MacDesktops',
+  'PropertyName' => 'DTFormFactor',
+  'IsAdvancedSearch' => 1,
+  'IsGroupBy' => 0,
+  'IsRequired' => 0,
+  'PropertyValueList' => 
+  array (
+    0 => 'All-in-One',
+    1 => 'Computer Stick',
+    2 => 'Desktop',
+    3 => 'Micro Tower',
+    4 => 'Mid Tower',
+    5 => 'Mini PC',
+    6 => 'Mini Tower',
+    7 => 'Nettop Computer',
+    8 => 'Portable All-in-One',
+    9 => 'Slim/Small form factor',
+    10 => 'Tiny',
+    11 => 'Tower',
+    12 => 'Ultra Slim',
+    13 => 'Ultra Small',
+  ),
+) ?>

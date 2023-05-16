@@ -1,0 +1,25 @@
+<?php return array (
+  'SubcategoryID' => 1880,
+  'SubcategoryName' => 'OGCultivatorsHoesRakes',
+  'PropertyName' => 'OGCultivatorsBrand',
+  'IsAdvancedSearch' => 0,
+  'IsGroupBy' => 0,
+  'IsRequired' => 0,
+  'PropertyValueList' => 
+  array (
+    0 => 'Ames',
+    1 => 'Ames True Temper',
+    2 => 'Bond',
+    3 => 'Corona',
+    4 => 'Flexrake',
+    5 => 'Gilmour',
+    6 => 'Jackson',
+    7 => 'Lewis',
+    8 => 'Radius',
+    9 => 'Seymour',
+    10 => 'Snow Joe',
+    11 => 'Toysmith',
+    12 => 'Winged Weeder',
+    13 => 'Wolf-Garten',
+  ),
+) ?>

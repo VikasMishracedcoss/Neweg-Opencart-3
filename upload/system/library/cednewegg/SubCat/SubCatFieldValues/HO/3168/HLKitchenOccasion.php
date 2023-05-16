@@ -1,0 +1,27 @@
+<?php return array (
+  'SubcategoryID' => 3168,
+  'SubcategoryName' => 'HLBakingToolsGadgets',
+  'PropertyName' => 'HLKitchenOccasion',
+  'IsAdvancedSearch' => 0,
+  'IsGroupBy' => 0,
+  'IsRequired' => 0,
+  'PropertyValueList' => 
+  array (
+    0 => 'Anniversary',
+    1 => 'Baptism',
+    2 => 'Birthday',
+    3 => 'Christmas',
+    4 => 'Confirmation',
+    5 => 'Easter',
+    6 => 'Everyday',
+    7 => 'First Communion',
+    8 => 'Graduation',
+    9 => 'Holiday',
+    10 => 'New Baby',
+    11 => 'Prom',
+    12 => 'Retirement',
+    13 => 'Seasonal',
+    14 => 'Valentine\'s Day',
+    15 => 'Wedding',
+  ),
+) ?>

@@ -1,0 +1,28 @@
+<?php return array (
+  'SubcategoryID' => 520,
+  'SubcategoryName' => 'ServerPowerSupplies',
+  'PropertyName' => 'PSUType',
+  'IsAdvancedSearch' => 0,
+  'IsGroupBy' => 0,
+  'IsRequired' => 0,
+  'PropertyValueList' => 
+  array (
+    0 => 'AT',
+    1 => 'ATX',
+    2 => 'ATX / BTX',
+    3 => 'ATX12V',
+    4 => 'ATX12V / EPS12V',
+    5 => 'ATX12V / MicroATX',
+    6 => 'BTX',
+    7 => 'CFX 12V',
+    8 => 'EPS12V',
+    9 => 'Micro ATX',
+    10 => 'Micro PS3',
+    11 => 'Mini ITX',
+    12 => 'Proprietary Power Supply',
+    13 => 'Redundant Power Supply',
+    14 => 'SFX',
+    15 => 'SFX12V',
+    16 => 'TFX12V',
+  ),
+) ?>

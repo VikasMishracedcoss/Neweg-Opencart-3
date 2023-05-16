@@ -1,0 +1,28 @@
+<?php return array (
+  'SubcategoryID' => 3283,
+  'SubcategoryName' => 'OSEducationalSupplies',
+  'PropertyName' => 'EducationalSuppliesType',
+  'IsAdvancedSearch' => 1,
+  'IsGroupBy' => 0,
+  'IsRequired' => 1,
+  'PropertyValueList' => 
+  array (
+    0 => 'Arts & Crafts Supplies',
+    1 => 'Awards & Certificates',
+    2 => 'Bookmarks',
+    3 => 'Calculators & Accessories',
+    4 => 'Charts',
+    5 => 'Classroom Decorations',
+    6 => 'Classroom Storage',
+    7 => 'Compass',
+    8 => 'Crayons & Chalks',
+    9 => 'Letters & Numbers',
+    10 => 'Name Tags & Plates',
+    11 => 'Pencil Sharpeners',
+    12 => 'Photo Albums',
+    13 => 'Resource Books',
+    14 => 'Stencils & Templates',
+    15 => 'Stickers',
+    16 => 'Teaching & Learning Resources',
+  ),
+) ?>

@@ -1,0 +1,26 @@
+<?php return array (
+  'SubcategoryID' => 1814,
+  'SubcategoryName' => 'HIChainSawsAccessories',
+  'PropertyName' => 'HIChainSawsType',
+  'IsAdvancedSearch' => 1,
+  'IsGroupBy' => 0,
+  'IsRequired' => 0,
+  'PropertyValueList' => 
+  array (
+    0 => '14" 33 Cc Chain Saw',
+    1 => '14" Electric Chain Saw',
+    2 => '16" 34 Cc Chain Saw',
+    3 => '16" 35 Cc Chain Saw',
+    4 => '16" Electric Chain Saw',
+    5 => '18" 40 Cc Chain Saw',
+    6 => '18" 42 Cc Chain Saw',
+    7 => '18" Electric Chain Saw',
+    8 => '20" 46 Cc Chain Saw',
+    9 => 'Bar and Chain Combo',
+    10 => 'Chain',
+    11 => 'Chainsaws',
+    12 => 'Cover',
+    13 => 'Pole Saws',
+    14 => 'Sharpening Tools',
+  ),
+) ?>

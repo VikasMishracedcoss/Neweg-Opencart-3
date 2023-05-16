@@ -1,0 +1,26 @@
+<?php return array (
+  'SubcategoryID' => 551,
+  'SubcategoryName' => 'MacMemory',
+  'PropertyName' => 'MacMEMType',
+  'IsAdvancedSearch' => 1,
+  'IsGroupBy' => 0,
+  'IsRequired' => 0,
+  'PropertyValueList' => 
+  array (
+    0 => '120-Pin',
+    1 => '144-Pin SO-DIMM',
+    2 => '168-Pin DIMM',
+    3 => '168-Pin SDRAM',
+    4 => '184-Pin DDR SDRAM',
+    5 => '200-Pin DDR SO-DIMM',
+    6 => '200-Pin DDR2 SO-DIMM',
+    7 => '204-Pin DDR3 SO-DIMM',
+    8 => '240-Pin DDR2 FB-DIMM',
+    9 => '240-Pin DDR2 SDRAM',
+    10 => '240-Pin DDR3 SDRAM',
+    11 => '30-Pin SIMM',
+    12 => '72-Pin SIMM',
+    13 => 'EDO',
+    14 => 'SGRAM',
+  ),
+) ?>

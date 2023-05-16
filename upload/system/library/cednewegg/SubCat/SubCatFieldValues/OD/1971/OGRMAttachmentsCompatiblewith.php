@@ -1,0 +1,25 @@
+<?php return array (
+  'SubcategoryID' => 1971,
+  'SubcategoryName' => 'OGRidingMowerTractorAttachments',
+  'PropertyName' => 'OGRMAttachmentsCompatiblewith',
+  'IsAdvancedSearch' => 1,
+  'IsGroupBy' => 0,
+  'IsRequired' => 0,
+  'PropertyValueList' => 
+  array (
+    0 => '16" Push Mower',
+    1 => '18" Push Mower',
+    2 => '21" Push Mower',
+    3 => '22" Push Mower',
+    4 => '24" Push Mower',
+    5 => '26" Push Mower',
+    6 => '30" Tractor',
+    7 => '42" Tractor',
+    8 => '46" Tractor',
+    9 => '48" Tractor',
+    10 => '50" Tractor',
+    11 => '54" Tractor',
+    12 => '60" Tractor',
+    13 => '66" Tractor',
+  ),
+) ?>

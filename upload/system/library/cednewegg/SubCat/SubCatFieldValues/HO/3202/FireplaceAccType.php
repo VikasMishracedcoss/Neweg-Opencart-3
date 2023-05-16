@@ -1,0 +1,26 @@
+<?php return array (
+  'SubcategoryID' => 3202,
+  'SubcategoryName' => 'HLFireplaceAccessories',
+  'PropertyName' => 'FireplaceAccType',
+  'IsAdvancedSearch' => 1,
+  'IsGroupBy' => 0,
+  'IsRequired' => 1,
+  'PropertyValueList' => 
+  array (
+    0 => 'Ash Containers',
+    1 => 'Bellows & Blowers',
+    2 => 'Electric Fireplace',
+    3 => 'Fire Glass Filler',
+    4 => 'Fireplace Andirons',
+    5 => 'Fireplace Doors',
+    6 => 'Fireplace Firebacks',
+    7 => 'Fireplace Grates',
+    8 => 'Fireplace Screens',
+    9 => 'Fireplace Smoke Guards',
+    10 => 'Fireplace Tools',
+    11 => 'Gas Fireplace Logs',
+    12 => 'Gel Fuel',
+    13 => 'Log Racks & Carriers',
+    14 => 'Matchboxes',
+  ),
+) ?>

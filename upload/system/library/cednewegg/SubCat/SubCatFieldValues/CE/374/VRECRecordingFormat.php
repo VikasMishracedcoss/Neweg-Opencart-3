@@ -1,0 +1,26 @@
+<?php return array (
+  'SubcategoryID' => 374,
+  'SubcategoryName' => 'DigitalVoiceRecorders',
+  'PropertyName' => 'VRECRecordingFormat',
+  'IsAdvancedSearch' => 1,
+  'IsGroupBy' => 0,
+  'IsRequired' => 0,
+  'PropertyValueList' => 
+  array (
+    0 => 'AAC Playback',
+    1 => 'ADPCM',
+    2 => 'ATRAC',
+    3 => 'DS2',
+    4 => 'DSS',
+    5 => 'DSS / WMA',
+    6 => 'Linear PCM / MP3',
+    7 => 'Linear PCM / MP3 / WMA',
+    8 => 'MP3',
+    9 => 'MP3 / WAV',
+    10 => 'Other',
+    11 => 'ST / STLP / SP / LP',
+    12 => 'Triple Rate Coder',
+    13 => 'WMA',
+    14 => 'WMA / MP3',
+  ),
+) ?>

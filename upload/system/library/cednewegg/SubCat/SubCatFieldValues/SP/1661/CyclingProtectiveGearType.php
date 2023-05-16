@@ -1,0 +1,26 @@
+<?php return array (
+  'SubcategoryID' => 1661,
+  'SubcategoryName' => 'CyclingApparelProtectiveGear',
+  'PropertyName' => 'CyclingProtectiveGearType',
+  'IsAdvancedSearch' => 1,
+  'IsGroupBy' => 0,
+  'IsRequired' => 0,
+  'PropertyValueList' => 
+  array (
+    0 => 'Caps',
+    1 => 'Elbow & Knee Pads',
+    2 => 'Eyewear',
+    3 => 'Gloves & Wrist Guards',
+    4 => 'Helmets',
+    5 => 'Jackets',
+    6 => 'Jerseys',
+    7 => 'Pants',
+    8 => 'Shin Guards',
+    9 => 'Shoes',
+    10 => 'Shorts',
+    11 => 'Socks',
+    12 => 'Tights',
+    13 => 'Vests',
+    14 => 'Warmers',
+  ),
+) ?>

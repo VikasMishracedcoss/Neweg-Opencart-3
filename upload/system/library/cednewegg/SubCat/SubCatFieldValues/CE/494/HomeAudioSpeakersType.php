@@ -1,0 +1,28 @@
+<?php return array (
+  'SubcategoryID' => 494,
+  'SubcategoryName' => 'HomeAudioSpeakers',
+  'PropertyName' => 'HomeAudioSpeakersType',
+  'IsAdvancedSearch' => 1,
+  'IsGroupBy' => 1,
+  'IsRequired' => 0,
+  'PropertyValueList' => 
+  array (
+    0 => 'Bookshelf Speakers',
+    1 => 'Center Channel Speaker',
+    2 => 'Detachable Speakers for TVs',
+    3 => 'Floorstanding Speakers',
+    4 => 'Grille/Frame',
+    5 => 'Home Theater Speaker System',
+    6 => 'In-Ceiling Speakers',
+    7 => 'In-Wall Speakers',
+    8 => 'Indoor/Outdoor Speakers',
+    9 => 'Multimedia Speakers',
+    10 => 'N/A',
+    11 => 'On-Wall Speakers',
+    12 => 'SoundBar',
+    13 => 'Speakers',
+    14 => 'Subwoofer',
+    15 => 'Surround/Rear Channel Speakers',
+    16 => 'Tower Speaker',
+  ),
+) ?>

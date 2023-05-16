@@ -1,0 +1,26 @@
+<?php return array (
+  'SubcategoryID' => 630,
+  'SubcategoryName' => 'PrinterLaserPrinters',
+  'PropertyName' => 'LaserPrinterMemorystd',
+  'IsAdvancedSearch' => 0,
+  'IsGroupBy' => 0,
+  'IsRequired' => 0,
+  'PropertyValueList' => 
+  array (
+    0 => '1 GB',
+    1 => '1024 MB',
+    2 => '128 MB',
+    3 => '16 MB',
+    4 => '160 KB',
+    5 => '192 MB',
+    6 => '256 MB',
+    7 => '32 MB',
+    8 => '384 MB',
+    9 => '48 MB',
+    10 => '512 MB',
+    11 => '64 MB',
+    12 => '768 MB',
+    13 => '8 MB',
+    14 => '80 MB',
+  ),
+) ?>

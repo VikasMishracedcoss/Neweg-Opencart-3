@@ -1,0 +1,25 @@
+<?php return array (
+  'SubcategoryID' => 143,
+  'SubcategoryName' => 'KVMKeyboardVideoMouseSwitches',
+  'PropertyName' => 'KVMAutoScanInterval',
+  'IsAdvancedSearch' => 0,
+  'IsGroupBy' => 0,
+  'IsRequired' => 0,
+  'PropertyValueList' => 
+  array (
+    0 => '10 seconds',
+    1 => '12 seconds',
+    2 => '3 or 15 seconds',
+    3 => '3 seconds',
+    4 => '3, 5, 10, or 20 seconds',
+    5 => '3,5,10,15,20,30,40 and 60 seconds',
+    6 => '4 seconds',
+    7 => '4-99 seconds',
+    8 => '5 seconds',
+    9 => '5,10,20 and 40 seconds',
+    10 => '5-90 seconds',
+    11 => '5-99 seconds',
+    12 => '5~100 seconds',
+    13 => '8 seconds',
+  ),
+) ?>

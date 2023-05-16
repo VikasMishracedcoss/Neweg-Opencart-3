@@ -1,0 +1,15 @@
+<?php return array (
+  'SubcategoryID' => 3326,
+  'SubcategoryName' => 'GamingLaptops',
+  'PropertyName' => 'NBBCommunication',
+  'IsAdvancedSearch' => 0,
+  'IsGroupBy' => 0,
+  'IsRequired' => 0,
+  'PropertyValueList' => 
+  array (
+    0 => 'Gigabit LAN and WLAN',
+    1 => 'LAN and WLAN',
+    2 => 'Modem, Gigabit LAN and WLAN',
+    3 => 'Modem, LAN and WLAN',
+  ),
+) ?>

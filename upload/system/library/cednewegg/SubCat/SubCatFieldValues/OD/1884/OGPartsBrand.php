@@ -1,0 +1,28 @@
+<?php return array (
+  'SubcategoryID' => 1884,
+  'SubcategoryName' => 'OGPartsAccessories',
+  'PropertyName' => 'OGPartsBrand',
+  'IsAdvancedSearch' => 0,
+  'IsGroupBy' => 0,
+  'IsRequired' => 0,
+  'PropertyValueList' => 
+  array (
+    0 => 'Ames',
+    1 => 'Ames True Temper',
+    2 => 'Biobizz',
+    3 => 'Bond',
+    4 => 'Dramm',
+    5 => 'Fiskars',
+    6 => 'Flexrake',
+    7 => 'Gilmour',
+    8 => 'Great States',
+    9 => 'HopperTopper',
+    10 => 'Outdoor Solar Solutions',
+    11 => 'Riverstone',
+    12 => 'Suncast',
+    13 => 'Supermoss',
+    14 => 'Supreme Chemical',
+    15 => 'Yard Butler',
+    16 => 'Zareba',
+  ),
+) ?>

@@ -1,0 +1,28 @@
+<?php return array (
+  'SubcategoryID' => 551,
+  'SubcategoryName' => 'MacMemory',
+  'PropertyName' => 'MacMEMSpeed',
+  'IsAdvancedSearch' => 1,
+  'IsGroupBy' => 0,
+  'IsRequired' => 0,
+  'PropertyValueList' => 
+  array (
+    0 => 'DDR 266 (PC 2100)',
+    1 => 'DDR 333 (PC 2700)',
+    2 => 'DDR 400 (PC 3200)',
+    3 => 'DDR2 533 (PC2 4200)',
+    4 => 'DDR2 667 (PC2 5300)',
+    5 => 'DDR2 667 (PC2 5400)',
+    6 => 'DDR2 800 (PC2 6400)',
+    7 => 'DDR3 1066 (PC3 8500)',
+    8 => 'DDR3 1333 (PC3 10600)',
+    9 => 'DDR3 1333 (PC3 10666)',
+    10 => 'DDR3 1600 (PC3 12800)',
+    11 => 'DDR3 1866 (PC3 14900)',
+    12 => 'DDR3L 1600 (PC3L 12800)',
+    13 => 'DDR3L 1866 (PC3L 14900)',
+    14 => 'PC100',
+    15 => 'PC133',
+    16 => 'PC66',
+  ),
+) ?>

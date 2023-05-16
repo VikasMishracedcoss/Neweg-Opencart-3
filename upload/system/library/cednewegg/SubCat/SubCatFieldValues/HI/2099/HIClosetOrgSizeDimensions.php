@@ -1,0 +1,27 @@
+<?php return array (
+  'SubcategoryID' => 2099,
+  'SubcategoryName' => 'HIClosetOrganizationShelving',
+  'PropertyName' => 'HIClosetOrgSizeDimensions',
+  'IsAdvancedSearch' => 0,
+  'IsGroupBy' => 1,
+  'IsRequired' => 0,
+  'PropertyValueList' => 
+  array (
+    0 => '12"L x 12"W X 4"D',
+    1 => '13.75"W X .25"D',
+    2 => '14"L x 13.5"W',
+    3 => '16"L x 1"D',
+    4 => '16"W x .25"D',
+    5 => '16.5"W x .25"D',
+    6 => '20 1/2" x 8 1/4" x 6 1/4"',
+    7 => '3 shelf',
+    8 => '3.5"L x 9"W x 2"H',
+    9 => '4 shelf',
+    10 => '5 shelf',
+    11 => 'Approx. 10"L x .5"W (excluding hooks)',
+    12 => 'Approx. 12"L x 12"W X 4"D when opened',
+    13 => 'Large',
+    14 => 'Medium',
+    15 => 'Small',
+  ),
+) ?>

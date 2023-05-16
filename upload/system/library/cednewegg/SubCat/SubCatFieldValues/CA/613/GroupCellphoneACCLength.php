@@ -1,0 +1,26 @@
+<?php return array (
+  'SubcategoryID' => 613,
+  'SubcategoryName' => 'CellPhoneCables',
+  'PropertyName' => 'GroupCellphoneACCLength',
+  'IsAdvancedSearch' => 0,
+  'IsGroupBy' => 1,
+  'IsRequired' => 0,
+  'PropertyValueList' => 
+  array (
+    0 => '0.5 ft',
+    1 => '1.65 ft',
+    2 => '10 ft',
+    3 => '20 inch',
+    4 => '3 ft',
+    5 => '3.3 ft',
+    6 => '3m',
+    7 => '4 ft',
+    8 => '5 ft',
+    9 => '50cm',
+    10 => '6 ft',
+    11 => '6.6 ft',
+    12 => '9.84 ft',
+    13 => '9FT',
+    14 => 'N/A',
+  ),
+) ?>

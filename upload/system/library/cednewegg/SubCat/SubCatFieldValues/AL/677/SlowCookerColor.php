@@ -1,0 +1,28 @@
+<?php return array (
+  'SubcategoryID' => 677,
+  'SubcategoryName' => 'SlowCookers',
+  'PropertyName' => 'SlowCookerColor',
+  'IsAdvancedSearch' => 1,
+  'IsGroupBy' => 1,
+  'IsRequired' => 0,
+  'PropertyValueList' => 
+  array (
+    0 => 'Black',
+    1 => 'Black/Red',
+    2 => 'Blue',
+    3 => 'Brown',
+    4 => 'Chrome',
+    5 => 'Gray',
+    6 => 'Green',
+    7 => 'Orange',
+    8 => 'Pink',
+    9 => 'Platinum',
+    10 => 'Purple',
+    11 => 'Red',
+    12 => 'Silver',
+    13 => 'Stainless Steel',
+    14 => 'Turquoise',
+    15 => 'White',
+    16 => 'Yellow',
+  ),
+) ?>

@@ -1,0 +1,27 @@
+<?php return array (
+  'SubcategoryID' => 2136,
+  'SubcategoryName' => 'HWFootCare',
+  'PropertyName' => 'HWFootCareItemCount',
+  'IsAdvancedSearch' => 0,
+  'IsGroupBy' => 0,
+  'IsRequired' => 0,
+  'PropertyValueList' => 
+  array (
+    0 => '1/Pack',
+    1 => '10/Pack',
+    2 => '100/Pack',
+    3 => '12/Pack',
+    4 => '15/Pack',
+    5 => '2/Pack',
+    6 => '20/Pack',
+    7 => '24/Pack',
+    8 => '25/Pack',
+    9 => '3/Pack',
+    10 => '30/Pack',
+    11 => '4/Pack',
+    12 => '5/Pack',
+    13 => '50/Pack',
+    14 => '6/Pack',
+    15 => 'N/A',
+  ),
+) ?>

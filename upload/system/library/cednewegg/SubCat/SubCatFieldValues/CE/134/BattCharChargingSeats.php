@@ -1,0 +1,26 @@
+<?php return array (
+  'SubcategoryID' => 134,
+  'SubcategoryName' => 'StandardBatteriesChargers',
+  'PropertyName' => 'BattCharChargingSeats',
+  'IsAdvancedSearch' => 1,
+  'IsGroupBy' => 0,
+  'IsRequired' => 0,
+  'PropertyValueList' => 
+  array (
+    0 => '10 x AA / AAA',
+    1 => '1x 9V',
+    2 => '2 x 9V',
+    3 => '2 x AA',
+    4 => '2 x AA / 4 x AAA',
+    5 => '2 x AA / AAA',
+    6 => '2 x AAA',
+    7 => '4',
+    8 => '4 x AA',
+    9 => '4 x AA / 2 x AAA',
+    10 => '4 x AA / 4 x AAA',
+    11 => '4 x AAA',
+    12 => '8 x AA',
+    13 => '8 x AA / AAA',
+    14 => '8 x AAA',
+  ),
+) ?>

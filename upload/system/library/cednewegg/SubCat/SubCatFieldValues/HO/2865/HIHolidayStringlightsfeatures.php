@@ -1,0 +1,26 @@
+<?php return array (
+  'SubcategoryID' => 2865,
+  'SubcategoryName' => 'HIHolidayStringLights',
+  'PropertyName' => 'HIHolidayStringlightsfeatures',
+  'IsAdvancedSearch' => 1,
+  'IsGroupBy' => 0,
+  'IsRequired' => 0,
+  'PropertyValueList' => 
+  array (
+    0 => 'BatteryOperated',
+    1 => 'Dimmable',
+    2 => 'Dusk-to-Dawn',
+    3 => 'Eco-Friendly',
+    4 => 'EnergySaver/EnergyEfficient',
+    5 => 'Fluorescent',
+    6 => 'Interconnected',
+    7 => 'LED',
+    8 => 'MotionSensor',
+    9 => 'Music',
+    10 => 'PhotoSensor',
+    11 => 'RemoteControl',
+    12 => 'Solar',
+    13 => 'TouchOn/Off',
+    14 => 'WetLocation',
+  ),
+) ?>

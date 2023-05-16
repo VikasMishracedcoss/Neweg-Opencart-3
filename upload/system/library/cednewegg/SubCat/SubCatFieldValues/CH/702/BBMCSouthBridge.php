@@ -1,0 +1,27 @@
+<?php return array (
+  'SubcategoryID' => 702,
+  'SubcategoryName' => 'BareboneSystemsMediaCenter',
+  'PropertyName' => 'BBMCSouthBridge',
+  'IsAdvancedSearch' => 0,
+  'IsGroupBy' => 0,
+  'IsRequired' => 0,
+  'PropertyValueList' => 
+  array (
+    0 => 'AMD SB600',
+    1 => 'ATI SB600',
+    2 => 'ICH4',
+    3 => 'ICH5',
+    4 => 'ICH6',
+    5 => 'ICH6R',
+    6 => 'ICH7',
+    7 => 'ICH7DH',
+    8 => 'ICH8',
+    9 => 'ICH9',
+    10 => 'MCP',
+    11 => 'MCP-T',
+    12 => 'NVIDIA nForce 430',
+    13 => 'SiS 962',
+    14 => 'SiS 964',
+    15 => 'VT8237',
+  ),
+) ?>

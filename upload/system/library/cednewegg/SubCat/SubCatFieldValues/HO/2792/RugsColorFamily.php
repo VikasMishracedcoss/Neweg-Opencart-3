@@ -1,0 +1,25 @@
+<?php return array (
+  'SubcategoryID' => 2792,
+  'SubcategoryName' => 'HLAreaRugs',
+  'PropertyName' => 'RugsColorFamily',
+  'IsAdvancedSearch' => 1,
+  'IsGroupBy' => 0,
+  'IsRequired' => 0,
+  'PropertyValueList' => 
+  array (
+    0 => 'Beige / Tan',
+    1 => 'Black',
+    2 => 'Blue',
+    3 => 'Brown',
+    4 => 'Cream / Ivory',
+    5 => 'Green',
+    6 => 'Grey',
+    7 => 'Off-White',
+    8 => 'Orange',
+    9 => 'Pink',
+    10 => 'Purple',
+    11 => 'Red',
+    12 => 'White',
+    13 => 'Yellow',
+  ),
+) ?>

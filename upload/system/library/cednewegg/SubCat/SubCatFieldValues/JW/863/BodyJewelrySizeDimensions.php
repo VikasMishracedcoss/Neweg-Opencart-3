@@ -1,0 +1,27 @@
+<?php return array (
+  'SubcategoryID' => 863,
+  'SubcategoryName' => 'BodyJewelry',
+  'PropertyName' => 'BodyJewelrySizeDimensions',
+  'IsAdvancedSearch' => 0,
+  'IsGroupBy' => 1,
+  'IsRequired' => 0,
+  'PropertyValueList' => 
+  array (
+    0 => '1',
+    1 => '16"',
+    2 => '17',
+    3 => '18"',
+    4 => '2',
+    5 => '22"',
+    6 => '25',
+    7 => '28',
+    8 => '3',
+    9 => '37.5mm',
+    10 => '4',
+    11 => '5',
+    12 => '6',
+    13 => '6.5',
+    14 => '7',
+    15 => '7.5',
+  ),
+) ?>

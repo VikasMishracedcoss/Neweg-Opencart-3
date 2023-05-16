@@ -1,0 +1,438 @@
+{{ header }}{{ column_left }}
+<div id="content">
+    <div class="page-header">
+        <div class="container-fluid">
+            <div class="pull-right"> 
+                <a onclick="$('#form').submit();" class="btn btn-primary" title="{{ button_save }}"><i
+                            class="fa fa-save"></i></a>
+                <a href="{{ cancel }}" data-toggle="tooltip" title="{{ button_cancel }}"
+                   class="btn btn-default"><i class="fa fa-reply"></i></a>
+            </div>
+            <h1>{{ heading_title }}</h1>
+            <ul class="breadcrumb">
+                {% for breadcrumb in breadcrumbs %}
+                    <li><a href="{{ breadcrumb['href'] }}">{{ breadcrumb['text'] }}</a></li>
+                {% endfor %}
+            </ul>
+        </div>
+    </div>
+    <div class="container-fluid">
+        {% if (error_warning) %}
+            <div class="alert alert-danger"><i class="fa fa-exclamation-circle"></i> {{ error_warning }}
+                <button type="button" class="close" data-dismiss="alert">&times;</button>
+            </div>
+        {% endif %}
+
+        <div class="panel panel-default">
+            <div class="panel-heading">
+                <h3 class="panel-title"><i class="fa fa-pencil"></i> {{ text_form }}</h3>
+            </div>
+
+            <div class="panel-body">
+                <form action="{{ action }}" method="post" id="form" class="form-horizontal">
+                    <ul class="nav nav-tabs">
+                        <li class="active"><a href="#profileInfo"  data-toggle="tab" aria-expanded="false">
+                                <i class="fa fa-file-code-o"></i> Profile Info
+                            </a></li>
+                        <li><a href="#profileCategory" onclick="tab1()" data-toggle="tab">
+                                <i class="fa fa-gears"></i> Mapping
+                            </a></li>
+                         <li id="profileAttr"><a href="#profileAttributes" onclick="tab2()" data-toggle="tab">
+                                <i class="fa fa-gears"></i>Attribute Mapping
+                            </a></li>    
+                        <li><a href="#profilevariantProduct" onclick="tab3()" data-toggle="tab">
+                                <i class="fa fa-wrench"></i>Variant Attribute Mapping  </a></li>
+                        <li><a href="#profileProduct" data-toggle="tab">
+                                <i class="fa fa-wrench"></i>
+                            {{text_profile_products}}   </a></li>
+                    </ul>
+                    <input type="hidden" name="id" id="inputid" value="{{ id }}"/>
+                    <div class="tab-content">
+                        
+                    <!--Profile setting section start-->    
+                        <div class="tab-pane active" id="profileInfo">
+                            <div class="form-group required">
+                                <label class="col-sm-2 control-label"
+                                       for="input-title">{{ entry_profile_name }}</label>
+                                <div class="col-sm-10">
+                                    <input type="text" name="profile_name" id="input-title" value="{{ profile_name }}"
+                                           class="form-control"/>
+                                </div>
+                            </div>
+                            <div class="form-group">
+                                <label class="col-sm-2 control-label"
+                                       for="input-status">{{ column_status }}</label>
+                                <div class="col-sm-10">
+                                    <select name="status" id="input-status" class="form-control">
+                                        {% if (status) %}
+                                            <option value="1" selected="selected">{{ text_enabled }}</option>
+                                            <option value="0">{{ text_disabled }}</option>
+                                        {% else %}
+                                            <option value="1">{{ text_enabled }}</option>
+                                            <option value="0" selected="selected">{{ text_disabled }}</option>
+                                        {% endif %}
+                                    </select>
+                                </div>
+                            </div>
+                        </div>
+                    <!--Profile setting section end-->
+                    
+                    <!--Profile Category setting start -->
+
+                        <div class="tab-pane" id="profileCategory">
+                            <div class="row">
+                                <div class="col-sm-12 col-md-6">
+                                    <div class="form-group required">
+                                        <label class="col-sm-4 control-label"
+                                               for="input-category">{{ entry_profile }}</label>
+                                        <div class="col-sm-8">
+                                        <select class="form-control" id="acc_id" name="newegg_account">
+                                        <option value="">Select Account</option>
+                                            {% if (data_acc) %}
+                                            {% for data_account in  data_acc %}
+                                        <option value="{{ data_account['id'] }}" {% if (data_account['id'] == '1') %} selected="selected" {% endif %}>{{ data_account['account_title'] }}</option>
+                                            {% endfor %}
+                                            {% endif %}
+                                        </select>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="row">
+                                <div class="col-sm-12 col-md-6">
+                                    <div class="form-group required">
+                                        <label class="col-sm-4 control-label"
+                                               for="input-category">{{ entry_category }}</label>
+                                        <div class="col-sm-8">
+                            <input type="hidden" id="tokken" value="{{url_cat}}"> 
+                            <input type="hidden" id="optinal" value="{{url_cat_opional}}">
+                           <input type="hidden" name="cate_name" id="cate_name" >
+                                <select class="form-control" name="newegg_profile_category" id="sub_cat">
+                                <option value="">Select Profile Category{{ subcategory['SubcategoryID'] }}</option>
+                                {% if (sub_category) %}{% for subcategory in  sub_category %}<option value="{{ subcategory['SubcategoryID'] }}" {% if (subcategory['SubcategoryID'] == profile_cat ) %} selected="selected" {% endif %} >{{ subcategory['SubcategoryName'] }}</option>{% endfor %}{% endif %}
+                                            </select>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                 <!--Profile Category setting end -->
+
+                    <!--Profile Default setting start -->
+                    <div class="tab-pane" id="profileAttributes">
+                       
+                        <div class="row">
+                        <div class="col-md-12 req" style="font-weight:900;font-size:20px;">NewEgg Required Attribute</div>
+                         <div class="col-md-12">
+                            <label class="col-md-4">NewEgg Required Attribute</label>
+                            <label class="col-md-4">Opencart Catalog Attribute</label>
+                            <label class="col-md-4">Default Value</label>
+                         </div>
+                        </div>
+                        <div  class="col-md-12" id="req"></div>
+
+                        <div class="row">
+                        <div class="col-md-12 opt" style="font-weight:900;font-size:20px;">NewEgg Optional Attribute</div>
+                        <div class="col-md-12">
+                            <label class="col-md-4">NewEgg Optional Attribute</label>
+                            <label class="col-md-4">Opencart Catalog Attribute</label>
+                            <label class="col-md-4">Default Value</label>
+                        </div>
+                        </div>
+                        <div class="col-md-12" id="opt"></div>
+
+                    </div>
+
+
+                <!--Profile Varient Attribute start -->
+                <div class="tab-pane" id="profilevariantProduct">
+                <input type="hidden" id="optinalvarient" value="{{url_vat_opional}}">
+                <input type="hidden" id="optinalvarients" value="{{url_vat_opionals}}">
+                <div class="row">
+                <div class="col-md-12 opt" style="font-weight:900;font-size:20px;">NewEgg Varient Attribute</div>
+                <div class="col-md-12">
+                <label class="col-md-4">NewEgg Variant Attribute</label>
+                <label class="col-md-4">Opencart Attribute</label>
+                <label class="col-md-4">Default Value</label>
+                </div>
+                </div>
+                <div class="col-md-12" id="vatopt"></div>
+                </div>
+
+
+
+
+                    <!--Profile Default setting end -->
+
+                        <div class="tab-pane" id="profileProduct">
+                            <div id="profile_attribute_mapping_section">
+                              <div class="table-responsive">
+                        <table class="table table-bordered table-hover">
+                            <thead>
+                            <tr>
+                                <td width="1" style="text-align: center;"><input type="checkbox" onclick="$('input[name*=\'selected\']').attr('checked', this.checked);"/>
+                                </td>
+                                <td class="center">
+                                    {{ 'ID' }}
+                                </td>
+                                <td class="center">Image</td>
+                                <td class="center">
+                                    {{ column_profile_name }}
+                                </td>
+                                <td class="center">Price</td>
+                                <td class="center">Quantity</td>
+                                <td class="center">Status</td>
+                            </tr>
+                            </thead>
+                            <tbody>
+
+                            {% if (products) %}
+                                {% for product in products %}
+                               
+                                <tr>
+                                    <td style="text-align: center;">
+                                        {% if (product['product']) %}                       
+                                           <input type="checkbox" name="selected[]" value="{{ product['product_id'] }}"
+                                                       checked="checked"/>
+                                        {% else %}
+                                            <input type="checkbox" name="selected[]" value="{{ product['product_id'] }}"/>
+                                        {% endif %}
+                                    </td>
+                                    <td class="left">{{ product['product_id'] }}</td>
+
+                                        <td class="center"><img src="{{ product['image'] }}" alt="{{ product['name'] }}" style="padding: 1px; border: 1px solid #DDDDDD;"/></td>
+                                        <td class="left">{{ product['name'] }}</td>
+                                        
+                                        <td class="left">{% if (product['special']) %}
+                                                <span style="text-decoration: line-through;">{{ product['price'] }}</span><br/>
+                                                <span style="color: #b00;">{{ product['special'] }}</span>
+                                            {% else %}
+                                                {{ product['price'] }}
+                                            {% endif %}</td>
+                                        <td class="right">{% if (product['quantity'] <= 0) %}
+                                                <span style="color: #FF0000;">{{ product['quantity'] }}</span>
+                                            {% elseif (product['quantity'] <= 5) %}
+                                                <span style="color: #FFA500;">{{ product['quantity'] }}</span>
+                                            {% else %}
+                                                <span style="color: #008000;">{{ product['quantity'] }}</span>
+                                            {% endif %}</td>
+                                        <td class="right">
+                                           {% if (product['status'] == 1) %}
+                                            <button class="btn btn-sl btn-success">Enable</button>
+                                           {% else %}
+                                         <button class="btn btn-sl btn-danger">Disable</button>
+                                            {% endif %}
+                                        </td>
+                                    </tr>
+                                {% endfor %}
+                            {% else %}
+                                <tr>
+                                    <td class="text-center" colspan="12">{{ text_no_results }}</td>
+                                </tr>
+                            {% endif %}
+                            </tbody>
+                        </table>
+                    </div>   
+                            </div>
+                        </div>
+
+                    </div>
+
+<!-- Modal -->
+  <div class="modal fade" id="myModal" role="dialog">
+    <div class="modal-dialog modal-lg">
+      <div class="modal-content">
+        <div class="modal-header">
+          <!--button type="button" class="close" data-dismiss="modal">&times;</button-->
+          <h4 class="modal-title">Varient Mapping</h4>
+        </div>
+        <div class="modal-body">
+        <div class="row"><label class="col-md-2"></label>
+        <label class="col-md-4">Opencart Varient Option</label>
+        <label class="col-md-4">NewEgg Varient Option</label>
+        <label class="col-md-2"></label></div>'
+          <div class="show_data"></div>
+        </div>
+        <div class="modal-footer">
+          <button type="button" class="btn btn-default btn-danger" data-dismiss="modal">Cancel</button>
+          <button type="button" class="btn btn-success" data-dismiss="modal">Save</button>
+        </div>
+      </div>
+    </div>
+  </div>
+
+                    
+                </form>
+                <div class="row">
+                    <div class="col-sm-6 text-left">{{ pagination }}</div>
+                    <div class="col-sm-6 text-right">{{ results }}</div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+<div id="overlay">
+    <div id="text"> LOADING.....</div>
+</div>
+
+
+<button type="button" id="trigger" style="visibility:visible;" onclick="modal_btn_click()">Trigger Modal Click</button>
+
+
+<script>
+//Add Input Fields
+function tab3(){ 
+  // alert();
+   var profile_id=$("#inputid").val();
+   //alert(profile_id);
+   var id=$("#sub_cat").val();
+   var url=$("#optinalvarient").val();
+   var acc_id=$("#acc_id").val();
+    $.ajax({
+        type: 'POST',
+        url: url,
+        dataType: 'HTML',
+        data: {'id': id,'acc_id':acc_id,'profile_id':profile_id
+        },
+        success: function (data) {
+        //alert(data);
+        //console.log(data);
+        if(data){
+            var parsedJson = $.parseJSON(data);
+            $('#vatopt').html(parsedJson);
+        }  }
+    });
+ }
+
+function tab2(){
+ //alert();
+    var profile_id=$("#inputid").val();
+    //alert(profile_id);
+    var id=$("#sub_cat").val();
+    var catename = $("#sub_cat").find(":selected").text();
+     $("#cate_name").val(catename);
+    var url=$("#tokken").val();
+    var acc_id=$("#acc_id").val();
+    $.ajax({
+        type: 'POST',
+        url: url,
+        dataType: 'HTML',
+        data: {'id': id,'acc_id':acc_id,'profile_id':profile_id
+        },
+        success: function (data) {
+        //alert(data.attr); 
+        if(data){
+            var parsedJson = $.parseJSON(data);
+            $('#req').html(parsedJson);
+        } }
+    });
+}
+
+function tab1(){
+//getCategory_attr_optional
+   //alert();
+   var profile_id=$("#inputid").val();
+   //alert(profile_id);
+   var id=$("#sub_cat").val();
+   var url=$("#optinal").val();
+   var acc_id=$("#acc_id").val();
+    $.ajax({
+        type: 'POST',
+        url: url,
+        dataType: 'HTML',
+        data: {'id': id,'acc_id':acc_id,'profile_id':profile_id
+        },
+        success: function (data) {
+        //alert(data.attr);
+         if(data){
+            var parsedJson = $.parseJSON(data);
+            $('#opt').html(parsedJson);
+            }
+        }
+    });
+}
+
+function select_Value(key){
+   var value =  $("#select_value"+key+" option:selected").text();
+   if(value!=''){
+   if(value.indexOf('select') != -1){
+   var profile_id=$("#inputid").val();
+   var id=$("#sub_cat").val();
+   var url=$("#optinalvarients").val();
+   var option_id=$("#select_value"+key+" option:selected").val();;
+   //alert(url);
+   var acc_id=$("#acc_id").val();
+    $.ajax({
+        type: 'POST',
+        url: url,
+        dataType: 'HTML',
+        data: {'id': id,'acc_id':acc_id,'profile_id':profile_id,'option_id':option_id
+        },
+        success: function (data) {
+        //alert(data.attr);
+        var parsedJson = $.parseJSON(data);
+            $('#myModal').modal('show');
+            $('div.show_data').html(parsedJson);
+        }
+    }); 
+ } }
+}
+
+function selectVal(key){
+ var value =$("#selectVal"+key).val();
+ if(value!=''){
+   $("#sel"+key).val('');
+ } 
+}
+</script> 
+<style>
+    .form-control {
+        margin-bottom: 15px;
+    }
+</style>
+<style type="text/css">
+    #overlay {
+        position: fixed;
+        display: none;
+        width: 100%;
+        height: 100%;
+        top: 0;
+        left: 0;
+        right: 0;
+        bottom: 0;
+        background-color: rgba(0, 0, 0, 0.5);
+        z-index: 2;
+        cursor: pointer;
+    }
+
+    #text {
+        position: absolute;
+        top: 50%;
+        left: 50%;
+        font-size: 50px;
+        color: white;
+        transform: translate(-50%, -50%);
+        -ms-transform: translate(-50%, -50%);
+    }
+
+    .required {
+        /*color: red;*/
+        /*font-weight: bold;*/
+    }
+
+    .option_input {
+        margin: 5px 14px 0 0;
+        width: 40%;
+        border: 1px solid #cccccc;
+        background-color: #ffffff;
+        border-radius: 3px;
+        color: #555555;
+        height: 35px;
+        margin-bottom: 15px;
+        line-height: 1.42857143;
+        padding: 8px 13px;
+        font-size: 12px;
+    }
+</style>
+{{ footer }}
+

@@ -1,0 +1,27 @@
+<?php return array (
+  'SubcategoryID' => 1504,
+  'SubcategoryName' => 'GolfAccessories',
+  'PropertyName' => 'GolfAccessoriesType',
+  'IsAdvancedSearch' => 1,
+  'IsGroupBy' => 0,
+  'IsRequired' => 0,
+  'PropertyValueList' => 
+  array (
+    0 => 'Ball Retrievers',
+    1 => 'Brushes & Cleaners',
+    2 => 'Divot Repair Tools',
+    3 => 'Golf Gloves',
+    4 => 'Golf Towels',
+    5 => 'Grips',
+    6 => 'Headwear',
+    7 => 'Miscellaneous',
+    8 => 'Practice Accessories',
+    9 => 'Range Finders & GPS',
+    10 => 'Score Keepers',
+    11 => 'Shag Bags',
+    12 => 'Spikes & Wrenches',
+    13 => 'Tees',
+    14 => 'Training Aids',
+    15 => 'Umbrellas',
+  ),
+) ?>

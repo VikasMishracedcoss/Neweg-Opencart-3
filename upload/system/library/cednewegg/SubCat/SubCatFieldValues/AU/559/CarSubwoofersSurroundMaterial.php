@@ -1,0 +1,25 @@
+<?php return array (
+  'SubcategoryID' => 559,
+  'SubcategoryName' => 'CarAmplifiers',
+  'PropertyName' => 'CarSubwoofersSurroundMaterial',
+  'IsAdvancedSearch' => 0,
+  'IsGroupBy' => 0,
+  'IsRequired' => 0,
+  'PropertyValueList' => 
+  array (
+    0 => 'Aluminum',
+    1 => 'Butyl Rubber',
+    2 => 'Cloth',
+    3 => 'Fiber',
+    4 => 'Foam',
+    5 => 'Kapton',
+    6 => 'Kraft Pulp',
+    7 => 'NBR Rubber',
+    8 => 'Paper',
+    9 => 'Polymer',
+    10 => 'Rubber',
+    11 => 'Santoprene',
+    12 => 'Steel',
+    13 => 'Urethane',
+  ),
+) ?>

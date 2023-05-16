@@ -1,0 +1,400 @@
+<!--
+/**
+* CedCommerce
+*
+* NOTICE OF LICENSE
+*
+* This source file is subject to the End User License Agreement (EULA)
+* that is bundled with this package in the file LICENSE.txt.
+* It is also available through the world-wide-web at this URL:
+* http://cedcommerce.com/license-agreement.txt
+*
+* @category  modules
+* @package   cedebay
+* @author    CedCommerce Core Team 
+* @copyright Copyright CEDCOMMERCE (http://cedcommerce.com/)
+* @license   http://cedcommerce.com/license-agreement.txt
+*/
+-->
+{{ header }}{{ column_left }}
+<div id="content">
+  <div class="page-header">
+    <div class="container-fluid">
+      <div class="pull-right">
+        <a href="{{ fetch }}" data-toggle="tooltip" title="{{ 'Fetch Orders' }}" class="btn btn-primary">
+          <i class="fa fa-download"></i>  Fetch Orders
+        </a>
+        <!--<a onclick="if (confirm('Are you sure ?')) { $('#form-order').attr('action', '{{ syncall }}'); $('#form-order').submit();; }" data-toggle="tooltip" title="{{ button_sync_all }}" class="btn btn-default">{{ button_sync_all }}</a>-->
+
+      </div>
+      <h1>{{ heading_title }}</h1>
+      <ul class="breadcrumb">
+        {% for breadcrumb in breadcrumbs %}
+          <li><a href="{{ breadcrumb['href'] }}">{{ breadcrumb['text'] }}</a></li>
+        {% endfor %}
+      </ul>
+    </div>
+  </div>
+  <div class="container-fluid">
+    {% if (error_warning) %}
+      <div class="alert alert-danger">
+        {% if (error_warning is iterable) %} {% for key,value in error_warning %}
+          {{ '<span style="font-size: 12px;"><i class="fa fa-exclamation-circle"></i> '~value~'</span><br>' }} {% endfor %} {% else %}
+          {{ '<i class="fa fa-exclamation-circle"></i> '~error_warning }}
+        {% endif %}      <button type="button" class="close" data-dismiss="alert">&times;</button>
+      </div>
+    {% endif %}
+    {% if (success) %}
+      <div class="alert alert-success"><i class="fa fa-check-circle"></i> {{ success }}
+        <button type="button" class="close" data-dismiss="alert">&times;</button>
+      </div>
+    {% endif %}
+
+    <div class="panel panel-default">
+      <div class="panel-heading">
+        <h3 class="panel-title"><i class="fa fa-list"></i> {{ text_list }}</h3>
+      </div>
+      <div class="panel-body">
+        <div class="well">
+          <div class="row">
+            <div class="col-sm-4">
+              <div class="form-group">
+                <label class="control-label" for="input-order_id">{{ column_order_id }}</label>
+                <input type="text" name="filter_order_id" value="{{ filter_order_id }}" placeholder="{{ column_order_id }}" id="input-order_id" class="form-control" />
+              </div>
+              <div class="form-group">
+                <label class="control-label" for="input-ebay_order_id">{{ column_ebay_order_id }}</label>
+                <input type="text" name="filter_ebay_order_id" value="{{ filter_ebay_order_id }}" placeholder="{{ column_ebay_order_id }}" id="input-ebay_order_id" class="form-control" />
+              </div>
+            </div>
+            <div class="col-sm-4">
+              <div class="form-group">
+                <label class="control-label" for="input-customer">{{ column_customer }}</label>
+                <input type="text" name="filter_customer" value="{{ filter_customer }}" placeholder="{{ column_customer }}" id="input-customer" class="form-control" />
+              </div>
+              <div class="form-group">
+                <label class="control-label" for="input-total">{{ column_total }}</label>
+                <input type="text" name="filter_total" value="{{ filter_total }}" placeholder="{{ column_total }}" id="input-total" class="form-control" />
+              </div>
+            </div>
+            <div class="col-sm-4">
+              <div class="form-group">
+                <label class="control-label" for="input-status">{{ column_status }}</label>
+                <select name="filter_order_status_id" id="input-status" class="form-control">
+                  <option value="*"></option>
+                  {% if (filter_order_status_id == '0') %}
+                    <option value="0" selected="selected">{{ text_missing }}</option>
+                  {% else %}
+                    <option value="0">{{ text_missing }}</option>
+                  {% endif %}
+                  {% for order_status in order_statuses %}
+                    {% if (order_status['order_status_id'] == filter_order_status_id) %}
+                      <option value="{{ order_status['order_status_id'] }}" selected="selected">{{ order_status['name'] }}</option>
+                    {% else %}
+                      <option value="{{ order_status['order_status_id'] }}">{{ order_status['name'] }}</option>
+                    {% endif %}
+                  {% endfor %}
+                </select>
+              </div>
+              <div class="form-group">
+                <label class="control-label" for="input-status">{{ column_wstatus }}</label>
+                <select name="filter_ebay_order_status" id="input-ebay_status_name" class="form-control">
+                  <option value="*"></option>
+
+                  {% for worder_status in ebay_order_statuses %}
+                    {% if (worder_status == filter_ebay_order_status) %}
+                      <option value="{{ worder_status }}" selected="selected">{{ worder_status }}</option>
+                    {% else %}
+                      <option value="{{ worder_status }}">{{ worder_status }}</option>
+                    {% endif %}
+                  {% endfor %}
+                </select>
+              </div>
+            </div>
+            <div class="col-sm-4">
+              <div class="form-group">
+                <label class="control-label" for="input-date-added">{{ column_date_added }}</label>
+                <div class="input-group date">
+                  <input type="text" name="filter_date_added" value="{{ filter_date_added }}" placeholder="{{ column_date_added }}" data-date-format="YYYY-MM-DD" id="input-date-added" class="form-control date" />
+                  <span class="input-group-btn">
+                  <button type="button" class="btn btn-default"><i class="fa fa-calendar"></i></button>
+                  </span></div>
+              </div>
+            </div>
+            <div class="col-sm-4">
+              <div class="form-group">
+                <label class="control-label" for="input-date-added">{{ column_date_modified }}</label>
+                <div class="input-group date">
+                  <input type="text" name="filter_date_modified" value="{{ filter_date_modified }}" placeholder="{{ column_date_modified }}" data-date-format="YYYY-MM-DD" id="input-date-added" class="form-control date" />
+                  <span class="input-group-btn">
+                  <button type="button" class="btn btn-default"><i class="fa fa-calendar"></i></button>
+                  </span></div>
+              </div>
+              <div class="form-group" style="float: right; margin: -4.2em -8em 0 0;">
+                <a onclick="filter();" class="btn btn-primary "><i class="fa fa-search"></i>{{ button_filter }}</a>
+              </div>
+
+            </div>
+          </div>
+        </div>
+        <form method="post" action="" id="form-order">
+          <div class="table-responsive">
+            <table class="table table-bordered table-hover">
+              <thead>
+              <tr>
+                <td width="1" style="text-align: center;"><input type="checkbox" onclick="$('input[name*=\'selected\']').attr('checked', this.checked);" /></td>
+                <td class="center">{% if (sort == 'o.order_id') %}
+                    <a href="{{ sort_order }}" class="{{ (order|lower) }}">{{ column_order_id }}</a>
+                  {% else %}
+                    <a href="{{ sort_order }}">{{ column_order_id }}</a>
+                  {% endif %}</td>
+                <td class="center">{% if (sort == 'wo.ebay_order_id') %}
+                    <a href="{{ sort_ebay_order_id }}" class="{{ (order|lower) }}">{{ column_ebay_order_id }}</a>
+                  {% else %}
+                    <a href="{{ sort_ebay_order_id }}">{{ column_ebay_order_id }}</a>
+                  {% endif %}</td>
+                <td class="center">{% if (sort == 'customer') %}
+                    <a href="{{ sort_customer }}" class="{{ (order|lower) }}">{{ column_customer }}</a>
+                  {% else %}
+                    <a href="{{ sort_customer }}">{{ column_customer }}</a>
+                  {% endif %}</td>
+                <td class="center">{% if (sort == 'status') %}
+                    <a href="{{ sort_status }}" class="{{ (order|lower) }}">{{ column_status }}</a>
+                  {% else %}
+                    <a href="{{ sort_status }}">{{ column_status }}</a>
+                  {% endif %}</td>
+                <!--td class="center">{% if (sort == 'wo.status') %}
+                    <a href="{{ sort_wstatus }}" class="{{ (order|lower) }}">{{ column_wstatus }}</a>
+                  {% else %}
+                    <a href="{{ sort_wstatus }}">{{ column_wstatus }}</a>
+                  {% endif %}</td-->
+                <td class="center">{% if (sort == 'o.total') %}
+                    <a href="{{ sort_total }}" class="{{ (order|lower) }}">{{ column_total }}</a>
+                  {% else %}
+                    <a href="{{ sort_total }}">{{ column_total }}</a>
+                  {% endif %}</td>
+                <td class="center">{% if (sort == 'o.date_added') %}
+                    <a href="{{ sort_date_added }}" class="{{ (order|lower) }}">{{ column_date_added }}</a>
+                  {% else %}
+                    <a href="{{ sort_date_added }}">{{ column_date_added }}</a>
+                  {% endif %}</td>
+                <td class="center">{% if (sort == 'o.date_modified') %}
+                    <a href="{{ sort_date_modified }}" class="{{ (order|lower) }}">{{ column_date_modified }}</a>
+                  {% else %}
+                    <a href="{{ sort_date_modified }}">{{ column_date_modified }}</a>
+                  {% endif %}</td>
+                <td class="center">{{ column_action }}</td>
+              </tr>
+              </thead>
+              <tbody>
+              {% if (orders) %}
+                {% for order in orders %}
+                  <tr>
+                    <td style="text-align: center;">{% if (order['selected']) %}
+                        <input type="checkbox" name="selected[]" value="{{ order['id'] }}" checked="checked" />
+                      {% else %}
+                        <input type="checkbox" name="selected[]" value="{{ order['id'] }}" />
+                      {% endif %}</td>
+                    <td class="right">{{ order['order_id'] }}</td>
+                    <td class="right">{{ order['newegg_orderid'] }}</td>
+                    <td class="left">{{ order['customer'] }}</td>
+                    <td class="left">{{ order['status'] }}</td>
+                    <!--td class="left">{{ order['wstatus'] }}</td-->
+                    <td class="right">{{ order['total'] }}</td>
+                    <td class="left">{{ order['date_added'] }}</td>
+                    <td class="left">{{ order['date_modified'] }}</td>
+                    <td class="right">
+                      <!--<a href="{{ order['sync'] }}" data-toggle="tooltip" title="{{ 'Sync Order Status' }}" class="btn btn-default"><i class="fa fa-refresh"></i></a>-->
+                      <a href="{{ order['view'] }}" data-toggle="tooltip" title="{{ button_edit }}" class="btn btn-info"><i class="fa fa-eye"></i></a>
+                    </td>
+                  </tr>
+                {% endfor %}
+              {% else %}
+                <tr>
+                  <td class="text-center" colspan="10">{{ text_no_results }}</td>
+                </tr>
+              {% endif %}
+              </tbody>
+            </table>
+          </div>
+        </form>
+        <div class="pagination">{{ pagination }}</div>
+      </div>
+    </div>
+  </div>
+</div>
+<script type="text/javascript"><!--
+
+  function confirmAction(href) {
+    var res = confirm("Are you sure?");
+    if (res == true) {
+      location = href;
+    }
+  }
+
+  function filter() {
+    url = 'index.php?route=extension/module/cedebay/order&user_token={{ user_token }}';
+
+    var filter_order_id = $('input[name=\'filter_order_id\']').val();
+
+    if (filter_order_id) {
+      url += '&filter_order_id=' + encodeURIComponent(filter_order_id);
+    }
+    var filter_ebay_order_id = $('input[name=\'filter_ebay_order_id\']').val();
+
+    if (filter_ebay_order_id) {
+      url += '&filter_ebay_order_id=' + encodeURIComponent(filter_ebay_order_id);
+    }
+
+    var filter_customer = $('input[name=\'filter_customer\']').val();
+
+    if (filter_customer) {
+      url += '&filter_customer=' + encodeURIComponent(filter_customer);
+    }
+
+    var filter_ebay_order_status = $('select[name=\'filter_ebay_order_status\']').val();
+
+    if (filter_ebay_order_status != '*') {
+      url += '&filter_ebay_order_status=' + encodeURIComponent(filter_ebay_order_status);
+    }
+
+    var filter_order_status_id = $('select[name=\'filter_order_status_id\']').val();
+
+    if (filter_order_status_id != '*') {
+      url += '&filter_order_status_id=' + encodeURIComponent(filter_order_status_id);
+    }
+
+    var filter_total = $('input[name=\'filter_total\']').val();
+
+    if (filter_total) {
+      url += '&filter_total=' + encodeURIComponent(filter_total);
+    }
+
+    var filter_date_added = $('input[name=\'filter_date_added\']').val();
+
+    if (filter_date_added) {
+      url += '&filter_date_added=' + encodeURIComponent(filter_date_added);
+    }
+
+    var filter_date_modified = $('input[name=\'filter_date_modified\']').val();
+
+    if (filter_date_modified) {
+      url += '&filter_date_modified=' + encodeURIComponent(filter_date_modified);
+    }
+
+    location = url;
+  }
+  //--></script>
+<script type="text/javascript"><!--
+  $(document).ready(function() {
+  });
+  //--></script>
+<script type="text/javascript"><!--
+  $('#form input').keydown(function(e) {
+    if (e.keyCode == 13) {
+      filter();
+    }
+  });
+  //--></script>
+<script type="text/javascript"><!--
+
+  $('input[name=\'filter_customer\']').autocomplete({
+    delay: 500,
+    source: function(request, response) {
+      $.ajax({
+        url: 'index.php?route=sale/customer/autocomplete&user_token={{ user_token }}&filter_name=' +  encodeURIComponent(request.term),
+        dataType: 'json',
+        success: function(json) {
+          response($.map(json, function(item) {
+            return {
+              category: item.customer_group,
+              label: item.name,
+              value: item.customer_id
+            }
+          }));
+        }
+      });
+    },
+    select: function(event, ui) {
+      $('input[name=\'filter_customer\']').val(ui.item.label);
+
+      return false;
+    },
+    focus: function(event, ui) {
+      return false;
+    }
+  });
+  //--></script>
+<div class="modal fade" id="myModal" role="dialog">
+  <div class="modal-dialog">
+    <div class="modal-content">
+      <div class="modal-header">
+        <button type="button" class="close" data-dismiss="modal">&times;</button>
+        <h4 class="modal-title"> Order Details </h4>
+      </div>
+      <div class="modal-body">
+        <div id="complete-order-data">
+
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+<script type="text/javascript">
+  /**
+   * Hide the overlay
+   */
+  function hideoverlay() {
+    var containerDivObject   = document.getElementById("container");
+    var element = document.getElementById('loading');
+    containerDivObject.removeChild(element);
+    var element = document.getElementById('jet_overlay');
+    containerDivObject.removeChild(element);
+  }
+  /**
+   * Show the overlay
+   */
+  function showoverlay(){
+    var containerDivObject = document.getElementById("container");
+    var overlayDiv = document.createElement('div');
+    overlayDiv.setAttribute('id','jet_overlay');
+    overlayDiv.setAttribute("class", "black_overlay");
+    overlayDiv.style.display='block';
+    containerDivObject.appendChild(overlayDiv);
+    var lDiv = document.createElement('div');
+    lDiv.setAttribute('id','loading');
+    lDiv.setAttribute("class", "loading");
+    lDiv.style.display='block';
+    containerDivObject.appendChild(lDiv);
+
+  }
+  /**
+   *Bulk Fetch Products Status
+   **/
+  function getCompletedOrder(order_id){
+    var url = 'index.php?route=extension/module/cedebay/order/fetchOrderData&user_token={{ user_token }}';
+    showoverlay();
+    $.ajax({
+      url:url,
+      data:{'order_id':order_id},
+      type:'post',
+      success: function(response)
+      {
+        if(response)
+        {
+          hideoverlay();
+        }else{
+          hideoverlay();
+        }
+      } ,
+    });
+  }
+</script>
+ <script src="view/javascript/jquery/datetimepicker/bootstrap-datetimepicker.min.js" type="text/javascript"></script>
+<link href="view/javascript/jquery/datetimepicker/bootstrap-datetimepicker.min.css" type="text/css" rel="stylesheet" media="screen" />
+<script type="text/javascript"><!--
+        $('.date').datetimepicker({
+            pickTime: false
+        });
+        //--></script>
+{{ footer }}

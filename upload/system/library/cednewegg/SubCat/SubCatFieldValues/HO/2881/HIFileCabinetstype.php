@@ -1,0 +1,26 @@
+<?php return array (
+  'SubcategoryID' => 2881,
+  'SubcategoryName' => 'HLFileCabinets',
+  'PropertyName' => 'HIFileCabinetstype',
+  'IsAdvancedSearch' => 1,
+  'IsGroupBy' => 0,
+  'IsRequired' => 0,
+  'PropertyValueList' => 
+  array (
+    0 => 'Barrister',
+    1 => 'Childrens\' Desks',
+    2 => 'Computer Desks',
+    3 => 'Corner',
+    4 => 'Ergonomical',
+    5 => 'Executive',
+    6 => 'L-Shaped Desks',
+    7 => 'Lateral File Cabinets',
+    8 => 'Mobile File Cabinets',
+    9 => 'Secretary Desks',
+    10 => 'Stackable',
+    11 => 'U-Shaped Desks',
+    12 => 'Vertical File Cabinets',
+    13 => 'Wall Mounted',
+    14 => 'Writing Desks',
+  ),
+) ?>

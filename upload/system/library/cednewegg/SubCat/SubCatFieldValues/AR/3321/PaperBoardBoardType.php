@@ -1,0 +1,28 @@
+<?php return array (
+  'SubcategoryID' => 3321,
+  'SubcategoryName' => 'PaperCraftsBoards',
+  'PropertyName' => 'PaperBoardBoardType',
+  'IsAdvancedSearch' => 1,
+  'IsGroupBy' => 0,
+  'IsRequired' => 0,
+  'PropertyValueList' => 
+  array (
+    0 => 'Bristol Board',
+    1 => 'Canvas Boards',
+    2 => 'Chipboard',
+    3 => 'Clay Board',
+    4 => 'Display/Bulletin Board Trim',
+    5 => 'Foamboard',
+    6 => 'Gessoboard',
+    7 => 'Hardboard',
+    8 => 'Illustration & Poster Board',
+    9 => 'Mounting Board',
+    10 => 'Pastel Board',
+    11 => 'Presentation Board',
+    12 => 'Railroad Board',
+    13 => 'Scratch Board',
+    14 => 'Storyboard',
+    15 => 'Tag Board',
+    16 => 'Watercolor Board',
+  ),
+) ?>

@@ -1,0 +1,25 @@
+<?php return array (
+  'SubcategoryID' => 761,
+  'SubcategoryName' => 'ScannersSpecialized',
+  'PropertyName' => 'SpecializedScannerScanningSpeed',
+  'IsAdvancedSearch' => 0,
+  'IsGroupBy' => 0,
+  'IsRequired' => 0,
+  'PropertyValueList' => 
+  array (
+    0 => '10 sec/page',
+    1 => 'Up to 10 ppm',
+    2 => 'Up to 11 ppm',
+    3 => 'Up to 12 ppm',
+    4 => 'Up to 13 ppm',
+    5 => 'Up to 14 ppm',
+    6 => 'Up to 15 ppm',
+    7 => 'Up to 16 ppm',
+    8 => 'Up to 17 ppm',
+    9 => 'Up to 18 ppm',
+    10 => 'Up to 19 ppm',
+    11 => 'Up to 20 ppm',
+    12 => 'Up to 25 ppm',
+    13 => 'Up to 30 ppm',
+  ),
+) ?>

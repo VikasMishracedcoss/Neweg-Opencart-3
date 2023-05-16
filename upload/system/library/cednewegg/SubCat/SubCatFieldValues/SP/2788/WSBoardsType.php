@@ -1,0 +1,28 @@
+<?php return array (
+  'SubcategoryID' => 2788,
+  'SubcategoryName' => 'WaterSportsBoardsSkisSkates',
+  'PropertyName' => 'WSBoardsType',
+  'IsAdvancedSearch' => 1,
+  'IsGroupBy' => 0,
+  'IsRequired' => 0,
+  'PropertyValueList' => 
+  array (
+    0 => 'Board Parts & Accessories',
+    1 => 'Body Boards',
+    2 => 'Canoeing & Kayaking',
+    3 => 'Inflatable Boat',
+    4 => 'Inflatable Floating Tube Raft',
+    5 => 'Inflatable Raft',
+    6 => 'Kickboards',
+    7 => 'Kneeboards',
+    8 => 'Paddleboards',
+    9 => 'Ski Parts & Accessories',
+    10 => 'Skimboards',
+    11 => 'Surfboards',
+    12 => 'Wakeboards',
+    13 => 'Wakeskates',
+    14 => 'Wakesurfers',
+    15 => 'Water Skis',
+    16 => 'Windsurfing Boards',
+  ),
+) ?>

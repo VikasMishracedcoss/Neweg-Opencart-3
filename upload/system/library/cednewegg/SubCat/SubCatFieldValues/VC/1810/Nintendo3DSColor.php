@@ -1,0 +1,28 @@
+<?php return array (
+  'SubcategoryID' => 1810,
+  'SubcategoryName' => 'Nintendo3DSSystems',
+  'PropertyName' => 'Nintendo3DSColor',
+  'IsAdvancedSearch' => 1,
+  'IsGroupBy' => 1,
+  'IsRequired' => 0,
+  'PropertyValueList' => 
+  array (
+    0 => 'Aqua Blue',
+    1 => 'Black',
+    2 => 'Blue',
+    3 => 'Blue / Black',
+    4 => 'Cosmo Black',
+    5 => 'Flame Red',
+    6 => 'Gold',
+    7 => 'Green',
+    8 => 'N/A',
+    9 => 'Orange',
+    10 => 'Pink',
+    11 => 'Purple',
+    12 => 'Red',
+    13 => 'Red/Black',
+    14 => 'Sea Green',
+    15 => 'Silver',
+    16 => 'Yellow',
+  ),
+) ?>

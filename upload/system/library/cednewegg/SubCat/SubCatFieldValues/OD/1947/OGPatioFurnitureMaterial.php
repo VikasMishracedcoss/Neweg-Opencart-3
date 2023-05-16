@@ -1,0 +1,25 @@
+<?php return array (
+  'SubcategoryID' => 1947,
+  'SubcategoryName' => 'OGPatioFurniture',
+  'PropertyName' => 'OGPatioFurnitureMaterial',
+  'IsAdvancedSearch' => 1,
+  'IsGroupBy' => 0,
+  'IsRequired' => 0,
+  'PropertyValueList' => 
+  array (
+    0 => 'Aluminum',
+    1 => 'Cast Aluminum',
+    2 => 'Cedar',
+    3 => 'Cotton',
+    4 => 'Extruded Aluminum',
+    5 => 'Olefin',
+    6 => 'Pine',
+    7 => 'Polyester',
+    8 => 'Rattan/Wicker',
+    9 => 'Redwood',
+    10 => 'Resin',
+    11 => 'Steel',
+    12 => 'Teak',
+    13 => 'Wrought Iron',
+  ),
+) ?>

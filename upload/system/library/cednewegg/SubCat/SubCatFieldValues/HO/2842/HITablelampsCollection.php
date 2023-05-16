@@ -1,0 +1,25 @@
+<?php return array (
+  'SubcategoryID' => 2842,
+  'SubcategoryName' => 'HLTableLamps',
+  'PropertyName' => 'HITablelampsCollection',
+  'IsAdvancedSearch' => 0,
+  'IsGroupBy' => 0,
+  'IsRequired' => 0,
+  'PropertyValueList' => 
+  array (
+    0 => 'Billy Moon',
+    1 => 'Carolyn Kinder',
+    2 => 'Coppola',
+    3 => 'Cosmology',
+    4 => 'David Frisch',
+    5 => 'Eruption',
+    6 => 'Francois Degueurcek',
+    7 => 'Grace Feyock',
+    8 => 'Jetson',
+    9 => 'Joseph Famulari',
+    10 => 'Lenox',
+    11 => 'Matthew Williams',
+    12 => 'Salon S',
+    13 => 'Satellite',
+  ),
+) ?>

@@ -1,0 +1,28 @@
+<?php return array (
+  'SubcategoryID' => 1515,
+  'SubcategoryName' => 'WomensJeans',
+  'PropertyName' => 'WomensJeansStyle',
+  'IsAdvancedSearch' => 1,
+  'IsGroupBy' => 0,
+  'IsRequired' => 1,
+  'PropertyValueList' => 
+  array (
+    0 => 'Baggy',
+    1 => 'Boot Cut',
+    2 => 'Bootcut',
+    3 => 'Bootcut Skinny',
+    4 => 'Boyfriend',
+    5 => 'Capri, Cropped',
+    6 => 'Carpenter & Cargo',
+    7 => 'Classic, Slim',
+    8 => 'Cropped & Capri',
+    9 => 'Flare',
+    10 => 'Leggings',
+    11 => 'Relaxed Fit & Loose Fit',
+    12 => 'Skinny',
+    13 => 'Slim, Skinny',
+    14 => 'Straight Leg',
+    15 => 'Trouser',
+    16 => 'Wide Leg',
+  ),
+) ?>

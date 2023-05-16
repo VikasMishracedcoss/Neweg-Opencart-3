@@ -1,0 +1,25 @@
+<?php return array (
+  'SubcategoryID' => 360,
+  'SubcategoryName' => 'Telephones',
+  'PropertyName' => 'TelExpandableHandsetsSupported',
+  'IsAdvancedSearch' => 1,
+  'IsGroupBy' => 0,
+  'IsRequired' => 0,
+  'PropertyValueList' => 
+  array (
+    0 => '10X',
+    1 => '11X',
+    2 => '15X',
+    3 => '17X',
+    4 => '1X',
+    5 => '2X',
+    6 => '3X',
+    7 => '4X',
+    8 => '5X',
+    9 => '6X',
+    10 => '7X',
+    11 => '8X',
+    12 => '9X',
+    13 => 'None',
+  ),
+) ?>

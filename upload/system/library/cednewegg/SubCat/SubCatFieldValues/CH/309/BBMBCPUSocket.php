@@ -1,0 +1,26 @@
+<?php return array (
+  'SubcategoryID' => 309,
+  'SubcategoryName' => 'BareboneSystemsMiniBooksize',
+  'PropertyName' => 'BBMBCPUSocket',
+  'IsAdvancedSearch' => 1,
+  'IsGroupBy' => 0,
+  'IsRequired' => 0,
+  'PropertyValueList' => 
+  array (
+    0 => 'AMD Socket 754',
+    1 => 'AMD Socket AM2',
+    2 => 'AMD Socket AM2+',
+    3 => 'AMD Socket AM3',
+    4 => 'Intel Socket 478',
+    5 => 'Intel Socket 479',
+    6 => 'Intel Socket LGA1150',
+    7 => 'Intel Socket LGA1151',
+    8 => 'Intel Socket LGA1155',
+    9 => 'Intel Socket LGA1156',
+    10 => 'Intel Socket M',
+    11 => 'Intel Socket P',
+    12 => 'Intel Socket PGA988',
+    13 => 'Intel Socket T(LGA775)',
+    14 => 'VIA NanoBGA2',
+  ),
+) ?>

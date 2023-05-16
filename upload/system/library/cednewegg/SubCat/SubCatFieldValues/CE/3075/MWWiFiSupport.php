@@ -1,0 +1,25 @@
+<?php return array (
+  'SubcategoryID' => 3075,
+  'SubcategoryName' => 'iPhone',
+  'PropertyName' => 'MWWiFiSupport',
+  'IsAdvancedSearch' => 0,
+  'IsGroupBy' => 0,
+  'IsRequired' => 0,
+  'PropertyValueList' => 
+  array (
+    0 => '802.11 b/g/n',
+    1 => 'IEEE802.11a',
+    2 => 'IEEE802.11a/b/g',
+    3 => 'IEEE802.11a/b/g/n',
+    4 => 'IEEE802.11a/b/i',
+    5 => 'IEEE802.11b',
+    6 => 'IEEE802.11b/g',
+    7 => 'IEEE802.11b/g/i',
+    8 => 'IEEE802.11b/g/n',
+    9 => 'IEEE802.11g',
+    10 => 'No',
+    11 => 'Wi-Fi 802.11 a/ac/b/g/n, Wi-Fi hotspot',
+    12 => 'WLAN:Wi-Fi 802.11 b/g, Wi-Fi hotspot (Android 2.2)',
+    13 => 'Yes',
+  ),
+) ?>

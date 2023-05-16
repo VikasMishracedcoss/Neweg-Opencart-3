@@ -1,0 +1,28 @@
+<?php return array (
+  'SubcategoryID' => 352,
+  'SubcategoryName' => 'AccessoriesPDA',
+  'PropertyName' => 'PDAAccColor',
+  'IsAdvancedSearch' => 0,
+  'IsGroupBy' => 1,
+  'IsRequired' => 0,
+  'PropertyValueList' => 
+  array (
+    0 => 'Black',
+    1 => 'Blue',
+    2 => 'Brown',
+    3 => 'Coffee',
+    4 => 'Dark Blue',
+    5 => 'Golden',
+    6 => 'Green',
+    7 => 'Grey',
+    8 => 'Hot Pink',
+    9 => 'Light Blue',
+    10 => 'Orange',
+    11 => 'Pink',
+    12 => 'Purple',
+    13 => 'Red',
+    14 => 'Silver',
+    15 => 'White',
+    16 => 'Wine Red',
+  ),
+) ?>

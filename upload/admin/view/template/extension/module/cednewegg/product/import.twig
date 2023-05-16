@@ -1,0 +1,412 @@
+<!--
+/**
+* CedCommerce
+*
+* NOTICE OF LICENSE
+*
+* This source file is subject to the End User License Agreement (EULA)
+* that is bundled with this package in the file LICENSE.txt.
+* It is also available through the world-wide-web at this URL:
+* http://cedcommerce.com/license-agreement.txt
+*
+* @category  modules
+* @package   cedshopee
+* @author    CedCommerce Core Team
+* @copyright Copyright CEDCOMMERCE (http://cedcommerce.com/)
+* @license   http://cedcommerce.com/license-agreement.txt
+*/
+-->
+<style>
+    #cedebay-batches {
+        border: 1px solid #ddd;
+        border-radius: 0;
+    }
+
+    .cedebay-batches-tab {
+        background: #eee;
+        padding: 1rem;
+        cursor: pointer;
+        font-weight: bold;}
+
+
+    cedebay-batches-tab:first-child {
+        border-bottom: 1px solid #ddd;
+    }
+
+
+    cedebay-batches-tab:nth-last-child(2) {
+        border-top: 1px solid #ddd;
+    }
+
+    .cedebay-batches-content {
+        padding: 0.5rem 0.5rem;
+    }
+
+    /*li*/
+    #cedebay-batches ul {
+        list-style: none;
+        padding: 0;
+        margin: 0;
+    }
+
+    #cedebay-batches ul li {
+        vertical-align: middle;
+        padding: 2px 2px 2px 2px;
+        font: normal 12px sans-serif;
+        font-size: small;
+    }
+
+    #cedebay-batches li img {
+        vertical-align: middle;
+        margin-right: 5px;
+        max-width: 12px;
+    }
+
+    #cedebay-batches span {
+        vertical-align: middle;
+    }
+
+</style>
+{{ header }}{{ column_left }}
+<div id="content">
+    <div class="page-header">
+        <div class="container-fluid">
+            <div class="pull-right">
+                <a href="{{ cancel }}" data-toggle="tooltip" title="{{ 'Back' }}" class="btn btn-primary"><i class="fa fa-reply"></i></a>
+            </div>
+            <h1>{{ heading_title }}</h1>
+            <ul class="breadcrumb">
+                {% for breadcrumb in breadcrumbs %}
+                    <li><a href="{{ breadcrumb['href'] }}">{{ breadcrumb['text'] }}</a></li>
+                {% endfor %}
+            </ul>
+        </div>
+    </div>
+
+    <div class="container-fluid">
+        {% if (error_warning) %}
+            <div class="alert alert-danger"><i class="fa fa-exclamation-circle"></i> {{ error_warning }}
+                <button type="button" class="close" data-dismiss="alert">&times;</button>
+            </div>
+        {% endif %}
+        <div class="panel panel-default">
+            <div class="panel-heading">
+                <h3 class="panel-title"><i class="fa fa-cloud-download"></i> {{ 'Import Ebay Products' }}</h3>
+            </div>
+            <div class="panel-body">
+                <input type="hidden" id="import-ebay-products-controller">
+                <div class="page-header">
+                    <div class="container-fluid">
+                        <div class="block-content panel-body ">
+                            <input class="btn btn-primary" type="button" style="margin-bottom: 10px" value="Start Importing" onclick="sendRequest()">
+                            <div id="cedebay-progress-bar"></div>
+                            <br>
+                            <div id="cedebay-batches">
+                                <div class="cedebay-batches-tab" data-role="collapsible">
+                                    <div data-role="trigger">
+                                        <span>Responses</span>
+                                    </div>
+                                </div>
+                                <div class="cedebay-batches-content" data-role="content">
+                                    <ul id="profileRows" style="list-style: none;">
+                                        <li style="list-style: none;">
+                                            Total {{ total_chunk }} Batch(s) Found Of {{ total_items }} Products.
+                                        </li>
+                                        <li style="display: none;" id="updateRow">
+                                            <img id="statusImage" src="view/image/cedebay/loader.gif">
+                                            <span id="updateStatus" class="text">Importing...</span>
+                                        </li>
+                                        <li id="liFinished" style="display:none; list-style: none;">
+                                            Finished Ebay Products Syncing Process.
+                                        </li>
+                                    </ul>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+
+<script type="text/javascript">
+    $.fn.LineProgressbar = function(options){
+        var options = $.extend({
+            percentage : null,
+            ShowProgressCount: true,
+            duration: 1000,
+
+            // Styling Options
+            fillBackgroundColor: '#3498db',
+            backgroundColor: '#EEEEEE',
+            radius: '0px',
+            height: '10px',
+            width: '100%'
+        },options);
+
+        return this.each(function(index, el) {
+            // Markup
+            $(el).html('<div class="progressbar"><div class="proggress"></div><div class="percentCount"></div></div>');
+
+
+            var progressFill = $(el).find('.proggress');
+            var progressBar= $(el).find('.progressbar');
+
+
+            progressFill.css({
+                backgroundColor : options.fillBackgroundColor,
+                height : options.height,
+                borderRadius: options.radius
+            });
+            progressBar.css({
+                width : options.width,
+                backgroundColor : options.backgroundColor,
+                borderRadius: options.radius
+            });
+
+            // Progressing
+            progressFill.animate(
+                {
+                    width: options.percentage + "%"
+                },
+                {
+                    step: function(x) {
+                        if(options.ShowProgressCount){
+                            $(el).find(".percentCount").text(Math.round(x) + "%");
+                        }
+                    },
+                    duration: options.duration
+                }
+            );
+            ////////////////////////////////////////////////////////////////////
+        });
+    };
+
+    $("#cedebay-progress-bar").LineProgressbar({
+        percentage: 0,
+        fillBackgroundColor: '#77a21b',
+        height: '25px'
+    });
+
+
+    var totalRecords = parseInt('{{ total_chunk }}');
+    var countOfSuccess = 0;
+    var id = 0;
+    var liFinished = document.getElementById('liFinished');
+    var updateStatus = document.getElementById('updateStatus');
+    var updateRow = document.getElementById('updateRow');
+    var statusImage = document.getElementById('statusImage');
+
+    function sendRequest() {
+
+        var per = parseInt(((id + 0.5) / totalRecords) * 100);
+        if (per < 100) {
+            $('#updateRow').show();
+            //update progress
+            $("#cedebay-progress-bar").LineProgressbar({
+                percentage: parseInt(((id + 0.5) / totalRecords) * 100),
+                fillBackgroundColor: '#77a21b',
+                height: '35px',
+                duration: 0
+            });
+
+            updateStatus.innerHTML = (id + 1) + ' Of ' + totalRecords + ' Processing';
+
+            var url = 'index.php?route=extension/module/cedebay/product/importProducts&user_token='+'{{ user_token }}';
+            $.ajax({
+                type: "POST",
+                url: url,
+                data: {
+                    batch_id : id+1,
+                },
+                success: function (response) {
+                    id++;
+                    if (response && response.hasOwnProperty('success') && response.success.length) {
+                        var span = document.createElement('li');
+                        countOfSuccess++;
+
+                        var successTemplate = '';
+
+                        for (var i in response.success) {
+                            successTemplate += '<p><img src="view/image/cedebay/uploaded.png"><span>' + response.success[i] + '</span></p>';
+                        }
+
+                        span.innerHTML = successTemplate;
+                        span.id = 'id-' + id;
+                        span.style = 'background-color:#DDF;margin-top:10px';
+                        updateRow.parentNode.insertBefore(span, updateRow);
+                    }
+                    if (response && response.hasOwnProperty('error') && response.error.length) {
+                        var span = document.createElement('li');
+                        var heading = '<span>' +
+                            '<img src="view/image/cedebay/notuploaded.jpg"> Errors in Product Sync.</span>';
+
+                        var errorTemplate = '<div class="batch-container">' +
+                            '<div data-role="collapsible" style="cursor: pointer;">' +
+                            '<div data-role="trigger">' + heading + '</div></div>' +
+                            '<div data-role="content"><ul style="list-style: square;">';
+                        for (var j in response.error) {
+                            errorTemplate += '<li style="padding-left: 20px;">' + response.error[j] + '</li>';
+                        }
+                        errorTemplate += '</ul></div></div>';
+                        span.innerHTML = errorTemplate;
+                        span.id = 'id-' + id;
+                        span.style = 'background-color:#FDD;margin-top:10px';
+                        updateRow.parentNode.insertBefore(span, updateRow);
+                    }
+
+                },
+
+                error: function () {
+                    id++;
+                    var span = document.createElement('li');
+                    span.innerHTML = '<img src="view/image/cedebay/notuploaded.jpg"><span>Something went wrong </span>';
+                    span.id = 'id-' + id;
+                    updateRow.parentNode.insertBefore(span, updateRow);
+
+                },
+
+                complete: function () {
+                    //update progress
+                    $("#cedebay-progress-bar").LineProgressbar({
+                        percentage: parseInt(((id) / totalRecords) * 100),
+                        fillBackgroundColor: '#77a21b',
+                        height: '35px',
+                        duration: 0
+                    });
+
+                    if (id < totalRecords) {
+                        sendRequest();
+                    } else {
+                        statusImage.src = 'view/image/cedebay/uploaded.png';
+                        var span = document.createElement('li');
+                        span.innerHTML =
+                            '<img src="view/image/cedebay/uploaded.png">' +
+                            '<span id="updateStatus">' +
+                            totalRecords + ' product batch(s) successfully imported.' + '</span>';
+                        liFinished.parentNode.insertBefore(span, liFinished);
+                        document.getElementById("liFinished").style.display = "block";
+                        updateStatus.innerHTML = (id) + ' of ' + totalRecords + ' Processed.';
+                    }
+
+                },
+                dataType: "json"
+            });
+        }
+    }
+
+    function getPercent() {
+        return Math.ceil(((id + 1) / totalRecords) * 1000) / 10;
+    }
+
+
+    function sendUpdateRequest(chunked_array){
+
+        var len=chunked_array.length-1;
+        if(chunked_array[len]) {
+            var url = 'index.php?route=extension/module/cedebay/product/deleteallProcess&user_token='+'{{ user_token }}';
+            $.ajax({
+                type: "POST",
+                url: url,
+                data: { 'selected':chunked_array[len] },
+                success: function(response){
+                    if(response.success){
+                        var obj = response;
+                        if (obj.success && obj.success.length) {
+                            var success_message = '';
+                            for (var i in obj.success)
+                            {
+                                success_message+=obj.success[i] + '<br>';
+                            }
+                            $("#progress").append('<li class="info alert alert-success" >'+success_message+'</li>');
+                        }
+                        if (obj.error && obj.error.length) {
+                            var error_message = '';
+                            for (var i in obj.error)
+                            {
+                                error_message+=obj.error[i] + '<br>';
+                            }
+                            $("#progress").append('<li class="info alert alert-danger" >'+error_message+'</li>');
+                        }
+                        if(len!=0){
+                            chunked_array.splice(len,1);
+                            sendUpdateRequest(chunked_array,url);
+                        }
+                    } else {
+                        $("#progress").append('<li class="info alert alert-danger">Error While Deleting Please Check</li>');
+                    }
+                    // console.log(len);
+                    if (len==0) {
+                        modal.style.display = "none";
+                    }
+                }
+                ,
+                statusCode: {
+                    500: function(xhr) {
+                        if(window.console) console.log(xhr.responseText);
+                    },
+                    400: function (response) {
+                        $("#progress").append('<li class="info alert alert-danger">Error While Deleting Please Check</li>');
+                    },
+                    404: function (response) {
+
+                        $("#progress").append('<li class="info alert alert-danger">Error While Deleting Please Check</li>');
+                    }
+                },
+                error: function(xhr, ajaxOptions, thrownError) {
+                    if(window.console) console.log(xhr.responseText);
+                    alert(thrownError + "\r\n" + xhr.statusText + "\r\n" + xhr.responseText);
+
+                },
+            });
+        } else {
+            $("#progress").append('<li class="info alert alert-info" > NO Report.</li>');
+            modal.style.display = "none";
+        }
+
+    }
+</script>
+<style type="text/css">
+    /* The Modal (background) */
+    .modal {
+        display: none; /* Hidden by default */
+        position: fixed; /* Stay in place */
+        z-index: 1; /* Sit on top */
+        left: 0;
+        top: 0;
+        width: 100%; /* Full width */
+        height: 100%; /* Full height */
+        overflow: auto; /* Enable scroll if needed */
+        background-color: rgb(0, 0, 0); /* Fallback color */
+        background-color: rgba(0, 0, 0, 0.4); /* Black w/ opacity */
+    }
+
+    /* Modal Content/Box */
+    .modal-content {
+        background-color: #fefefe;
+        margin: 15% auto; /* 15% from the top and centered */
+        padding: 20px;
+        border: 1px solid #888;
+        width: 20%; /* Could be more or less, depending on screen size */
+    }
+
+    /* The Close Button */
+    .close {
+        color: #aaa;
+        float: right;
+        font-size: 28px;
+        font-weight: bold;
+    }
+
+    .close:hover,
+    .close:focus {
+        color: black;
+        text-decoration: none;
+        cursor: pointer;
+    }
+    .info{
+        font-size: 13px;
+    }
+</style>
+{{ footer }}

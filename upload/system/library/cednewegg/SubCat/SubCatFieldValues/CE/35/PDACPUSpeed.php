@@ -1,0 +1,27 @@
+<?php return array (
+  'SubcategoryID' => 35,
+  'SubcategoryName' => 'PDAHandheldPCs',
+  'PropertyName' => 'PDACPUSpeed',
+  'IsAdvancedSearch' => 1,
+  'IsGroupBy' => 0,
+  'IsRequired' => 0,
+  'PropertyValueList' => 
+  array (
+    0 => '126 MHz',
+    1 => '144NHz',
+    2 => '200 MHz',
+    3 => '203 MHz',
+    4 => '266 MHz',
+    5 => '300 MHz',
+    6 => '312 MHz',
+    7 => '33 MHz',
+    8 => '400 MHz',
+    9 => '416 MHz',
+    10 => '500 MHz',
+    11 => '520 MHz',
+    12 => '600 MHz',
+    13 => '624 MHz',
+    14 => '633 MHz',
+    15 => '806 MHz',
+  ),
+) ?>

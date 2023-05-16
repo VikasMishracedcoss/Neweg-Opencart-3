@@ -1,0 +1,27 @@
+<?php return array (
+  'SubcategoryID' => 1024,
+  'SubcategoryName' => 'WatchAccessories',
+  'PropertyName' => 'WatchaccOccasion',
+  'IsAdvancedSearch' => 1,
+  'IsGroupBy' => 0,
+  'IsRequired' => 0,
+  'PropertyValueList' => 
+  array (
+    0 => 'Anniversary',
+    1 => 'Birthday',
+    2 => 'Christmas & Hanukkah',
+    3 => 'Communion',
+    4 => 'Congratulations',
+    5 => 'Father\'s Day',
+    6 => 'Graduation',
+    7 => 'Holiday',
+    8 => 'Mother\'s Day',
+    9 => 'New Baby',
+    10 => 'Party',
+    11 => 'Prom',
+    12 => 'Quinceanera',
+    13 => 'Seasonal',
+    14 => 'Valentine\'s Day',
+    15 => 'Wedding',
+  ),
+) ?>

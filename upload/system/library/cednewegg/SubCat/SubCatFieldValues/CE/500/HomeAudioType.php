@@ -1,0 +1,25 @@
+<?php return array (
+  'SubcategoryID' => 500,
+  'SubcategoryName' => 'HomeAudio',
+  'PropertyName' => 'HomeAudioType',
+  'IsAdvancedSearch' => 1,
+  'IsGroupBy' => 0,
+  'IsRequired' => 0,
+  'PropertyValueList' => 
+  array (
+    0 => 'Amplifiers',
+    1 => 'Others',
+    2 => 'Podcasting Kits',
+    3 => 'Pro Audio - Audio Mixers',
+    4 => 'Pro Audio - Cassette Decks',
+    5 => 'Pro Audio - DJ & Lighting',
+    6 => 'Pro Audio - Megaphone',
+    7 => 'Pro Audio - Microphones',
+    8 => 'Pro Audio - Speakers',
+    9 => 'Pro Audio - Systems',
+    10 => 'Pro Audio - Turntables',
+    11 => 'Pro Audio - Tweeter',
+    12 => 'Pro Audio - Woofer',
+    13 => 'Radios',
+  ),
+) ?>

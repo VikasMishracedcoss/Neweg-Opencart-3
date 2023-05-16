@@ -1,0 +1,26 @@
+<?php return array (
+  'SubcategoryID' => 3431,
+  'SubcategoryName' => 'PersonalProtectiveEquipment',
+  'PropertyName' => 'PersonalProtectiveType',
+  'IsAdvancedSearch' => 1,
+  'IsGroupBy' => 0,
+  'IsRequired' => 0,
+  'PropertyValueList' => 
+  array (
+    0 => 'Arm Protection',
+    1 => 'Body Protection',
+    2 => 'Disposable & Chemical Resistant Clothing',
+    3 => 'Ergonomic Protection & Supports',
+    4 => 'Eye & Face Protection',
+    5 => 'Fall Protection',
+    6 => 'Foot Protection',
+    7 => 'Gloves & Hand Protection',
+    8 => 'Hard Hats & Bump Caps',
+    9 => 'Hearing Protection',
+    10 => 'Lab & Cleanroom',
+    11 => 'Leg Protection',
+    12 => 'Protective Clothing Accessories',
+    13 => 'Protective Clothing Kits',
+    14 => 'Respiratory Protection',
+  ),
+) ?>

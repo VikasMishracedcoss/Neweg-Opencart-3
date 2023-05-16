@@ -1,0 +1,27 @@
+<?php return array (
+  'SubcategoryID' => 124,
+  'SubcategoryName' => 'NetworkStorage',
+  'PropertyName' => 'NASPortRJ45',
+  'IsAdvancedSearch' => 1,
+  'IsGroupBy' => 0,
+  'IsRequired' => 0,
+  'PropertyValueList' => 
+  array (
+    0 => '1 x 10/100/1000M',
+    1 => '1 x 10/100/1000M WAN + 1 x 10/100/1000M LAN',
+    2 => '1 x 10/100/1000M WAN + 4 x 10/100/1000M LAN',
+    3 => '1 x 10/100/1000M WAN + 4 x 10/100M LAN',
+    4 => '1 x 10/100M',
+    5 => '1 x 10/100M WAN + 4 x 10/100M LAN',
+    6 => '1 x 10/100M WAN + 8 x 10/100M LAN',
+    7 => '10 x 10/100/1000M',
+    8 => '2 x 10/100/1000M',
+    9 => '2 x 10/100M',
+    10 => '3 x 10/100/1000M',
+    11 => '4 x 10/100/1000M',
+    12 => '5 x 10/100M',
+    13 => '6 x 10/100/1000M',
+    14 => '8 x 10/100/1000M',
+    15 => '8 x 10/100M',
+  ),
+) ?>

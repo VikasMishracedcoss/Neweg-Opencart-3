@@ -1,0 +1,25 @@
+<?php return array (
+  'SubcategoryID' => 2103,
+  'SubcategoryName' => 'HIDoorLocks',
+  'PropertyName' => 'HIDoorLocksType',
+  'IsAdvancedSearch' => 1,
+  'IsGroupBy' => 0,
+  'IsRequired' => 0,
+  'PropertyValueList' => 
+  array (
+    0 => 'Biometric Locks',
+    1 => 'Chain Guard',
+    2 => 'Deadbolt Latches',
+    3 => 'Deadbolts',
+    4 => 'Door Bolts',
+    5 => 'Door Guards',
+    6 => 'Door Knob',
+    7 => 'Door Knob Locksets',
+    8 => 'Door Lever Locksets',
+    9 => 'Dummy Knob',
+    10 => 'Electromagnetic Locks & Accessories',
+    11 => 'Guard',
+    12 => 'Key Control Systems',
+    13 => 'Keypads',
+  ),
+) ?>

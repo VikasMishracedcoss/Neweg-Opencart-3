@@ -1,0 +1,26 @@
+<?php return array (
+  'SubcategoryID' => 309,
+  'SubcategoryName' => 'BareboneSystemsMiniBooksize',
+  'PropertyName' => 'BBMBMemoryTypeSupported',
+  'IsAdvancedSearch' => 1,
+  'IsGroupBy' => 0,
+  'IsRequired' => 0,
+  'PropertyValueList' => 
+  array (
+    0 => 'DDR 266/200',
+    1 => 'DDR 333/266',
+    2 => 'DDR 400/333',
+    3 => 'DDR2 533/400',
+    4 => 'DDR2 667/533',
+    5 => 'DDR2 800/667',
+    6 => 'DDR3 1066/800',
+    7 => 'DDR3 1333/1066',
+    8 => 'DDR3 1600/1333',
+    9 => 'DDR3L 1333',
+    10 => 'DDR3L 1600/1066',
+    11 => 'DDR3L 1600/1333',
+    12 => 'DDR3L 1866/1600/1333',
+    13 => 'DDR3L 2133/1866/1600',
+    14 => 'DDR4 2133',
+  ),
+) ?>

@@ -1,0 +1,28 @@
+<?php return array (
+  'SubcategoryID' => 702,
+  'SubcategoryName' => 'BareboneSystemsMediaCenter',
+  'PropertyName' => 'BBMCOnboardVideo',
+  'IsAdvancedSearch' => 1,
+  'IsGroupBy' => 0,
+  'IsRequired' => 0,
+  'PropertyValueList' => 
+  array (
+    0 => 'ATI Radeon 1250',
+    1 => 'ATI Radeon Xpress 200',
+    2 => 'GeForce 4 MX GFX',
+    3 => 'GeForce 6100',
+    4 => 'GeForce 6150LE',
+    5 => 'Integrated',
+    6 => 'Intel Extreme Graphics',
+    7 => 'Intel Extreme Graphics 2',
+    8 => 'Intel GMA 3000',
+    9 => 'Intel GMA 3100',
+    10 => 'Intel GMA 900',
+    11 => 'Intel GMA 950',
+    12 => 'Intel GMA X3000',
+    13 => 'Intel GMA X3100',
+    14 => 'Intel GMA X3500',
+    15 => 'SiS Real 256E',
+    16 => 'VIA UniChrome Pro 3D Graphic',
+  ),
+) ?>

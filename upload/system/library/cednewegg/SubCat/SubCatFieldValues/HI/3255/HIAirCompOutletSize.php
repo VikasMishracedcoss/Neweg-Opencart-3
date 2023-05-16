@@ -1,0 +1,12 @@
+<?php return array (
+  'SubcategoryID' => 3255,
+  'SubcategoryName' => 'HIAirCompressors',
+  'PropertyName' => 'HIAirCompOutletSize',
+  'IsAdvancedSearch' => 1,
+  'IsGroupBy' => 0,
+  'IsRequired' => 0,
+  'PropertyValueList' => 
+  array (
+    0 => '0.5 in',
+  ),
+) ?>

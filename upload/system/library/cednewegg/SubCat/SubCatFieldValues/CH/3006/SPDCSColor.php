@@ -1,0 +1,26 @@
+<?php return array (
+  'SubcategoryID' => 3006,
+  'SubcategoryName' => 'SPDigitalCameraSolutions',
+  'PropertyName' => 'SPDCSColor',
+  'IsAdvancedSearch' => 0,
+  'IsGroupBy' => 0,
+  'IsRequired' => 0,
+  'PropertyValueList' => 
+  array (
+    0 => 'Black',
+    1 => 'Blue',
+    2 => 'Champagne',
+    3 => 'Gold',
+    4 => 'Gray',
+    5 => 'Green',
+    6 => 'Orange',
+    7 => 'Pink',
+    8 => 'Plum',
+    9 => 'Purple',
+    10 => 'Red',
+    11 => 'Ruby Red',
+    12 => 'Silver',
+    13 => 'Violet',
+    14 => 'White',
+  ),
+) ?>

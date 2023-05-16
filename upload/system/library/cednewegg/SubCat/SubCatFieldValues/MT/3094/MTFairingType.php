@@ -1,0 +1,26 @@
+<?php return array (
+  'SubcategoryID' => 3094,
+  'SubcategoryName' => 'MTFairingsFendersCovers',
+  'PropertyName' => 'MTFairingType',
+  'IsAdvancedSearch' => 1,
+  'IsGroupBy' => 0,
+  'IsRequired' => 0,
+  'PropertyValueList' => 
+  array (
+    0 => 'Dust Covers',
+    1 => 'Fender Eliminators',
+    2 => 'Fender Trim & Accents',
+    3 => 'Fenders',
+    4 => 'Full Covers',
+    5 => 'Half Covers',
+    6 => 'Louvers',
+    7 => 'Mud Flaps & Splash Guards',
+    8 => 'Nerf Bars',
+    9 => 'Relocators',
+    10 => 'Side Panels',
+    11 => 'Tunnels',
+    12 => 'Undertail Kits',
+    13 => 'Vents',
+    14 => 'Wear Strips',
+  ),
+) ?>

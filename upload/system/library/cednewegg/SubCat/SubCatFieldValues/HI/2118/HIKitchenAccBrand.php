@@ -1,0 +1,27 @@
+<?php return array (
+  'SubcategoryID' => 2118,
+  'SubcategoryName' => 'HIKitchenHardwareAccessories',
+  'PropertyName' => 'HIKitchenAccBrand',
+  'IsAdvancedSearch' => 0,
+  'IsGroupBy' => 0,
+  'IsRequired' => 0,
+  'PropertyValueList' => 
+  array (
+    0 => 'American Standard',
+    1 => 'Astracast',
+    2 => 'Blanco',
+    3 => 'DELTA',
+    4 => 'Elkay',
+    5 => 'FIAT',
+    6 => 'Fusion',
+    7 => 'Hansgrohe',
+    8 => 'Kindred',
+    9 => 'KOHLER',
+    10 => 'MOEN',
+    11 => 'Pfister',
+    12 => 'Range Kleen',
+    13 => 'Stalwart',
+    14 => 'Swan',
+    15 => 'T&S Brass',
+  ),
+) ?>

@@ -1,0 +1,26 @@
+<?php return array (
+  'SubcategoryID' => 2575,
+  'SubcategoryName' => 'SGFishingToolsAccessories',
+  'PropertyName' => 'SGFishToolsType',
+  'IsAdvancedSearch' => 1,
+  'IsGroupBy' => 0,
+  'IsRequired' => 0,
+  'PropertyValueList' => 
+  array (
+    0 => 'Accessories',
+    1 => 'Bait Prep and Bait Tanks',
+    2 => 'Cleaning Supplies',
+    3 => 'Gaffs',
+    4 => 'Ice Augers',
+    5 => 'Line Winders, Strippers and Tools',
+    6 => 'Lure Retrievers',
+    7 => 'Measuring Tools',
+    8 => 'Nets and Seines',
+    9 => 'Parts and Do-It-Yourself',
+    10 => 'Pliers, Grippers and Hook Removers',
+    11 => 'Rod Holders',
+    12 => 'Sensors and Radar',
+    13 => 'Stringers and Trot Lines',
+    14 => 'Waders',
+  ),
+) ?>

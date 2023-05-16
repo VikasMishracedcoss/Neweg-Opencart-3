@@ -1,0 +1,25 @@
+<?php return array (
+  'SubcategoryID' => 70,
+  'SubcategoryName' => 'HeadphonesandAccessories',
+  'PropertyName' => 'HeadsetConnector',
+  'IsAdvancedSearch' => 1,
+  'IsGroupBy' => 0,
+  'IsRequired' => 0,
+  'PropertyValueList' => 
+  array (
+    0 => '2.5mm',
+    1 => '2.5mm/ 3.5mm',
+    2 => '3.5mm',
+    3 => '3.5mm/ 6.3mm',
+    4 => '3.5mm/ 6.3mm/ RCA',
+    5 => '3.5mm/ USB',
+    6 => '6.3mm',
+    7 => 'Analog & Fiber Optic',
+    8 => 'Coaxial & Fiber Optic',
+    9 => 'Easy Disconnect',
+    10 => 'Quick Disconnect Connector',
+    11 => 'RCA',
+    12 => 'USB',
+    13 => 'XLR',
+  ),
+) ?>

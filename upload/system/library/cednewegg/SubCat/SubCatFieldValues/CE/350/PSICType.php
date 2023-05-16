@@ -1,0 +1,25 @@
+<?php return array (
+  'SubcategoryID' => 350,
+  'SubcategoryName' => 'PowerStripsInvertersandConverters',
+  'PropertyName' => 'PSICType',
+  'IsAdvancedSearch' => 1,
+  'IsGroupBy' => 0,
+  'IsRequired' => 0,
+  'PropertyValueList' => 
+  array (
+    0 => 'Adapter',
+    1 => 'Power Conditioner',
+    2 => 'Power Console',
+    3 => 'Power Converter',
+    4 => 'Power Distribution Unit',
+    5 => 'Power Inverter',
+    6 => 'Power Strip',
+    7 => 'Power Strip Outlet Cover',
+    8 => 'Power Supply Tester',
+    9 => 'Power Surge Protector',
+    10 => 'Regulator',
+    11 => 'Surge Suppressor',
+    12 => 'SurgeArrest',
+    13 => 'Voltage Regulator',
+  ),
+) ?>

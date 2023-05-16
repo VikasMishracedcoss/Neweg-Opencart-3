@@ -1,0 +1,28 @@
+<?php return array (
+  'SubcategoryID' => 2577,
+  'SubcategoryName' => 'SGFirearmAccessories',
+  'PropertyName' => 'SGFireAccColor',
+  'IsAdvancedSearch' => 0,
+  'IsGroupBy' => 1,
+  'IsRequired' => 0,
+  'PropertyValueList' => 
+  array (
+    0 => 'Black',
+    1 => 'Black Matte',
+    2 => 'Blue',
+    3 => 'Brown',
+    4 => 'Camo',
+    5 => 'Cream',
+    6 => 'Gray',
+    7 => 'Green',
+    8 => 'Multi',
+    9 => 'None',
+    10 => 'Orange',
+    11 => 'Pink',
+    12 => 'Purple',
+    13 => 'Red',
+    14 => 'Silver',
+    15 => 'White',
+    16 => 'Yellow',
+  ),
+) ?>

@@ -1,0 +1,26 @@
+<?php return array (
+  'SubcategoryID' => 378,
+  'SubcategoryName' => 'BinocularsTelescopes',
+  'PropertyName' => 'BinocularsType',
+  'IsAdvancedSearch' => 1,
+  'IsGroupBy' => 0,
+  'IsRequired' => 0,
+  'PropertyValueList' => 
+  array (
+    0 => 'Binoculars',
+    1 => 'Crossbow Scopes',
+    2 => 'Goggles',
+    3 => 'Golf Rangefinders',
+    4 => 'Hunting Rangefinders',
+    5 => 'Laser Sights',
+    6 => 'Magnifiers',
+    7 => 'Microscopes',
+    8 => 'Monoculars',
+    9 => 'Pistol Scopes',
+    10 => 'Red Dot Scopes',
+    11 => 'Rifle Scopes',
+    12 => 'Slides',
+    13 => 'Spotting Scopes',
+    14 => 'Telescopes',
+  ),
+) ?>

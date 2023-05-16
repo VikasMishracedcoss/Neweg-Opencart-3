@@ -1,0 +1,25 @@
+<?php return array (
+  'SubcategoryID' => 1009,
+  'SubcategoryName' => 'GeneralCraftsAccessories',
+  'PropertyName' => 'GeneralCraftsType',
+  'IsAdvancedSearch' => 0,
+  'IsGroupBy' => 0,
+  'IsRequired' => 0,
+  'PropertyValueList' => 
+  array (
+    0 => 'Basketry & Fiber Crafts',
+    1 => 'Book Binding',
+    2 => 'Candle Making',
+    3 => 'Dolls & Teddy Bears',
+    4 => 'Leather Crafting',
+    5 => 'Macrame',
+    6 => 'Mask Making',
+    7 => 'Metal Crafts',
+    8 => 'Mosaics',
+    9 => 'Paper Mache & Decoupage',
+    10 => 'Sand Art',
+    11 => 'Soap Making',
+    12 => 'Stamps & Embossing',
+    13 => 'Stenciling',
+  ),
+) ?>

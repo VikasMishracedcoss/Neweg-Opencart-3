@@ -1,0 +1,28 @@
+<?php return array (
+  'SubcategoryID' => 1971,
+  'SubcategoryName' => 'OGRidingMowerTractorAttachments',
+  'PropertyName' => 'OGRMAttachmentsType',
+  'IsAdvancedSearch' => 1,
+  'IsGroupBy' => 0,
+  'IsRequired' => 0,
+  'PropertyValueList' => 
+  array (
+    0 => 'Aerators',
+    1 => 'Baggers',
+    2 => 'Canopies',
+    3 => 'Cultivators',
+    4 => 'Dethatchers',
+    5 => 'Dump Carts',
+    6 => 'Lawn Sweepers',
+    7 => 'Lawn Vacuums',
+    8 => 'Lifts, Jacks & Ramps',
+    9 => 'Mowers',
+    10 => 'Mulch Kits',
+    11 => 'Rollers',
+    12 => 'Seat Covers',
+    13 => 'Sprayers',
+    14 => 'Spreaders',
+    15 => 'Tractor Canopies',
+    16 => 'Trail Cutters',
+  ),
+) ?>

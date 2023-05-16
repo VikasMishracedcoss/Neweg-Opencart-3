@@ -1,0 +1,25 @@
+<?php return array (
+  'SubcategoryID' => 575,
+  'SubcategoryName' => 'LiquidWaterCooling',
+  'PropertyName' => 'WaterCoolingType',
+  'IsAdvancedSearch' => 1,
+  'IsGroupBy' => 0,
+  'IsRequired' => 0,
+  'PropertyValueList' => 
+  array (
+    0 => 'Accessories',
+    1 => 'Chipset Block',
+    2 => 'Coolant',
+    3 => 'CPU Block',
+    4 => 'Fittings',
+    5 => 'HDD Cooler',
+    6 => 'Indicator',
+    7 => 'Liquid Cooling System',
+    8 => 'Pump',
+    9 => 'Radiator',
+    10 => 'Reservoir',
+    11 => 'Tubing',
+    12 => 'VGA Block & Cooler',
+    13 => 'Water Blocks',
+  ),
+) ?>

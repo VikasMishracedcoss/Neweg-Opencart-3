@@ -1,0 +1,27 @@
+<?php return array (
+  'SubcategoryID' => 319,
+  'SubcategoryName' => 'AccessoriesLaptopCooling',
+  'PropertyName' => 'NBAccFanSize',
+  'IsAdvancedSearch' => 0,
+  'IsGroupBy' => 1,
+  'IsRequired' => 0,
+  'PropertyValueList' => 
+  array (
+    0 => '100mm Fan',
+    1 => '140mm Fan',
+    2 => '160mm Fan',
+    3 => '180mm Fan',
+    4 => '200mm Fan',
+    5 => '220mm Fan',
+    6 => '230mm Fan',
+    7 => '80mm Fan',
+    8 => 'N/A',
+    9 => 'SF-15',
+    10 => 'SF-17',
+    11 => 'SF-19',
+    12 => 'X-Lite II',
+    13 => 'X-Slim',
+    14 => 'X2',
+    15 => 'X3',
+  ),
+) ?>

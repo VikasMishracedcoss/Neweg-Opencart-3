@@ -1,0 +1,26 @@
+<?php return array (
+  'SubcategoryID' => 2878,
+  'SubcategoryName' => 'HLKitchenIslandsServingCarts',
+  'PropertyName' => 'HIKitchenIslandscartsCollection',
+  'IsAdvancedSearch' => 0,
+  'IsGroupBy' => 0,
+  'IsRequired' => 0,
+  'PropertyValueList' => 
+  array (
+    0 => 'Americana',
+    1 => 'Aspen',
+    2 => 'Buffet of Buffets',
+    3 => 'Create A Cart',
+    4 => 'Marco',
+    5 => 'Modern',
+    6 => 'Monarch',
+    7 => 'Nantucket',
+    8 => 'Orleans',
+    9 => 'Premier Create-a-Cart',
+    10 => 'Savannah',
+    11 => 'Thornhill',
+    12 => 'Traditions',
+    13 => 'Versatile',
+    14 => 'Xert',
+  ),
+) ?>

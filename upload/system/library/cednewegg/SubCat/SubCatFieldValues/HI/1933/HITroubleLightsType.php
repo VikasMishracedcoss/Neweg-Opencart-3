@@ -1,0 +1,27 @@
+<?php return array (
+  'SubcategoryID' => 1933,
+  'SubcategoryName' => 'HIWorkTroubleLights',
+  'PropertyName' => 'HITroubleLightsType',
+  'IsAdvancedSearch' => 1,
+  'IsGroupBy' => 0,
+  'IsRequired' => 0,
+  'PropertyValueList' => 
+  array (
+    0 => 'Clamp On, Hand Held & Stand Up',
+    1 => 'Cordless Work Light Bulbs',
+    2 => 'Cordless Work Lights',
+    3 => 'Dock Lights',
+    4 => 'Job Sight Lighting',
+    5 => 'Light Strings',
+    6 => 'Machine & Work Light Accessories',
+    7 => 'Magnifying Workstation Light Accessories',
+    8 => 'Magnifying Workstation Lights',
+    9 => 'Medical Lighting',
+    10 => 'Portable Work Lights',
+    11 => 'Task Lights',
+    12 => 'Temporary Lighting',
+    13 => 'Tubular Fluorescent Machine Lights',
+    14 => 'Work Lights & Accessories',
+    15 => 'Workstation & Machine Lights',
+  ),
+) ?>

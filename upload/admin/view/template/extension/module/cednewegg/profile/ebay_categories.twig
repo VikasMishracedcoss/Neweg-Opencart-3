@@ -1,0 +1,41 @@
+<!--
+ /**
+ * CedCommerce
+ *
+ * NOTICE OF LICENSE
+ *
+ * This source file is subject to the End User License Agreement(EULA)
+ * that is bundled with this package in the file LICENSE.txt.
+ * It is also available through the world-wide-web at this URL:
+ * http://cedcommerce.com/license-agreement.txt
+ *
+ * @author    CedCommerce Core Team <connect@cedcommerce.com>
+ * @copyright Copyright CEDCOMMERCE(http://cedcommerce.com/)
+ * @license   http://cedcommerce.com/license-agreement.txt
+ * @category  Ced
+ * @package   CedEbay
+ */
+ -->
+
+{% if (ebay_categories is defined and ebay_categories is not empty) %}
+<option value="">--Select--</option>
+{% for ebay_cat in ebay_categories %}
+ {% if (profile_ebay_categories is defined and profile_ebay_categories is not empty) %}
+ {#{% if (profile_ebay_categories['level_1'~ebay_cat['level']] == ebay_cat['id'] )%}#}
+ {% if profile_ebay_categories == ebay_cat['id'] %}
+     <option value="{{ ebay_cat['id'] }}" selected="selected" isLeaf='{{ ebay_cat['isLeaf'] }}'>{{ ebay_cat['name'] }}</option>
+{% endif %}
+     <option value="{{ ebay_cat['id'] }}" isLeaf="{{ ebay_cat['isLeaf'] }}">{{ ebay_cat['name'] }}</option>
+
+ {% else %}
+<option value="{{ ebay_cat['id'] }}" isLeaf="{{ ebay_cat['isLeaf'] }}">{{ ebay_cat['name'] }}</option>
+ {% endif %}
+ {% endfor %}
+ {% endif %}
+
+
+
+
+
+
+

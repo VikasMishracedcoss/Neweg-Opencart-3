@@ -1,0 +1,28 @@
+<?php return array (
+  'SubcategoryID' => 28,
+  'SubcategoryName' => 'NetworkRoutersRemote',
+  'PropertyName' => 'RTRMLANPorts',
+  'IsAdvancedSearch' => 1,
+  'IsGroupBy' => 0,
+  'IsRequired' => 0,
+  'PropertyValueList' => 
+  array (
+    0 => '1 x 10/100Mbps',
+    1 => '10 x 10/100Mbps',
+    2 => '13 x 10/100Mbps',
+    3 => '14 x 10/100/1000Mbps',
+    4 => '16 x 10/100Mbps',
+    5 => '2 x 10/100/1000Mbps',
+    6 => '2 x 10/100Mbps',
+    7 => '24 x 10/100Mbps',
+    8 => '3 x 10/100/1000Mbps',
+    9 => '3 x 10/100Mbps',
+    10 => '4 x 10/100/1000Mbps',
+    11 => '4 x 10/100Mbps',
+    12 => '5 x 10/100/1000Mbps',
+    13 => '5 x 10/100Mbps',
+    14 => '7 x 10/100Mbps',
+    15 => '8 x 10/100/1000Mbps',
+    16 => '8 x 10/100Mbps',
+  ),
+) ?>

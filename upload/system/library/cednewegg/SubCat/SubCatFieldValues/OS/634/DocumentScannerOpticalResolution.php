@@ -1,0 +1,27 @@
+<?php return array (
+  'SubcategoryID' => 634,
+  'SubcategoryName' => 'ScannersDocument',
+  'PropertyName' => 'DocumentScannerOpticalResolution',
+  'IsAdvancedSearch' => 1,
+  'IsGroupBy' => 0,
+  'IsRequired' => 0,
+  'PropertyValueList' => 
+  array (
+    0 => '1200 dpi',
+    1 => '1200 x 1200 dpi',
+    2 => '1200 x 2400 dpi',
+    3 => '200 x 200 dpi',
+    4 => '2400 dpi',
+    5 => '2400 x 2400 dpi',
+    6 => '2400 x 4800 dpi',
+    7 => '300 dpi',
+    8 => '300 x 300 dpi',
+    9 => '400 x 400 dpi',
+    10 => '4800 dpi',
+    11 => '4800 x 4800 dpi',
+    12 => '4800 x 9600 dpi',
+    13 => '600 dpi',
+    14 => '600 x 1200 dpi',
+    15 => '600 x 600 dpi',
+  ),
+) ?>

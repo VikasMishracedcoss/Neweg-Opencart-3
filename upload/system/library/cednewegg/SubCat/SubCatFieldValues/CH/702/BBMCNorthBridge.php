@@ -1,0 +1,28 @@
+<?php return array (
+  'SubcategoryID' => 702,
+  'SubcategoryName' => 'BareboneSystemsMediaCenter',
+  'PropertyName' => 'BBMCNorthBridge',
+  'IsAdvancedSearch' => 1,
+  'IsGroupBy' => 0,
+  'IsRequired' => 0,
+  'PropertyValueList' => 
+  array (
+    0 => 'AMD 690G',
+    1 => 'ATI RC410M',
+    2 => 'Intel 845GE',
+    3 => 'Intel 845GV',
+    4 => 'Intel 865G',
+    5 => 'Intel 865GV',
+    6 => 'Intel 915G',
+    7 => 'Intel 945G',
+    8 => 'Intel G31',
+    9 => 'NVIDIA GeForce 6100',
+    10 => 'NVIDIA GeForce 6150LE',
+    11 => 'NVIDIA nForce2 IGP',
+    12 => 'NVIDIA nForce4',
+    13 => 'SiS 651',
+    14 => 'SiS 760',
+    15 => 'SiS 760GX',
+    16 => 'VIA K8M800',
+  ),
+) ?>

@@ -1,0 +1,28 @@
+<?php return array (
+  'SubcategoryID' => 58,
+  'SubcategoryName' => 'PowerSupplies',
+  'PropertyName' => 'PowerSupplyType',
+  'IsAdvancedSearch' => 0,
+  'IsGroupBy' => 0,
+  'IsRequired' => 0,
+  'PropertyValueList' => 
+  array (
+    0 => 'ATX 12V',
+    1 => 'ATX 12V / EPS 12V',
+    2 => 'ATX 12V v1.2',
+    3 => 'ATX 12V v1.3',
+    4 => 'ATX 12V v2.0',
+    5 => 'ATX 12V v2.0 / EPS 12V',
+    6 => 'ATX 12V v2.01',
+    7 => 'ATX 12V v2.01 / EPS 12V',
+    8 => 'ATX 12V v2.03',
+    9 => 'ATX 12V v2.2',
+    10 => 'ATX 12V v2.2 / EPS 12V',
+    11 => 'ATX 12V v2.2 / EPS 12V v2.91',
+    12 => 'ATX 12V v2.2 / EPS 12V v2.92',
+    13 => 'ATX 12V v2.3',
+    14 => 'ATX 12V v2.3 / EPS 12V',
+    15 => 'ATX 12V v2.3 / EPS 12V v2.91',
+    16 => 'ATX 12V v2.3 / EPS 12V v2.92',
+  ),
+) ?>

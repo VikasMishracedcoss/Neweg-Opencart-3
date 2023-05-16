@@ -1,0 +1,25 @@
+<?php return array (
+  'SubcategoryID' => 2628,
+  'SubcategoryName' => 'ATAutomotiveLighting',
+  'PropertyName' => 'ATLightingLocation',
+  'IsAdvancedSearch' => 0,
+  'IsGroupBy' => 0,
+  'IsRequired' => 0,
+  'PropertyValueList' => 
+  array (
+    0 => 'Driver and Passenger Side',
+    1 => 'Driver and Passenger Side, Inner and Outer',
+    2 => 'Driver and Passenger Side, Mounted on Body',
+    3 => 'Driver and Passenger Side, Outer',
+    4 => 'Driver Side',
+    5 => 'Driver Side, Inner',
+    6 => 'Driver Side, On Quarter Panel',
+    7 => 'Driver Side, Outer',
+    8 => 'Left',
+    9 => 'Passenger Side',
+    10 => 'Passenger Side, Inner',
+    11 => 'Passenger Side, Outer',
+    12 => 'Rear, Driver Side',
+    13 => 'Right',
+  ),
+) ?>

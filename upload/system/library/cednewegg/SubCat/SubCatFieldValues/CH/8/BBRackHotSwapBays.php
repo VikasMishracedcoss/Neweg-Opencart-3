@@ -1,0 +1,25 @@
+<?php return array (
+  'SubcategoryID' => 8,
+  'SubcategoryName' => 'ServerBarebone',
+  'PropertyName' => 'BBRackHotSwapBays',
+  'IsAdvancedSearch' => 1,
+  'IsGroupBy' => 0,
+  'IsRequired' => 0,
+  'PropertyValueList' => 
+  array (
+    0 => '1',
+    1 => '10',
+    2 => '12',
+    3 => '16',
+    4 => '18',
+    5 => '2',
+    6 => '24',
+    7 => '3',
+    8 => '36',
+    9 => '4',
+    10 => '48',
+    11 => '5',
+    12 => '6',
+    13 => '8',
+  ),
+) ?>

@@ -1,0 +1,25 @@
+<?php return array (
+  'SubcategoryID' => 3380,
+  'SubcategoryName' => 'Transformers',
+  'PropertyName' => 'TransformerType',
+  'IsAdvancedSearch' => 1,
+  'IsGroupBy' => 0,
+  'IsRequired' => 0,
+  'PropertyValueList' => 
+  array (
+    0 => 'Buck Boost Transformers',
+    1 => 'Class 2 Transformers',
+    2 => 'Control Transformers',
+    3 => 'Current Transformers',
+    4 => 'General Purpose Transformers',
+    5 => 'International Voltage Converters',
+    6 => 'Isolation Transformers',
+    7 => 'Lighting Transformers',
+    8 => 'Plug-In Transformers',
+    9 => 'Power Inverters & Converters',
+    10 => 'Single Phase Transformers',
+    11 => 'Three Phase Transformers',
+    12 => 'Transformer Accessories',
+    13 => 'Transformer Disconnects',
+  ),
+) ?>

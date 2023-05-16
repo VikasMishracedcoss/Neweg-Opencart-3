@@ -1,0 +1,26 @@
+<?php return array (
+  'SubcategoryID' => 357,
+  'SubcategoryName' => 'GPSNavigation',
+  'PropertyName' => 'CNETGPSSupportMemoryCards',
+  'IsAdvancedSearch' => 0,
+  'IsGroupBy' => 0,
+  'IsRequired' => 0,
+  'PropertyValueList' => 
+  array (
+    0 => 'CF',
+    1 => 'CF/microSD/MMC/MS/xD/SmartMedia',
+    2 => 'CF/SD/MMC',
+    3 => 'Memory Stick Duo',
+    4 => 'microSD',
+    5 => 'Mini SD',
+    6 => 'Mini SD/micro SD',
+    7 => 'Mini SD/SD',
+    8 => 'MMC',
+    9 => 'SD',
+    10 => 'SD/MMC',
+    11 => 'SD/MMC/SDIO',
+    12 => 'SDHC/SD/MMC',
+    13 => 'SDIO',
+    14 => 'TF',
+  ),
+) ?>

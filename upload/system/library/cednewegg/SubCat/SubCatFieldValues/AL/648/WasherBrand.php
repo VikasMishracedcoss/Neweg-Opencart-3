@@ -1,0 +1,25 @@
+<?php return array (
+  'SubcategoryID' => 648,
+  'SubcategoryName' => 'Washers',
+  'PropertyName' => 'WasherBrand',
+  'IsAdvancedSearch' => 0,
+  'IsGroupBy' => 0,
+  'IsRequired' => 0,
+  'PropertyValueList' => 
+  array (
+    0 => 'Amana',
+    1 => 'Avanti',
+    2 => 'CALFLEX',
+    3 => 'Daewoo',
+    4 => 'Danby',
+    5 => 'Frigidaire',
+    6 => 'Haier',
+    7 => 'LG',
+    8 => 'Magic Chef',
+    9 => 'Midea',
+    10 => 'Petra',
+    11 => 'RCA',
+    12 => 'SAMSUNG',
+    13 => 'Whirlpool',
+  ),
+) ?>

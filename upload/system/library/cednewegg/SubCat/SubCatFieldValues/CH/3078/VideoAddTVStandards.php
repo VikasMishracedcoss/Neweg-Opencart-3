@@ -1,0 +1,25 @@
+<?php return array (
+  'SubcategoryID' => 3078,
+  'SubcategoryName' => 'ProfessionalVideoDevices',
+  'PropertyName' => 'VideoAddTVStandards',
+  'IsAdvancedSearch' => 1,
+  'IsGroupBy' => 0,
+  'IsRequired' => 0,
+  'PropertyValueList' => 
+  array (
+    0 => 'ATSC (OTA)',
+    1 => 'ATSC / ATSC-M/H',
+    2 => 'ATSC / ClearQAM',
+    3 => 'ATSC / ClearQAM / DVB-T / NTSC',
+    4 => 'ATSC / ClearQAM / NTSC',
+    5 => 'ATSC / NTSC',
+    6 => 'ClearQAM',
+    7 => 'DVB-S',
+    8 => 'DVB-T',
+    9 => 'DVB-T/C',
+    10 => 'DVB-T/T2',
+    11 => 'No',
+    12 => 'NTSC',
+    13 => 'US Digital Cable',
+  ),
+) ?>

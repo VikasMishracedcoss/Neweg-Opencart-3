@@ -1,0 +1,27 @@
+<?php return array (
+  'SubcategoryID' => 849,
+  'SubcategoryName' => 'SurveillanceVideoRecorders',
+  'PropertyName' => 'SURVRStorageCapacity',
+  'IsAdvancedSearch' => 1,
+  'IsGroupBy' => 0,
+  'IsRequired' => 0,
+  'PropertyValueList' => 
+  array (
+    0 => '120GB',
+    1 => '12T',
+    2 => '160 GB',
+    3 => '1TB',
+    4 => '24T',
+    5 => '250GB',
+    6 => '2TB',
+    7 => '320GB',
+    8 => '3TB',
+    9 => '4TB',
+    10 => '500GB',
+    11 => '6TB',
+    12 => '750GB',
+    13 => '80 GB',
+    14 => '8TB',
+    15 => 'None',
+  ),
+) ?>

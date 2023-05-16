@@ -1,0 +1,28 @@
+<?php return array (
+  'SubcategoryID' => 2863,
+  'SubcategoryName' => 'HIFloodLights',
+  'PropertyName' => 'HIFloodlightslampwattage',
+  'IsAdvancedSearch' => 0,
+  'IsGroupBy' => 1,
+  'IsRequired' => 0,
+  'PropertyValueList' => 
+  array (
+    0 => '100W',
+    1 => '10W',
+    2 => '120W',
+    3 => '150W',
+    4 => '180W',
+    5 => '18W',
+    6 => '2 x 120W',
+    7 => '20W',
+    8 => '240W',
+    9 => '26W',
+    10 => '300W',
+    11 => '30W',
+    12 => '36 W',
+    13 => '42W',
+    14 => '500W',
+    15 => '50W',
+    16 => '72W',
+  ),
+) ?>

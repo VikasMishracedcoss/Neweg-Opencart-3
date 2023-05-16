@@ -1,0 +1,27 @@
+<?php return array (
+  'SubcategoryID' => 3370,
+  'SubcategoryName' => 'IndustrialVehicleOilsFluids',
+  'PropertyName' => 'IndustrialVehicleOilType',
+  'IsAdvancedSearch' => 1,
+  'IsGroupBy' => 0,
+  'IsRequired' => 1,
+  'PropertyValueList' => 
+  array (
+    0 => 'Additives',
+    1 => 'Antifreezes & Coolants',
+    2 => 'Body Repair & Restoration Chemicals',
+    3 => 'Brake Fluids',
+    4 => 'Cleaners',
+    5 => 'Flushes',
+    6 => 'Gear Oil',
+    7 => 'Grease & Lubricants',
+    8 => 'Motor Oil',
+    9 => 'Power Steering Fluids',
+    10 => 'Radiator Conditioners & Protectants',
+    11 => 'Refrigerants',
+    12 => 'Sealers',
+    13 => 'Transmission Fluids',
+    14 => 'Windshield Washer Fluids',
+    15 => 'Winter Products',
+  ),
+) ?>

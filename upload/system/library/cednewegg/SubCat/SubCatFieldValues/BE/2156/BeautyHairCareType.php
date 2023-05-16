@@ -1,0 +1,27 @@
+<?php return array (
+  'SubcategoryID' => 2156,
+  'SubcategoryName' => 'BeautyHairCare',
+  'PropertyName' => 'BeautyHairCareType',
+  'IsAdvancedSearch' => 1,
+  'IsGroupBy' => 0,
+  'IsRequired' => 0,
+  'PropertyValueList' => 
+  array (
+    0 => 'Curling Irons',
+    1 => 'Ethnic Hair Care',
+    2 => 'Grooming Tools',
+    3 => 'Hair Accessories',
+    4 => 'Hair Color',
+    5 => 'Hair Cut Kits',
+    6 => 'Hair Dryers',
+    7 => 'Hair Extensions',
+    8 => 'Hair Masks & Treatments',
+    9 => 'Hair Regrowth',
+    10 => 'Hair Roller',
+    11 => 'Perms & Straighteners',
+    12 => 'Salon Supply',
+    13 => 'Shampoos & Conditioners',
+    14 => 'Straightening Irons',
+    15 => 'Styling Products',
+  ),
+) ?>

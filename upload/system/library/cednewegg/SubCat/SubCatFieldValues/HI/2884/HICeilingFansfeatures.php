@@ -1,0 +1,27 @@
+<?php return array (
+  'SubcategoryID' => 2884,
+  'SubcategoryName' => 'HICeilingFans',
+  'PropertyName' => 'HICeilingFansfeatures',
+  'IsAdvancedSearch' => 1,
+  'IsGroupBy' => 0,
+  'IsRequired' => 0,
+  'PropertyValueList' => 
+  array (
+    0 => '3 Way',
+    1 => 'Damp Location',
+    2 => 'Dimmable',
+    3 => 'Eco Friendly',
+    4 => 'Energy Saver/Energy Efficient',
+    5 => 'Fluorescent',
+    6 => 'Hugger',
+    7 => 'Innovative',
+    8 => 'Interconnected',
+    9 => 'LED',
+    10 => 'Low Profile',
+    11 => 'Multi Directional',
+    12 => 'Remote Control',
+    13 => 'Sloped Ceiling',
+    14 => 'Switch - Pull Chain',
+    15 => 'Wet Location',
+  ),
+) ?>

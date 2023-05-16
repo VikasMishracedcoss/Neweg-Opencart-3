@@ -1,0 +1,26 @@
+<?php return array (
+  'SubcategoryID' => 10,
+  'SubcategoryName' => 'DesktopPC',
+  'PropertyName' => 'DTTProcessorMainFeatures',
+  'IsAdvancedSearch' => 0,
+  'IsGroupBy' => 0,
+  'IsRequired' => 0,
+  'PropertyValueList' => 
+  array (
+    0 => '64 bit 10-Core Processor',
+    1 => '64 bit 12-Core Processor',
+    2 => '64 bit 14-Core Processor',
+    3 => '64 bit 16-Core Processor',
+    4 => '64 bit 18-Core Processor',
+    5 => '64 bit 6-Core Processor',
+    6 => '64 bit 8-Core Processor',
+    7 => '64 bit Dual Core Processor',
+    8 => '64 bit Processor',
+    9 => '64 bit Quad-Core Processor',
+    10 => '64 bit Triple Core Processor',
+    11 => 'Extreme dual-core processor',
+    12 => 'Extreme quad-core processor',
+    13 => 'Extreme six-core processor',
+    14 => 'Hyper-Threading Technology',
+  ),
+) ?>

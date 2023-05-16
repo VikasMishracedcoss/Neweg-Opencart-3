@@ -1,0 +1,27 @@
+<?php return array (
+  'SubcategoryID' => 997,
+  'SubcategoryName' => 'Rings',
+  'PropertyName' => 'RingDesign',
+  'IsAdvancedSearch' => 1,
+  'IsGroupBy' => 0,
+  'IsRequired' => 0,
+  'PropertyValueList' => 
+  array (
+    0 => 'Animals',
+    1 => 'Birthstone & Zodiac',
+    2 => 'Family',
+    3 => 'Gemstone',
+    4 => 'Hobby',
+    5 => 'Insects',
+    6 => 'Military',
+    7 => 'Names, ID\'s & Initials',
+    8 => 'Novelty',
+    9 => 'Plain/Engravable',
+    10 => 'Professions',
+    11 => 'Religious',
+    12 => 'Sports',
+    13 => 'Symbols',
+    14 => 'Team & School',
+    15 => 'Themed',
+  ),
+) ?>

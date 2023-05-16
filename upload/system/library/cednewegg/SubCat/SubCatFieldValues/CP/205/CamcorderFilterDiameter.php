@@ -1,0 +1,25 @@
+<?php return array (
+  'SubcategoryID' => 205,
+  'SubcategoryName' => 'ProfessionalCamcorders',
+  'PropertyName' => 'CamcorderFilterDiameter',
+  'IsAdvancedSearch' => 0,
+  'IsGroupBy' => 0,
+  'IsRequired' => 0,
+  'PropertyValueList' => 
+  array (
+    0 => '25mm',
+    1 => '27mm',
+    2 => '28mm',
+    3 => '30.5mm',
+    4 => '30mm',
+    5 => '34mm',
+    6 => '37mm',
+    7 => '39mm',
+    8 => '43mm',
+    9 => '46mm',
+    10 => '49mm',
+    11 => '58mm',
+    12 => '62mm',
+    13 => '72mm',
+  ),
+) ?>

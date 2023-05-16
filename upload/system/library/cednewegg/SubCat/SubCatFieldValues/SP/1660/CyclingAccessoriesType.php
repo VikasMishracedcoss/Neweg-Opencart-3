@@ -1,0 +1,26 @@
+<?php return array (
+  'SubcategoryID' => 1660,
+  'SubcategoryName' => 'CyclingAccessories',
+  'PropertyName' => 'CyclingAccessoriesType',
+  'IsAdvancedSearch' => 1,
+  'IsGroupBy' => 0,
+  'IsRequired' => 0,
+  'PropertyValueList' => 
+  array (
+    0 => 'Bags, Baskets & Cases',
+    1 => 'Bells & Horns',
+    2 => 'Books & Videos',
+    3 => 'Carriers & Racks',
+    4 => 'Electronics',
+    5 => 'Grips & Tape',
+    6 => 'Hydration & Water Bottles',
+    7 => 'Lights',
+    8 => 'Locks',
+    9 => 'Lubricants & Cleaners',
+    10 => 'Pumps',
+    11 => 'Storage',
+    12 => 'Tools',
+    13 => 'Trailers',
+    14 => 'Trainers',
+  ),
+) ?>

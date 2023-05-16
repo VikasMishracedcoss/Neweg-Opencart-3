@@ -1,0 +1,25 @@
+<?php return array (
+  'SubcategoryID' => 1893,
+  'SubcategoryName' => 'OGNozzlesWands',
+  'PropertyName' => 'OGNozzlesWandsMaximumPressure',
+  'IsAdvancedSearch' => 1,
+  'IsGroupBy' => 0,
+  'IsRequired' => 0,
+  'PropertyValueList' => 
+  array (
+    0 => '10 psi',
+    1 => '100 psi',
+    2 => '110 psi',
+    3 => '120 psi',
+    4 => '125 psi',
+    5 => '130 psi',
+    6 => '20 psi',
+    7 => '30 psi',
+    8 => '40 psi',
+    9 => '50 psi',
+    10 => '60 psi',
+    11 => '70 psi',
+    12 => '80 psi',
+    13 => '90 psi',
+  ),
+) ?>

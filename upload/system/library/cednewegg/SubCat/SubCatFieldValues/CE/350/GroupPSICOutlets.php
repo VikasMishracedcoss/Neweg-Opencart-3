@@ -1,0 +1,26 @@
+<?php return array (
+  'SubcategoryID' => 350,
+  'SubcategoryName' => 'PowerStripsInvertersandConverters',
+  'PropertyName' => 'GroupPSICOutlets',
+  'IsAdvancedSearch' => 0,
+  'IsGroupBy' => 1,
+  'IsRequired' => 0,
+  'PropertyValueList' => 
+  array (
+    0 => '16 Outlets',
+    1 => '20 Outlets',
+    2 => '24 Outlets',
+    3 => '24 Outlets + 5-20P',
+    4 => '24 Outlets + L5-20P',
+    5 => '3 Outlets',
+    6 => '4 Outlets',
+    7 => '4 Outlets + 5-20P',
+    8 => '5 Outlets',
+    9 => '6 Outlets',
+    10 => '6 Outlets (15A)',
+    11 => '6 Outlets (20A)',
+    12 => '6 Right Angle Outlets',
+    13 => '9 Outlets',
+    14 => 'No',
+  ),
+) ?>

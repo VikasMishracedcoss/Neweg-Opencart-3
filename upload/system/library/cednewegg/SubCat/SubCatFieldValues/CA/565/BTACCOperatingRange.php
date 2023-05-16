@@ -1,0 +1,27 @@
+<?php return array (
+  'SubcategoryID' => 565,
+  'SubcategoryName' => 'CellPhonesBluetoothHeadsetsSpeakersAccessories',
+  'PropertyName' => 'BTACCOperatingRange',
+  'IsAdvancedSearch' => 0,
+  'IsGroupBy' => 0,
+  'IsRequired' => 0,
+  'PropertyValueList' => 
+  array (
+    0 => '100 Feet',
+    1 => '150 Feet',
+    2 => '30 Feet',
+    3 => '300 Feet',
+    4 => '32 Feet',
+    5 => '32.8 Feet',
+    6 => '328 Feet',
+    7 => '33 Feet',
+    8 => '330 Feet',
+    9 => '333 Feet',
+    10 => '40 Feet',
+    11 => '48 Feet',
+    12 => '50 Feet',
+    13 => '60 Feet',
+    14 => '66 Feet',
+    15 => '82 Feet',
+  ),
+) ?>

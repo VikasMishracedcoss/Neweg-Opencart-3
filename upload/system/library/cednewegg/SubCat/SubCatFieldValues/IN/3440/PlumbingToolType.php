@@ -1,0 +1,28 @@
+<?php return array (
+  'SubcategoryID' => 3440,
+  'SubcategoryName' => 'IndustrialPlumbingToolsEquipment',
+  'PropertyName' => 'PlumbingToolType',
+  'IsAdvancedSearch' => 1,
+  'IsGroupBy' => 0,
+  'IsRequired' => 0,
+  'PropertyValueList' => 
+  array (
+    0 => 'Drain Guns & Kits',
+    1 => 'Drain/Pipe Cleaning Accessories',
+    2 => 'Drain/Pipe Cleaning Handheld Tools',
+    3 => 'Drain/Pipe Cleaning Machines',
+    4 => 'Flaring & Swaging Tools',
+    5 => 'Hand Reamer',
+    6 => 'Manual Drain Cleaners',
+    7 => 'Pipe & Tube Benders',
+    8 => 'Pipe & Tubing Cutters',
+    9 => 'Pipe Extractors',
+    10 => 'Pipe Freeze',
+    11 => 'Pipe Location & Inspection',
+    12 => 'Pipe/Tube Brushes',
+    13 => 'Plumbing Specialty Tools',
+    14 => 'Plumbing Tools',
+    15 => 'Pressing Tools',
+    16 => 'Water Jetters',
+  ),
+) ?>

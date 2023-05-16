@@ -1,0 +1,27 @@
+<?php return array (
+  'SubcategoryID' => 2628,
+  'SubcategoryName' => 'ATAutomotiveLighting',
+  'PropertyName' => 'ATLightingLightColorTemperature',
+  'IsAdvancedSearch' => 0,
+  'IsGroupBy' => 0,
+  'IsRequired' => 0,
+  'PropertyValueList' => 
+  array (
+    0 => '10000K (Brilliant Blue)',
+    1 => '12000K (Deep Blue/Violet)',
+    2 => '15000K (Purple)',
+    3 => '30000K (Extreme Blue)',
+    4 => '3000K (Golden Yellow)',
+    5 => '4300K (OEM White)',
+    6 => '5000K (Pure White)',
+    7 => '6000K (Crystal White)',
+    8 => '8000K (Iceberg Blue)',
+    9 => 'Amber',
+    10 => 'Blue',
+    11 => 'Clear',
+    12 => 'Optronics',
+    13 => 'Red',
+    14 => 'Red & Amber',
+    15 => 'White',
+  ),
+) ?>

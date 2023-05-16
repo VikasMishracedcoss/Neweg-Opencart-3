@@ -1,0 +1,25 @@
+<?php return array (
+  'SubcategoryID' => 386,
+  'SubcategoryName' => 'ServerWorkstationSystems',
+  'PropertyName' => 'ServersRaidLevel',
+  'IsAdvancedSearch' => 1,
+  'IsGroupBy' => 0,
+  'IsRequired' => 0,
+  'PropertyValueList' => 
+  array (
+    0 => 'RAID 0/1',
+    1 => 'RAID 0/1/1+0',
+    2 => 'RAID 0/1/1+0/1E',
+    3 => 'RAID 0/1/1+0/5',
+    4 => 'RAID 0/1/1+0/5/5+0',
+    5 => 'RAID 0/1/1+0/5/5+0/6/6+0',
+    6 => 'RAID 0/1/1+0/5/6',
+    7 => 'RAID 0/1/10',
+    8 => 'RAID 0/1/1E',
+    9 => 'RAID 0/1/5',
+    10 => 'RAID 0/1/5/10',
+    11 => 'RAID 0/1/5/10/50',
+    12 => 'RAID 0/1/5/10/50/60',
+    13 => 'RAID 1',
+  ),
+) ?>

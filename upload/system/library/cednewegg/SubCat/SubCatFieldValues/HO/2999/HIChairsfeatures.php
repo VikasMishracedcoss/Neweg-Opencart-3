@@ -1,0 +1,28 @@
+<?php return array (
+  'SubcategoryID' => 2999,
+  'SubcategoryName' => 'HLChairs',
+  'PropertyName' => 'HIChairsfeatures',
+  'IsAdvancedSearch' => 1,
+  'IsGroupBy' => 0,
+  'IsRequired' => 0,
+  'PropertyValueList' => 
+  array (
+    0 => 'Adjustable',
+    1 => 'Armless',
+    2 => 'Castered',
+    3 => 'Chair and Ottoman set',
+    4 => 'Down Filled Cushions',
+    5 => 'Drop Down console',
+    6 => 'Eco-Friendly',
+    7 => 'Exposed Wood frame',
+    8 => 'Indoor / Outdoor',
+    9 => 'Innovative',
+    10 => 'mp3 input / charging station',
+    11 => 'Nailhead trim',
+    12 => 'Rocker',
+    13 => 'Set of 2',
+    14 => 'Sleeper',
+    15 => 'Swivel',
+    16 => 'with speakers',
+  ),
+) ?>

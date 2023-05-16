@@ -1,0 +1,25 @@
+<?php return array (
+  'SubcategoryID' => 23,
+  'SubcategoryName' => 'MP3MP4Players',
+  'PropertyName' => 'CNETMP3ExpansionSlot',
+  'IsAdvancedSearch' => 1,
+  'IsGroupBy' => 0,
+  'IsRequired' => 0,
+  'PropertyValueList' => 
+  array (
+    0 => 'CF',
+    1 => 'CF/Micro SD/MMC/MS/Mini SD/SmartMedia',
+    2 => 'CF/Micro SD/MMC/MS/xD/SmartMedia',
+    3 => 'CF/SD',
+    4 => 'Micro SD',
+    5 => 'Micro SD/SDHC',
+    6 => 'microSDHC',
+    7 => 'Mini SD',
+    8 => 'MMC',
+    9 => 'SD',
+    10 => 'SD/MMC',
+    11 => 'SD/SDHC',
+    12 => 'SD/SDHC/MMC',
+    13 => 'TF',
+  ),
+) ?>

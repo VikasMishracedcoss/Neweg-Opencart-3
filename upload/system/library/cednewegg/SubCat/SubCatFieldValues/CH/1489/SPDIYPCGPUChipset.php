@@ -1,0 +1,27 @@
+<?php return array (
+  'SubcategoryID' => 1489,
+  'SubcategoryName' => 'SPDIYPCCombos',
+  'PropertyName' => 'SPDIYPCGPUChipset',
+  'IsAdvancedSearch' => 1,
+  'IsGroupBy' => 0,
+  'IsRequired' => 0,
+  'PropertyValueList' => 
+  array (
+    0 => 'AMD Integrated',
+    1 => 'ATI',
+    2 => 'GeForce GTX 1000 Series',
+    3 => 'GeForce GTX 600 Series',
+    4 => 'GeForce GTX 700 Series',
+    5 => 'GeForce GTX 800 Series',
+    6 => 'GeForce GTX 900 Series',
+    7 => 'GeForce Titan Series',
+    8 => 'Intel Integrated',
+    9 => 'None',
+    10 => 'NVIDIA',
+    11 => 'Radeon R7 Series',
+    12 => 'Radeon R9 Series',
+    13 => 'Radeon RX Series',
+    14 => 'Workstation FirePro',
+    15 => 'Workstation Quadro',
+  ),
+) ?>

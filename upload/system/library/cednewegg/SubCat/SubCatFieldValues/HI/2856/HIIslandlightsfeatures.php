@@ -1,0 +1,26 @@
+<?php return array (
+  'SubcategoryID' => 2856,
+  'SubcategoryName' => 'HIIslandLights',
+  'PropertyName' => 'HIIslandlightsfeatures',
+  'IsAdvancedSearch' => 1,
+  'IsGroupBy' => 0,
+  'IsRequired' => 0,
+  'PropertyValueList' => 
+  array (
+    0 => '3 Way',
+    1 => 'Battery Operated',
+    2 => 'Dimmable',
+    3 => 'Dusk-to-Dawn',
+    4 => 'Eco-Friendly',
+    5 => 'Energy Saver/Energy Efficient',
+    6 => 'Fluorescent',
+    7 => 'Innovative',
+    8 => 'Interconnected',
+    9 => 'Motion Sensor',
+    10 => 'Photo Sensor',
+    11 => 'Remote Control',
+    12 => 'Solar',
+    13 => 'Touch On/Off',
+    14 => 'Wet Location',
+  ),
+) ?>

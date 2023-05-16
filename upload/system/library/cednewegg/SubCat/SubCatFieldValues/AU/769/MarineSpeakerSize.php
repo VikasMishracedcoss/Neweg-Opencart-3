@@ -1,0 +1,25 @@
+<?php return array (
+  'SubcategoryID' => 769,
+  'SubcategoryName' => 'MarineElectronics',
+  'PropertyName' => 'MarineSpeakerSize',
+  'IsAdvancedSearch' => 1,
+  'IsGroupBy' => 0,
+  'IsRequired' => 0,
+  'PropertyValueList' => 
+  array (
+    0 => '3.5"',
+    1 => '4" x 10"',
+    2 => '4" x 6"',
+    3 => '4.0"',
+    4 => '5"',
+    5 => '5" x 7"',
+    6 => '5.25"',
+    7 => '6"',
+    8 => '6" x 9"',
+    9 => '6.5"',
+    10 => '6.75"',
+    11 => '7"',
+    12 => '7.7"',
+    13 => '8"',
+  ),
+) ?>

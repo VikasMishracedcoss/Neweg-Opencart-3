@@ -1,0 +1,27 @@
+<?php return array (
+  'SubcategoryID' => 1888,
+  'SubcategoryName' => 'OGFertilizersTreatments',
+  'PropertyName' => 'OGFertilizersTreatmentsType',
+  'IsAdvancedSearch' => 1,
+  'IsGroupBy' => 0,
+  'IsRequired' => 0,
+  'PropertyValueList' => 
+  array (
+    0 => 'All-in-Ones',
+    1 => 'Barks & Mulches',
+    2 => 'Disease Control',
+    3 => 'Fungicides',
+    4 => 'Grass & Weed Killer',
+    5 => 'Lawn Control',
+    6 => 'Lawn Fertilizers',
+    7 => 'Plant Food',
+    8 => 'Plant Protection',
+    9 => 'Pruning Seal',
+    10 => 'Seed Starting',
+    11 => 'Shrub & Tree Fertilizers',
+    12 => 'Soil & Soil Amendments',
+    13 => 'Sprayers & Dusters',
+    14 => 'Spreaders',
+    15 => 'Tropical & Indoor Plant Fertilizers',
+  ),
+) ?>

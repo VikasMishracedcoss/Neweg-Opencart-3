@@ -1,0 +1,475 @@
+{{ header }}{{ column_left }}
+<div id="content">
+    <div class="page-header">
+        <div class="container-fluid">
+            <div class="pull-right">
+                <a onclick="$('#form').attr('action', '{{ refresh_url }}'); $('#form').submit();" data-toggle="tooltip" title="{{ refresh_button }} " class="btn btn-success"><i class="fa fa-refresh"></i></a>
+                <a onclick="$('#form').attr('action', '{{ validate }}'); $('#form').submit();" data-toggle="tooltip" title="{{ button_upload }}" class="btn btn-info">Product Validate</a>
+                <a onclick="$('#form').attr('action', '{{ upload }}'); $('#form').submit();" data-toggle="tooltip" title="{{ button_upload }}" class="btn btn-info">{{ button_upload }}</a>
+                <a onclick="$('#form').attr('action', '{{ sync_status }}'); $('#form').submit();" data-toggle="tooltip" title="{{ button_sync }}" class="button btn btn-success">{{ button_sync }}</a>
+                <!--a onclick="if (confirm('Are you sure ?')) { $('#form').attr('action', '{{ delete }}'); $('#form').submit(); }" data-toggle="tooltip" title="{{ button_delete }}" class="btn btn-danger">{{ button_delete }}</a-->
+                
+
+
+<a onclick="$('#form').attr('action', '{{ uploadall }}'); $('#form').submit();" data-toggle="tooltip" title="{{ button_upload_all }}" class="btn btn-info">{{ button_upload_all }}</a>
+
+                <!--a href="{{ syncall }}" data-toggle="tooltip" title="{{ button_upload_all }}"  class="btn btn-primary">{{ button_upload_all }}</a-->
+                
+                <a onclick="$('#form').attr('action', '{{ syncall }}'); $('#form').submit();" data-toggle="tooltip" title="{{ button_sync_all }}"  class="btn btn-primary">{{ button_sync_all }}</a>
+
+
+                <a onclick="$('#form').attr('action', '{{ update }}'); $('#form').submit();" data-toggle="tooltip" title="Update Product"  class="btn btn-primary">Update</a>
+
+                <a onclick="if (confirm('Are you sure ?')) { $('#form').attr('action', '{{ relist }}'); $('#form').submit(); }" data-toggle="tooltip" title="Relist Item" class="btn btn-info">Relist At NewEgg</a>
+                <!--a onclick="if (confirm('Are you sure ?')) { $('#form').attr('action', '{{ removeid }}'); $('#form').submit(); }" data-toggle="tooltip" title="Delete NewEgg Ids" class="btn btn-danger">Delete NewEgg Id(s)</a-->
+
+            </div>
+            <h1>{{ heading_title }}</h1>
+            <ul class="breadcrumb">
+                {% for breadcrumb in breadcrumbs %}
+                    <li><a href="{{ breadcrumb['href'] }}">{{ breadcrumb['text'] }}</a></li>
+                {% endfor %}
+            </ul>
+        </div>
+    </div>
+    <div class="container-fluid" id="container-fluid">
+        {% if (error_warning) %}
+            <div class="alert alert-danger">
+                {% if (error_warning is iterable) %} {% for key,value in error_warning %}
+                    {{ '<span style="font-size: 12px;"><i class="fa fa-exclamation-circle"></i> '~value~'</span><br>' }} {% endfor %} {% else %}
+                    {{ '<i class="fa fa-exclamation-circle"></i> '~error_warning }}
+                {% endif %}
+                <button type="button" class="close" data-dismiss="alert">&times;</button>
+            </div>
+        {% endif %}
+        {% if (success) %}
+            <div class="alert alert-success"><i class="fa fa-check-circle"></i> {{ success }}
+                <button type="button" class="close" data-dismiss="alert">&times;</button>
+            </div>
+        {% endif %}
+
+        <div class="panel panel-default">
+            <div class="panel-heading">
+                <h3 class="panel-title"><i class="fa fa-list"></i> {{ text_list }}</h3>
+            </div>
+            <div class="panel-body">
+                <div class="well">
+                    <div class="row">
+                        <div class="col-sm-4">
+                            <div class="form-group">
+                                <label class="control-label" for="input-name">{{ column_name }}</label>
+                                <input type="text" name="filter_name" value="{{ filter_name }}" placeholder="{{ column_name }}" id="input-name" class="form-control" />
+                            </div>
+                            <div class="form-group">
+                                <label class="control-label" for="input-model">{{ column_model }}</label>
+                                <input type="text" name="filter_model" value="{{ filter_model }}" placeholder="{{ column_model }}" id="input-model" class="form-control" />
+                            </div>
+                            <div class="form-group">
+                                <label class="control-label" for="input-filter_newegg_item_id">{{ column_newegg_id }}</label>
+                                <input type="text" name="filter_newegg_item_id" value="{{ filter_newegg_item_id }}" placeholder="{{ column_newegg_id }}" id="input-column_newegg_id" class="form-control" />
+                            </div>
+                        </div>
+                        <div class="col-sm-4">
+                            <div class="form-group">
+                                <label class="control-label" for="input-price">{{ column_price }}</label>
+                                <input type="text" name="filter_price" value="{{ filter_price }}" placeholder="{{ column_price }}" id="input-price" class="form-control" />
+                            </div>
+                            <div class="form-group">
+                                <label class="control-label" for="input-quantity">{{ column_quantity }}</label>
+                                <input type="text" name="filter_quantity" value="{{ filter_quantity }}" placeholder="{{ column_quantity }}" id="input-quantity" class="form-control" />
+                            </div>
+                            <div class="form-group">
+                                <label class="control-label" for="input-fruugo_status">{{ column_wstatus }}</label>
+                                <select name="filter_cednewegg_status" id="input-fruugo_status" class="form-control">
+                                    <option value="">Newegg Product Status</option>
+                                    {% if (cednewegg_status is iterable) %} {% for cednewegg_stat in cednewegg_status %}
+                                        <option {% if (filter_cednewegg_status == cednewegg_stat['value']) %} {{ 'selected="selected"' }}{% endif %} value="{{ cednewegg_stat['value'] }}">{{ cednewegg_stat['label']}}</option>
+                                    {% endfor %}
+                                    {% endif %}
+                                </select>
+                            </div>
+                        </div>
+                        <div class="col-sm-4">
+                            <div class="form-group">
+                                <label class="control-label" for="input-status">{{ column_status }}</label>
+                                <select name="filter_status" id="input-status" class="form-control">
+                                    <option value="">Select Status</option>
+                                    {% if (filter_status) %}
+                                        <option value="1" selected="selected">{{ text_enabled }}</option>
+                                    {% else %}
+                                        <option value="1">{{ text_enabled }}</option>
+                                    {% endif %}
+                                    {% if ((filter_status != constant('null')) and not filter_status) %}
+                                        <option value="0" selected="selected">{{ text_disabled }}</option>
+                                    {% else %}
+                                        <option value="0">{{ text_disabled }}</option>
+                                    {% endif %}
+                                </select>
+                            </div>
+                            <div class="form-group">
+                                <label class="control-label" for="input-profile_name">{{ column_profile_name }}</label>
+                                <select name="filter_profile_name" id="input-profile_name" class="form-control">
+                                    <option value="">Select Profile</option>
+                                    {% for profile in profiles %}
+                                    {% if (profile_filter is not empty and profile_filter == profile['id']) %}
+                                    <option selected="selected" value='{{ profile['id'] }}'> {{ profile['profile_name'] }}</option>
+                                    {% else %}
+                                    <option value="{{ profile['id'] }}">{{ profile['profile_name'] }}</option>
+                                    {% endif %}
+                                    {% endfor %}
+                                </select>
+                            </div>
+
+                        </div>
+                        <div class="col-sm-4">
+                            <div class="form-group" styl e='float: right;lease  increa'>
+                                <a onclick="filter();" class="btn btn-primary "><i class="fa fa-search"></i>{{ button_filter }}</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <!-- The Modal -->
+                <div id="myModal" class="modal">
+                    <!-- Modal content -->
+                    <div class="modal-content">
+                        <button class="close" onclick="closeModal()">&times;</button>
+                        <div id="popup_content"> Loading.......</div>
+                    </div>
+                </div>
+                <form action="{{ delete }}" method="post" enctype="multipart/form-data" id="form">
+                    <div class="table-responsive">
+                        <table class="table table-bordered table-hover">
+                            <thead>
+                            <tr>
+                                <td width="1" style="text-align: center;"><input type="checkbox" onclick="$('input[name*=\'selected\']').attr('checked', this.checked);"/>
+                                </td>
+                                <td class="center">
+                                    {{ 'ID' }}
+                                </td>
+                                <td class="center">{{ column_image }}</td>
+                                <td class="center">
+                                    {{ column_profile_name }}
+                                </td>
+                                <td class="left">{% if (sort == 'pd.name') %}
+                                        <a href="{{ sort_name }}"
+                                           class="{{ order|lower }}">{{ column_name }}</a>
+                                    {% else %}
+                                        <a href="{{ sort_name }}">{{ column_name }}</a>
+                                    {% endif %}</td>
+                                <td class="left">{% if (sort == 'p.model') %}
+                                        <a href="{{ sort_model }}"
+                                           class="{{ order|lower }}">{{ column_model }}</a>
+                                    {% else %}
+                                        <a href="{{ sort_model }}">{{ column_model }}</a>
+                                    {% endif %}</td>
+                                <td class="left">{% if (sort == 'p.price') %}
+                                        <a href="{{ sort_price }}"
+                                           class="{{ order|lower }}">{{ column_price }}</a>
+                                    {% else %}
+                                        <a href="{{ sort_price }}">{{ column_price }}</a>
+                                    {% endif %}</td>
+                                <td class="right">{% if (sort == 'p.quantity') %}
+                                        <a href="{{ sort_quantity }}"
+                                           class="{{ (order|lower) }}">{{ column_quantity }}</a>
+                                    {% else %}
+                                        <a href="{{ sort_quantity }}">{{ column_quantity }}</a>
+                                    {% endif %}</td>
+
+                                <td class="left">{% if (sort == 'p.status') %}
+                                        <a href="{{ sort_status }}"
+                                           class="{{ (order|lower) }}">{{ column_status }}</a>
+                                    {% else %}
+                                        <a href="{{ sort_status }}">{{ column_status }}</a>
+                                    {% endif %}</td>
+<td class="left">Product 
+status</td>
+
+                
+                                <td class="left">{% if (sort == 'p.cedebay_status') %}
+                                        <a href="{{ sort_wstatus }}"
+                                           class="{{ (order|lower) }}">{{ column_wstatus }}</a>
+                                    {% else %}
+                                        <a href="{{ sort_wstatus }}">{{ column_wstatus }}</a>
+                                    {% endif %}</td>
+                                <td class="right">{{ column_action }}</td>
+                            </tr>
+                            </thead>
+                            <tbody>
+
+                            {% if (products) %}
+                                {% for product in products %}
+                                    <tr>
+                                        <td style="text-align: center;">{% if (product['selected']) %}
+                                                <input type="checkbox" name="selected[]" value="{{ product['product_id'] }}"
+                                                       checked="checked"/>
+                                                {% else %}
+                                                <input type="checkbox" name="selected[]" value="{{ product['product_id'] }}"/>
+                                            {% endif %}</td>
+                                        <td class="center">
+                                            {{ product['product_id'] }}
+                                        </td>
+                                        <td class="center"><img src="{{ product['image'] }}" alt="{{ product['name'] }}" style="padding: 1px; border: 1px solid #DDDDDD;"/></td>
+                                        <td class="center">
+                                            {{ product['profile_name'] }}
+                                        </td>
+                                        <td class="left">{{ product['name'] }}</td>
+                                        <td class="left">{{ product['model'] }}</td>
+                                        <td class="left">{% if (product['special']) %}
+                                                <span style="text-decoration: line-through;">{{ product['price'] }}</span><br/>
+                                                <span style="color: #b00;">{{ product['special'] }}</span>
+                                            {% else %}
+                                                {{ product['price'] }}
+                                            {% endif %}</td>
+                                        <td class="right">{% if (product['quantity'] <= 0) %}
+                                                <span style="color: #FF0000;">{{ product['quantity'] }}</span>
+                                            {% elseif (product['quantity'] <= 5) %}
+                                                <span style="color: #FFA500;">{{ product['quantity'] }}</span>
+                                            {% else %}
+                                                <span style="color: #008000;">{{ product['quantity'] }}</span>
+                                            {% endif %}</td>
+
+                                    <td class="left">{{ product['status'] }}</td>
+                                    <td class="left">{{ product['newegg_validation_error'] }}</td>
+                                    <td class="left">{% if (product['cednewegg_status'] =="Not Uploaded" or product['cednewegg_status'] =="Sync Status") %}
+                                    {{ product['cednewegg_status'] }}
+                                    {% else %}
+                                    <a onclick="viewDetailss('{{ product['product_id'] }}','{{ product['name'] }}')" data-toggle="tooltip" title="view" class="btn btn-danger">{{ product['cednewegg_status'] }}
+                                    {% endif %}
+                                    </a>
+                                    </td>
+                                        <td class="right">{% for action in product['action'] %}
+                                                {% if (action['text'] == view) %}
+                                                    <a onclick="viewDetails('{{ product['product_id'] }}','{{ product['name'] }}')" data-toggle="tooltip" title="view" class="btn btn-info"><i class="fa fa-eye"></i></a>
+                                                {% else %}
+                                                    <a href="{{ action['href'] }}" data-toggle="tooltip" title="Edit" class="btn btn-primary"><i class="fa fa-pencil"></i></a>
+                                                {% endif %}
+
+                                            {% endfor %}
+                                        </td>
+                                    </tr>
+                                {% endfor %}
+                            {% else %}
+                                <tr>
+                                    <td class="text-center" colspan="12">{{ text_no_results }}</td>
+                                </tr>
+                            {% endif %}
+                            </tbody>
+                        </table>
+                    </div>
+                </form>
+                <div class="row">
+                    <div class="col-sm-6 text-left">{{ pagination }}</div>
+                    <div class="col-sm-6 text-right">{{ results }}</div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+<script type="text/javascript"><!--
+    function filter() {
+        url = 'index.php?route=extension/module/cednewegg/product&user_token={{ user_token }}';
+
+        var filter_name = $('input[name=\'filter_name\']').val();
+
+        if (filter_name) {
+            url += '&filter_name=' + encodeURIComponent(filter_name);
+        }
+
+        var filter_model = $('input[name=\'filter_model\']').val();
+
+        if (filter_model) {
+            url += '&filter_model=' + encodeURIComponent(filter_model);
+        }
+
+        var profile_name = $('select[name="filter_profile_name"]').val();
+        //alert(profile_name);
+        $("#profile_id").val(profile_name);
+        if (profile_name) {
+            url += '&profile_name='+encodeURIComponent(profile_name);
+        }
+
+        var filter_price = $('input[name=\'filter_price\']').val();
+
+        if (filter_price) {
+            url += '&filter_price=' + encodeURIComponent(filter_price);
+        }
+
+        var filter_quantity = $('input[name=\'filter_quantity\']').val();
+
+        if (filter_quantity) {
+            url += '&filter_quantity=' + encodeURIComponent(filter_quantity);
+        }
+
+        var filter_status = $('select[name=\'filter_status\']').val();
+
+        if (filter_status != '') {
+            url += '&filter_status=' + encodeURIComponent(filter_status);
+        }
+        var filter_newegg_item_id = $('input[name=\'filter_newegg_item_id\']').val();
+
+        if (filter_newegg_item_id != '') {
+            url += '&filter_newegg_item_id=' + encodeURIComponent(filter_newegg_item_id);
+        }
+
+        var filter_cednewegg_status = $('select[name=\'filter_cednewegg_status\']').val();
+
+        if (filter_cednewegg_status != '') {
+            url += '&filter_cednewegg_status=' + encodeURIComponent(filter_cednewegg_status);
+        }
+
+        location = url;
+    }
+    //--></script>
+<script type="text/javascript"><!-- 
+    $('#form input').keydown(function (e) {
+        if (e.keyCode == 13) {
+            filter();
+        }
+    });
+    //--></script>
+<script type="text/javascript"><!--
+    $('input[name=\'filter_name\']').autocomplete({
+        delay: 500,
+        source: function (request, response) {
+            $.ajax({
+                url: 'index.php?route=catalog/product/autocomplete&user_token={{ user_token }}&filter_name=' + encodeURIComponent(request),
+                dataType: 'json',
+                success: function (json) {
+                    response($.map(json, function (item) {
+                        return {
+                            label: item['name'],
+                            value: item['product_id']
+                        }
+                    }));
+                }
+            });
+        },
+        'select': function (item) {
+            $('input[name=\'filter_name\']').val(item['label']);
+        }
+    });
+
+    $('input[name=\'filter_model\']').autocomplete({
+        delay: 500,
+        source: function (request, response) {
+            $.ajax({
+                url: 'index.php?route=catalog/product/autocomplete&user_token={{ user_token }}&filter_model=' + encodeURIComponent(request.term),
+                dataType: 'json',
+                success: function (json) {
+                    response($.map(json, function (item) {
+                        return {
+                            label: item['model'],
+                            value: item['product_id']
+                        }
+                    }));
+                }
+            });
+        },
+        'select': function(item) {
+            $('input[name=\'filter_model\']').val(item['label']);
+        }
+    });
+
+    function viewDetails(product_id, productName) {
+
+        modal.style.display = "block";
+        var url = 'index.php?route=extension/module/cednewegg/product/viewDetails&user_token={{ user_token }}';
+        $.ajax({
+            type: "POST",
+            url: url,
+            data: {
+                'product_id' : product_id
+            },
+            success: function (response) {
+
+                var data = response;
+                var reference_message = '';
+                var res = response['newegg_validation_error']; //vkbeautify.json(response);
+                 //alert(res['newegg_validation_error']);
+                var message = '<span><strong style="font-size: 16px;">Product: '+productName+'</strong></span>';
+                $("#popup_content").html(message+ '<pre>' + res + '</pre>');
+            },
+            error: function (xhr, ajaxOptions, thrownError) {
+                if (window.console) console.log(xhr.responseText);
+                alert(thrownError + "\r\n" + xhr.statusText + "\r\n" + xhr.responseText);
+
+            },
+        });
+    }
+     function viewDetailss(product_id, productName) {
+
+        modal.style.display = "block";
+        var url = 'index.php?route=extension/module/cednewegg/product/view_error_status&user_token={{ user_token }}';
+        $.ajax({
+            type: "POST",
+            url: url,
+            data: {
+                'product_id' : product_id
+            },
+            success: function (response) {
+
+                var data = response;
+                var reference_message = '';
+                var res = response['newegg_feed_error']; //vkbeautify.json(response);
+                 //alert(res['newegg_validation_error']);
+                var message = '<span><strong style="font-size: 16px;">Product: '+productName+'</strong></span>';
+                $("#popup_content").html(message+ '<pre>' + res + '</pre>');
+            },
+            error: function (xhr, ajaxOptions, thrownError) {
+                if (window.console) console.log(xhr.responseText);
+                alert(thrownError + "\r\n" + xhr.statusText + "\r\n" + xhr.responseText);
+
+            },
+        });
+    }
+    //--></script>
+<style type="text/css">
+    /* The Modal (background) */
+    .modal {
+        display: none; /* Hidden by default */
+        position: fixed; /* Stay in place */
+        z-index: 1; /* Sit on top */
+        left: 0;
+        top: 0;
+        width: 100%; /* Full width */
+        height: 100%; /* Full height */
+        overflow: auto; /* Enable scroll if needed */
+        background-color: rgb(0, 0, 0); /* Fallback color */
+        background-color: rgba(0, 0, 0, 0.4); /* Black w/ opacity */
+    }
+
+    .modal-content {
+        background-color: #fefefe;
+        margin: 6em 0 0 30em;
+        padding: 20px;
+        border: 1px solid #888;
+        width: 60%;
+    }
+
+    .close {
+        color: #aaa;
+        float: right;
+        font-size: 28px;
+        font-weight: bold;
+    }
+
+    .close:hover,
+    .close:focus {
+        color: black;
+        text-decoration: none;
+        cursor: pointer;
+    }
+</style>
+<script type="text/javascript">
+    var modal = document.getElementById('myModal');
+    var span = document.getElementsByClassName("close")[0];
+    span.onclick = function () {
+        modal.style.display = "none";
+        $("#popup_content").html('Loading........');
+    }
+    function closeModal() {
+        var modal = document.getElementById('myModal').style.display = 'none';
+    }
+</script>
+{{ footer }}
+<script type="text/javascript" src="view/javascript/cednewegg/vkbeautify.js"></script>

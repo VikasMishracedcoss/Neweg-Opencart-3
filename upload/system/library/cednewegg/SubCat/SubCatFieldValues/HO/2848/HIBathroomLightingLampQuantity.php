@@ -1,0 +1,28 @@
+<?php return array (
+  'SubcategoryID' => 2848,
+  'SubcategoryName' => 'HIBathroomLighting',
+  'PropertyName' => 'HIBathroomLightingLampQuantity',
+  'IsAdvancedSearch' => 1,
+  'IsGroupBy' => 0,
+  'IsRequired' => 0,
+  'PropertyValueList' => 
+  array (
+    0 => '1',
+    1 => '1 Light',
+    2 => '10',
+    3 => '14',
+    4 => '2',
+    5 => '2 Lights',
+    6 => '20',
+    7 => '27',
+    8 => '3',
+    9 => '3 Lights',
+    10 => '4',
+    11 => '4 Lights',
+    12 => '5',
+    13 => '5 Lights or more',
+    14 => '6',
+    15 => '7',
+    16 => '8',
+  ),
+) ?>

@@ -1,0 +1,28 @@
+<?php return array (
+  'SubcategoryID' => 1498,
+  'SubcategoryName' => 'GolfWoods',
+  'PropertyName' => 'GolfWoodsFlex',
+  'IsAdvancedSearch' => 1,
+  'IsGroupBy' => 1,
+  'IsRequired' => 0,
+  'PropertyValueList' => 
+  array (
+    0 => '18*',
+    1 => '18.0',
+    2 => '4.0',
+    3 => '5.5',
+    4 => '5/7',
+    5 => '6.0',
+    6 => 'Extra Stiff',
+    7 => 'Female',
+    8 => 'Firm',
+    9 => 'Ladies',
+    10 => 'Lite',
+    11 => 'Regular',
+    12 => 'Senior',
+    13 => 'Seniors',
+    14 => 'Soft Regular',
+    15 => 'Stiff',
+    16 => 'Uniflex',
+  ),
+) ?>

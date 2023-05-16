@@ -1,0 +1,26 @@
+<?php return array (
+  'SubcategoryID' => 553,
+  'SubcategoryName' => 'MacDisplay',
+  'PropertyName' => 'MacDisplayDisplayType',
+  'IsAdvancedSearch' => 1,
+  'IsGroupBy' => 0,
+  'IsRequired' => 0,
+  'PropertyValueList' => 
+  array (
+    0 => 'D-ILA',
+    1 => 'DLP',
+    2 => 'LCD',
+    3 => 'SVGA',
+    4 => 'SXGA',
+    5 => 'SXGA+',
+    6 => 'UXGA',
+    7 => 'VGA',
+    8 => 'WQHD',
+    9 => 'WSXGA',
+    10 => 'WSXGA+',
+    11 => 'WUXGA',
+    12 => 'WXGA',
+    13 => 'WXGA+',
+    14 => 'XGA',
+  ),
+) ?>

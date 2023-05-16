@@ -1,0 +1,25 @@
+<?php return array (
+  'SubcategoryID' => 560,
+  'SubcategoryName' => 'MobileVideo',
+  'PropertyName' => 'CarVideoType',
+  'IsAdvancedSearch' => 1,
+  'IsGroupBy' => 0,
+  'IsRequired' => 1,
+  'PropertyValueList' => 
+  array (
+    0 => 'Accessory',
+    1 => 'Built-in Navigation',
+    2 => 'Car DVD Player',
+    3 => 'Car Video Recorder',
+    4 => 'DVD/CD Changer',
+    5 => 'Headrest Monitor',
+    6 => 'Headrest Monitor with DVD',
+    7 => 'In-dash DVD Receiver',
+    8 => 'Marine Display',
+    9 => 'Multimedia TV Tuners',
+    10 => 'Overhead Monitor',
+    11 => 'Overhead Monitor with DVD',
+    12 => 'Universal Monitor',
+    13 => 'VCR',
+  ),
+) ?>

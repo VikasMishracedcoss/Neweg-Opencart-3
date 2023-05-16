@@ -1,0 +1,25 @@
+<?php return array (
+  'SubcategoryID' => 3358,
+  'SubcategoryName' => 'RacquetSportsAccessories',
+  'PropertyName' => 'RSAccessoriesType',
+  'IsAdvancedSearch' => 1,
+  'IsGroupBy' => 0,
+  'IsRequired' => 1,
+  'PropertyValueList' => 
+  array (
+    0 => 'Bags',
+    1 => 'Ball Machines',
+    2 => 'Ball Pickups & Carts',
+    3 => 'Ball Savers',
+    4 => 'Balls',
+    5 => 'Eyeguards',
+    6 => 'Grips',
+    7 => 'Net Posts',
+    8 => 'Nets',
+    9 => 'Shoes',
+    10 => 'Strings & Stringing',
+    11 => 'Tape',
+    12 => 'Training Aids',
+    13 => 'Vibration Dampeners',
+  ),
+) ?>

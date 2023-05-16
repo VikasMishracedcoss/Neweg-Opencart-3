@@ -1,0 +1,27 @@
+<?php return array (
+  'SubcategoryID' => 2946,
+  'SubcategoryName' => 'RangeExtenders',
+  'PropertyName' => 'WLREWirelessDataRates',
+  'IsAdvancedSearch' => 1,
+  'IsGroupBy' => 0,
+  'IsRequired' => 0,
+  'PropertyValueList' => 
+  array (
+    0 => 'Up to 1.2Gbps',
+    1 => 'Up to 1.3Gbps',
+    2 => 'Up to 1.75Gbps',
+    3 => 'Up to 1.9Gbps',
+    4 => 'Up to 108Mbps',
+    5 => 'Up to 150Mbps',
+    6 => 'Up to 2.2Gbps',
+    7 => 'Up to 2.6Gbps',
+    8 => 'Up to 270Mbps',
+    9 => 'Up to 300Mbps',
+    10 => 'Up to 450Mbps',
+    11 => 'Up to 54Mbps',
+    12 => 'Up to 600Mbps',
+    13 => 'Up to 750Mbps',
+    14 => 'Up to 867Mbps',
+    15 => 'Up to 900Mbps',
+  ),
+) ?>

@@ -1,0 +1,28 @@
+<?php return array (
+  'SubcategoryID' => 769,
+  'SubcategoryName' => 'MarineElectronics',
+  'PropertyName' => 'MarineDisplaySize',
+  'IsAdvancedSearch' => 0,
+  'IsGroupBy' => 0,
+  'IsRequired' => 0,
+  'PropertyValueList' => 
+  array (
+    0 => '1.25"',
+    1 => '10.4"',
+    2 => '12.1"',
+    3 => '3.0"',
+    4 => '3.5"',
+    5 => '3.7"',
+    6 => '3.8"',
+    7 => '3.9"',
+    8 => '4.0"',
+    9 => '4.4"',
+    10 => '4.5"',
+    11 => '5.0"',
+    12 => '5.6"',
+    13 => '6.4"',
+    14 => '7.0"',
+    15 => '8.0"',
+    16 => '8.4"',
+  ),
+) ?>

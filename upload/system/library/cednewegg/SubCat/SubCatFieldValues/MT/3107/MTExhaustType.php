@@ -1,0 +1,27 @@
+<?php return array (
+  'SubcategoryID' => 3107,
+  'SubcategoryName' => 'MTExhaustSystem',
+  'PropertyName' => 'MTExhaustType',
+  'IsAdvancedSearch' => 1,
+  'IsGroupBy' => 0,
+  'IsRequired' => 0,
+  'PropertyValueList' => 
+  array (
+    0 => 'Exhaust Accessories',
+    1 => 'Exhaust Baffles',
+    2 => 'Exhaust Brackets',
+    3 => 'Exhaust Hardware',
+    4 => 'Exhaust Manifolds',
+    5 => 'Exhaust Systems',
+    6 => 'Exhaust Tips',
+    7 => 'Exhaust Wraps',
+    8 => 'Header Pipes',
+    9 => 'Heat Shields',
+    10 => 'Muffler Packing',
+    11 => 'Muffler Plugs',
+    12 => 'Mufflers',
+    13 => 'Oxygen Sensors',
+    14 => 'Silencers',
+    15 => 'Spark Arrestors',
+  ),
+) ?>

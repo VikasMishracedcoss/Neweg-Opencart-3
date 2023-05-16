@@ -1,0 +1,28 @@
+<?php return array (
+  'SubcategoryID' => 1947,
+  'SubcategoryName' => 'OGPatioFurniture',
+  'PropertyName' => 'OGPatioFurnitureType',
+  'IsAdvancedSearch' => 1,
+  'IsGroupBy' => 0,
+  'IsRequired' => 0,
+  'PropertyValueList' => 
+  array (
+    0 => 'Benches',
+    1 => 'Chairs & Stools',
+    2 => 'Chaise Lounges',
+    3 => 'Chimineas',
+    4 => 'Dining Sets',
+    5 => 'Firepits & Sets',
+    6 => 'Hammocks & Stands',
+    7 => 'Ottomans',
+    8 => 'Outdoor Cushions & Throw Pillows',
+    9 => 'Rockers',
+    10 => 'Seating Sets',
+    11 => 'Sectionals',
+    12 => 'Servings Carts & Side Tables',
+    13 => 'Sofas & Loveseats',
+    14 => 'Storage Sets',
+    15 => 'Swings & Gliders',
+    16 => 'Tables & Bars',
+  ),
+) ?>

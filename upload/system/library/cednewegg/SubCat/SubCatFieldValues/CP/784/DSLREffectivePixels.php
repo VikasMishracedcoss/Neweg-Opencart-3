@@ -1,0 +1,26 @@
+<?php return array (
+  'SubcategoryID' => 784,
+  'SubcategoryName' => 'DSLR',
+  'PropertyName' => 'DSLREffectivePixels',
+  'IsAdvancedSearch' => 1,
+  'IsGroupBy' => 0,
+  'IsRequired' => 0,
+  'PropertyValueList' => 
+  array (
+    0 => '> 26.0 MP',
+    1 => '>16.0 MP',
+    2 => '10.0 - 11.9 MP',
+    3 => '12.0 - 14.9 MP',
+    4 => '15.0 - 15.90 MP',
+    5 => '16.0 - 17.9 MP',
+    6 => '18.0 - 19.9 MP',
+    7 => '20.0 - 21.9 MP',
+    8 => '22.0 - 23.9 MP',
+    9 => '24.0 - 25.9 MP',
+    10 => '5.0 - 5.9 MP',
+    11 => '6.0 - 6.9 MP',
+    12 => '7.0 - 7.9 MP',
+    13 => '8.0 - 8.9 MP',
+    14 => '9.0 - 9.9 MP',
+  ),
+) ?>

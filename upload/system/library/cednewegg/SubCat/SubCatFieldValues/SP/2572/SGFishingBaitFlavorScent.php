@@ -1,0 +1,27 @@
+<?php return array (
+  'SubcategoryID' => 2572,
+  'SubcategoryName' => 'SGFishAttractantsBaits',
+  'PropertyName' => 'SGFishingBaitFlavorScent',
+  'IsAdvancedSearch' => 0,
+  'IsGroupBy' => 0,
+  'IsRequired' => 0,
+  'PropertyValueList' => 
+  array (
+    0 => 'Anchovy',
+    1 => 'Anise',
+    2 => 'Bass Feast',
+    3 => 'Crawfish',
+    4 => 'Crawfish/Anise',
+    5 => 'Crickets',
+    6 => 'Garlic',
+    7 => 'Herring',
+    8 => 'Nightcrawler',
+    9 => 'Salmon Feast',
+    10 => 'Shad',
+    11 => 'Shrimp',
+    12 => 'Special Mix',
+    13 => 'Trout Enhancer',
+    14 => 'Unscented',
+    15 => 'Walleye Feast',
+  ),
+) ?>

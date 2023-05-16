@@ -1,0 +1,26 @@
+<?php return array (
+  'SubcategoryID' => 1489,
+  'SubcategoryName' => 'SPDIYPCCombos',
+  'PropertyName' => 'SPDIYPCCPUSocket',
+  'IsAdvancedSearch' => 1,
+  'IsGroupBy' => 0,
+  'IsRequired' => 0,
+  'PropertyValueList' => 
+  array (
+    0 => 'AM1',
+    1 => 'AM2',
+    2 => 'AM2+',
+    3 => 'AM3',
+    4 => 'AM3+',
+    5 => 'FM1',
+    6 => 'FM2+',
+    7 => 'LGA 1150',
+    8 => 'LGA 1151',
+    9 => 'LGA 1155',
+    10 => 'LGA 1156',
+    11 => 'LGA 1366',
+    12 => 'LGA 2011',
+    13 => 'LGA 2011-v3',
+    14 => 'LGA 775',
+  ),
+) ?>

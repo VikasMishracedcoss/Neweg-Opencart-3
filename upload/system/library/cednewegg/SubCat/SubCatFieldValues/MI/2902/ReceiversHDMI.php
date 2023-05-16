@@ -1,0 +1,26 @@
+<?php return array (
+  'SubcategoryID' => 2902,
+  'SubcategoryName' => 'MIBassAmplifiers',
+  'PropertyName' => 'ReceiversHDMI',
+  'IsAdvancedSearch' => 0,
+  'IsGroupBy' => 0,
+  'IsRequired' => 0,
+  'PropertyValueList' => 
+  array (
+    0 => '1 In / 1 Out',
+    1 => '2 In / 1 Out',
+    2 => '3 In / 1 Out',
+    3 => '4 In / 1 Out',
+    4 => '4 In / 2 Out',
+    5 => '5 In / 1 Out',
+    6 => '5 In / 2 Out',
+    7 => '6 In / 1 Out',
+    8 => '6 In / 2 Out',
+    9 => '6 In / 3 Out',
+    10 => '7 In / 1 Out',
+    11 => '7 In / 2 Out',
+    12 => '7 In / 3 Out',
+    13 => '8 In / 1 Out',
+    14 => '8 In / 2 Out',
+  ),
+) ?>

@@ -1,0 +1,28 @@
+<?php return array (
+  'SubcategoryID' => 719,
+  'SubcategoryName' => 'IronsSteamIrons',
+  'PropertyName' => 'IronColor',
+  'IsAdvancedSearch' => 0,
+  'IsGroupBy' => 0,
+  'IsRequired' => 0,
+  'PropertyValueList' => 
+  array (
+    0 => 'Ancient Stone',
+    1 => 'Black',
+    2 => 'Blue',
+    3 => 'Chrome/Linen',
+    4 => 'Chrome/White',
+    5 => 'Gray',
+    6 => 'Green',
+    7 => 'Green/White',
+    8 => 'Orange',
+    9 => 'Pink',
+    10 => 'Polished Brass/Bone',
+    11 => 'Polished Brass/White',
+    12 => 'Purple/White',
+    13 => 'Red',
+    14 => 'Silver',
+    15 => 'White',
+    16 => 'Yellow',
+  ),
+) ?>

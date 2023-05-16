@@ -1,0 +1,28 @@
+<?php return array (
+  'SubcategoryID' => 357,
+  'SubcategoryName' => 'GPSNavigation',
+  'PropertyName' => 'CNETGPSColdAcquisitionTimes',
+  'IsAdvancedSearch' => 0,
+  'IsGroupBy' => 0,
+  'IsRequired' => 0,
+  'PropertyValueList' => 
+  array (
+    0 => '<150 sec',
+    1 => '120 sec',
+    2 => '27 sec',
+    3 => '33 sec',
+    4 => '34 sec',
+    5 => '35 sec',
+    6 => '36 sec',
+    7 => '38 sec',
+    8 => '39 sec',
+    9 => '40 sec',
+    10 => '41 sec',
+    11 => '42 sec',
+    12 => '45 sec',
+    13 => '46 sec',
+    14 => '48 sec',
+    15 => '50 sec',
+    16 => '60 sec',
+  ),
+) ?>

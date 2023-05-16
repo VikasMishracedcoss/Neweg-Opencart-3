@@ -1,0 +1,26 @@
+<?php return array (
+  'SubcategoryID' => 3116,
+  'SubcategoryName' => 'MTChemicalsLubricants',
+  'PropertyName' => 'MTChemicalType',
+  'IsAdvancedSearch' => 1,
+  'IsGroupBy' => 0,
+  'IsRequired' => 0,
+  'PropertyValueList' => 
+  array (
+    0 => 'Antifreeze & Coolants',
+    1 => 'Brake Fluid',
+    2 => 'Clutch Fluid',
+    3 => 'Engine Additives',
+    4 => 'Flushes',
+    5 => 'Fork Oil',
+    6 => 'Fuel Additives',
+    7 => 'Fuel Tank Cleaners',
+    8 => 'Gas Tank Sealer',
+    9 => 'Grease & Lubricants',
+    10 => 'Motor Oil',
+    11 => 'Other',
+    12 => 'Solvents',
+    13 => 'Suspension Fluid',
+    14 => 'Transmission Fluid',
+  ),
+) ?>

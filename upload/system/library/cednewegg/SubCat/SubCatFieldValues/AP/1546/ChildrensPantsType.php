@@ -1,0 +1,26 @@
+<?php return array (
+  'SubcategoryID' => 1546,
+  'SubcategoryName' => 'ChildrensPantsShorts',
+  'PropertyName' => 'ChildrensPantsType',
+  'IsAdvancedSearch' => 1,
+  'IsGroupBy' => 0,
+  'IsRequired' => 1,
+  'PropertyValueList' => 
+  array (
+    0 => 'Cargo & Carpenter Pants',
+    1 => 'Chinos & Khakis',
+    2 => 'Elastic Waist & Drawstring',
+    3 => 'Gauchos',
+    4 => 'Jeans',
+    5 => 'Leggings & Stirrups',
+    6 => 'Overalls & Coveralls',
+    7 => 'Pants Sets',
+    8 => 'Raingear',
+    9 => 'Shorts',
+    10 => 'Skorts',
+    11 => 'Slacks',
+    12 => 'Tops & Pants',
+    13 => 'Tops & Shorts',
+    14 => 'Uniforms',
+  ),
+) ?>

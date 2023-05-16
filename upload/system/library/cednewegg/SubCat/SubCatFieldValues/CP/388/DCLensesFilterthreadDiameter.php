@@ -1,0 +1,28 @@
+<?php return array (
+  'SubcategoryID' => 388,
+  'SubcategoryName' => 'DigitalCameraLenses',
+  'PropertyName' => 'DCLensesFilterthreadDiameter',
+  'IsAdvancedSearch' => 0,
+  'IsGroupBy' => 0,
+  'IsRequired' => 0,
+  'PropertyValueList' => 
+  array (
+    0 => '37 mm',
+    1 => '39 mm',
+    2 => '40.5 mm',
+    3 => '43 mm',
+    4 => '46 mm',
+    5 => '49 mm',
+    6 => '50 mm',
+    7 => '52 mm',
+    8 => '55 mm',
+    9 => '58 mm',
+    10 => '62 mm',
+    11 => '67 mm',
+    12 => '72 mm',
+    13 => '77 mm',
+    14 => '82 mm',
+    15 => '86 mm',
+    16 => 'None',
+  ),
+) ?>

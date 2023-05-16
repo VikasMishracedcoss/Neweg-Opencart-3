@@ -1,0 +1,25 @@
+<?php return array (
+  'SubcategoryID' => 8,
+  'SubcategoryName' => 'ServerBarebone',
+  'PropertyName' => 'BBRackGPUVPU',
+  'IsAdvancedSearch' => 0,
+  'IsGroupBy' => 0,
+  'IsRequired' => 0,
+  'PropertyValueList' => 
+  array (
+    0 => 'Aspeed AST1100',
+    1 => 'Aspeed AST1300',
+    2 => 'Aspeed AST2050',
+    3 => 'Aspeed AST2300',
+    4 => 'Aspeed AST2400',
+    5 => 'ATI ES1000',
+    6 => 'ATI Rage XL',
+    7 => 'Integrated Video',
+    8 => 'Intel GMA 4500MHD',
+    9 => 'Intel GMA 500',
+    10 => 'Matrox G200',
+    11 => 'Matrox G200eW',
+    12 => 'XGI Volari Z7 (XG20)',
+    13 => 'XGI Volari Z9S',
+  ),
+) ?>

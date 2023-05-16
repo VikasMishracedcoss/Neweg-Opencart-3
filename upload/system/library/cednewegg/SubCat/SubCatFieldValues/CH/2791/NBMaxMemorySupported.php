@@ -1,0 +1,25 @@
+<?php return array (
+  'SubcategoryID' => 2791,
+  'SubcategoryName' => 'MaciPad',
+  'PropertyName' => 'NBMaxMemorySupported',
+  'IsAdvancedSearch' => 0,
+  'IsGroupBy' => 0,
+  'IsRequired' => 0,
+  'PropertyValueList' => 
+  array (
+    0 => '1 GB',
+    1 => '1.25 GB',
+    2 => '1.5GB',
+    3 => '12 GB',
+    4 => '16 GB',
+    5 => '2 GB',
+    6 => '3 GB',
+    7 => '32 GB',
+    8 => '4 GB',
+    9 => '5 GB',
+    10 => '6 GB',
+    11 => '64 GB',
+    12 => '768MB',
+    13 => '8 GB',
+  ),
+) ?>

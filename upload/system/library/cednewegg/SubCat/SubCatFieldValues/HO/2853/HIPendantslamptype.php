@@ -1,0 +1,25 @@
+<?php return array (
+  'SubcategoryID' => 2853,
+  'SubcategoryName' => 'HIPendantLights',
+  'PropertyName' => 'HIPendantslamptype',
+  'IsAdvancedSearch' => 0,
+  'IsGroupBy' => 0,
+  'IsRequired' => 0,
+  'PropertyValueList' => 
+  array (
+    0 => 'E-12 Type C',
+    1 => 'E-26 Type A-19',
+    2 => 'E-26 Type B-10',
+    3 => 'G-9 Halopin',
+    4 => 'GU-10 Halogen',
+    5 => 'GU-24',
+    6 => 'GY-5.3 MR-11 Halogen',
+    7 => 'GY-5.3 MR-16 Halogen',
+    8 => 'GY-6.35 12v Halogen BI-Pin',
+    9 => 'LED',
+    10 => 'PAR-36 ES-111 Halogin 120V',
+    11 => 'T-3 118mm Halogen',
+    12 => 'T-3 78mm Halogen',
+    13 => 'T-5 HO',
+  ),
+) ?>

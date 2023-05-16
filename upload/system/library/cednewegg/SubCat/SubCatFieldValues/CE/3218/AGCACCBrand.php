@@ -1,0 +1,28 @@
+<?php return array (
+  'SubcategoryID' => 3218,
+  'SubcategoryName' => 'MobileGamingAccessories',
+  'PropertyName' => 'AGCACCBrand',
+  'IsAdvancedSearch' => 0,
+  'IsGroupBy' => 0,
+  'IsRequired' => 0,
+  'PropertyValueList' => 
+  array (
+    0 => 'Arsenal',
+    1 => 'AWA',
+    2 => 'DICE+',
+    3 => 'Hori',
+    4 => 'iMpulse Controller',
+    5 => 'Logitech',
+    6 => 'Mad Catz',
+    7 => 'MOGA',
+    8 => 'OUYA',
+    9 => 'PlayMG',
+    10 => 'PowerA',
+    11 => 'Razer',
+    12 => 'Snakebyte',
+    13 => 'Sphero',
+    14 => 'SteelSeries',
+    15 => 'TactSlider',
+    16 => 'Tritton',
+  ),
+) ?>

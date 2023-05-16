@@ -1,0 +1,26 @@
+<?php return array (
+  'SubcategoryID' => 3056,
+  'SubcategoryName' => 'ToysRCRadiosAccessories',
+  'PropertyName' => 'RCRadioType',
+  'IsAdvancedSearch' => 1,
+  'IsGroupBy' => 0,
+  'IsRequired' => 1,
+  'PropertyValueList' => 
+  array (
+    0 => 'Antenna Tubes',
+    1 => 'BEC',
+    2 => 'Bind Plugs',
+    3 => 'Flight Simulators & Trainer Systems',
+    4 => 'Frequency Crystals',
+    5 => 'Modules',
+    6 => 'On/Off Switches',
+    7 => 'Programming Components',
+    8 => 'Radio Antennas',
+    9 => 'Radio Systems',
+    10 => 'Receiver & Servo Cases',
+    11 => 'Receivers',
+    12 => 'Telemetry',
+    13 => 'Transmitters',
+    14 => 'Wiring, Connections & Control Lines',
+  ),
+) ?>

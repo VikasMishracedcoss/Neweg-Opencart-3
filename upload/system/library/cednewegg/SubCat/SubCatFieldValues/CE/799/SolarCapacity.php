@@ -1,0 +1,25 @@
+<?php return array (
+  'SubcategoryID' => 799,
+  'SubcategoryName' => 'Solar',
+  'PropertyName' => 'SolarCapacity',
+  'IsAdvancedSearch' => 0,
+  'IsGroupBy' => 0,
+  'IsRequired' => 0,
+  'PropertyValueList' => 
+  array (
+    0 => '1000mAh',
+    1 => '1200mAh',
+    2 => '1260mAh',
+    3 => '1300mAh',
+    4 => '1600mAh',
+    5 => '1650mAh',
+    6 => '1800mAh',
+    7 => '2000mAh',
+    8 => '2200mAh',
+    9 => '2800mAh',
+    10 => '3000mAh',
+    11 => '400mAh',
+    12 => '800mAh',
+    13 => '900mAh',
+  ),
+) ?>
